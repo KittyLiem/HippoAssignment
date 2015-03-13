@@ -8,6 +8,12 @@
 [myassignment:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
   orderable
 
+[myassignment:TrajectInformation] > hippostd:relaxed, hippotranslation:translated, myassignment:basedocument
+  orderable
+
+[myassignment:TrajectMeasurement] > hippo:compound, hippostd:relaxed
+  orderable
+
 [myassignment:bannerdocument] > hippostd:relaxed, hippotranslation:translated, myassignment:basedocument
   orderable
 

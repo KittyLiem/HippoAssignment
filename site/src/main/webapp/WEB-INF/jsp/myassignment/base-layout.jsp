@@ -24,7 +24,7 @@
 
 <link href="<hst:link path="/css/style.css"/>"  rel="stylesheet" media="screen" type="text/css" />
 <link rel="stylesheet" media="screen" type="text/css" href="<hst:link path="/css/yui-css.css"/>" />
-<link rel="stylesheet" media="screen" type="text/css" href="<hst:link path="/css/screen.css"/>" />
+<link rel="stylesheet" media="screen" type="text/css" href="<hst:link path="/css/screen.css"/>"  />
 
 <link rel="icon" href="<hst:link path="/images/favicon.ico"/>" type="image/x-icon" />
 <link rel="shortcut icon" href="<hst:link path="/images/favicon.ico"/>" type="image/x-icon" />

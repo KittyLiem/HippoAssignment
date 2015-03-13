@@ -18,13 +18,6 @@
 <%--@elvariable id="menu" type="org.hippoecm.hst.core.sitemenu.HstSiteMenu"--%>
 <%--@elvariable id="editMode" type="java.lang.Boolean"--%>
 
-<!--          <ul id="main-nav">
-            <li class="menu-item active"><a href="#">Home</a></li>
-            <li class="menu-item"><a href="news.html">News &amp; Events</a></li>
-            <li class="menu-item"><a href="products.html">Products</a></li>
-            <li class="menu-item"><a href="about.html">About</a></li>
-          </ul>
--->
 
 <c:choose>
   <c:when test="${menu ne null}">
