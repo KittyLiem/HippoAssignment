@@ -22,9 +22,9 @@
 <title>Hippo Go Green - Home</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 
-<link href="<hst:link path="/css/style.css"/>"  rel="stylesheet" media="screen" type="text/css" />
+<link rel="stylesheet" media="screen" type="text/css" href="<hst:link path="/css/style.css"/>" />
 <link rel="stylesheet" media="screen" type="text/css" href="<hst:link path="/css/yui-css.css"/>" />
-<link rel="stylesheet" media="screen" type="text/css" href="<hst:link path="/css/screen.css"/>"  />
+<link rel="stylesheet" media="screen" type="text/css" href="<hst:link path="/css/screen.css"/>" />
 
 <link rel="icon" href="<hst:link path="/images/favicon.ico"/>" type="image/x-icon" />
 <link rel="shortcut icon" href="<hst:link path="/images/favicon.ico"/>" type="image/x-icon" />
@@ -32,8 +32,8 @@
 
 <link rel="alternate" type="application/rss+xml" title="Hippo Go Green RSS" href="rss" />
 
-<hst.headContributions categoryIncludes="componentsCss" xhtml="true"/>
-<hst.headContributions categoryIncludes="globalJavascript" xhtml="true"/>
+<hst:headContributions categoryIncludes="componentsCss" xhtml="true"/>
+<hst:headContributions categoryIncludes="globalJavascript" xhtml="true"/>
 
 </head>
 
@@ -92,41 +92,10 @@
     </div>
   </div>
 
-  <script src="js/jquery-2.1.0.min.js" type="text/javascript"></script>
-  <script src="js/js-common.js" type="text/javascript"></script>
+  <script src="<hst:link path="/js/jquery-2.1.0.min.js"/>" type="text/javascript"></script>
+  <script src="<hst:link path="/js/js-common.js"/>" type="text/javascript"></script>
   
-  <hst.headContributions categoryIncludes="componentsJavascript" xhtml="true"/>
+  <hst:headContributions categoryIncludes="componentsJavascript" xhtml="true"/>
 
 </body>
 </html>
-
-<!--  
-<html lang="en">
-<head>
-  <meta charset="utf-8"/>
-  <link rel="stylesheet" href="<hst:link  path="/css/bootstrap.css"/>" type="text/css"/>
-  <hst:defineObjects/>
-  <c:if test="${hstRequest.requestContext.cmsRequest}">
-    <link rel="stylesheet" href="<hst:link  path="/css/cms-request.css"/>" type="text/css"/>
-  </c:if>
-  <hst:headContributions categoryIncludes="htmlHead" xhtml="true"/>
-</head>
-<body>
-<div class="container">
-  <div class="row">
-    <div class="col-md-6 col-md-offset-3">
-      <hst:include ref="top"/>
-      <hst:include ref="menu"/>
-    </div>
-  </div>
-  <div class="row">
-    <hst:include ref="main"/>
-  </div>
-  <div class="row">
-    <hst:include ref="footer"/>
-  </div>
-</div>
-<hst:headContributions categoryIncludes="htmlBodyEnd" xhtml="true"/>
-</body>
-</html>
--->

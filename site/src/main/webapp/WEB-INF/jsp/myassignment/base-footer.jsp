@@ -43,5 +43,5 @@
               </ul>
             </div>
           </div>
-          <img id="ft-image" src="images/ft-leaf.png" alt="" />
+          <img id="ft-image" src="<hst:link path="/images/ft-leaf.png"/>" alt="" />
         </div>

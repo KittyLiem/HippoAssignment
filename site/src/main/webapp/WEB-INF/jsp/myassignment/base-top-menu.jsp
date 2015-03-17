@@ -22,7 +22,7 @@
 <c:choose>
   <c:when test="${menu ne null}">
     <c:if test="${not empty menu.siteMenuItems}">
-      <ul class="main-nav">
+      <ul id="main-nav">
         <c:forEach var="item" items="${menu.siteMenuItems}">
           <c:choose>
             <c:when test="${item.selected or item.expanded}">

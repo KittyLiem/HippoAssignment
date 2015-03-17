@@ -4,9 +4,14 @@ import java.util.Calendar;
 
 import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoCompound;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 @Node(jcrType = "myhippoassignment:TrajectMeasurement")
 public class TrajectMeasurement extends HippoCompound {
+	
+	public static final Logger log = LoggerFactory.getLogger(TrajectMeasurement.class);
+			
 	/** 
 	 * The document type of the traject measurement compound type.
 	 */

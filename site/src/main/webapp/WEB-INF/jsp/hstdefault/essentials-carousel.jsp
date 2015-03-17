@@ -18,70 +18,78 @@
 <%--@elvariable id="pageable" type="org.onehippo.cms7.essentials.components.paging.Pageable"--%>
 <%--@elvariable id="item" type="com.finalist.beans.Banner"--%>
 <%--@elvariable id="cparam" type="org.onehippo.cms7.essentials.components.info.EssentialsCarouselComponentInfo"--%>
-<c:set var="pauseCarousel" value="${cparam.pause ? 'hover':''}"/>
-<c:if test="${pageable ne null && pageable.total gt 0}">
-  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="${cparam.interval}"
-       data-pause="${pauseCarousel}" data-wrap="${cparam.cycle}">
-    <ol class="carousel-indicators">
-      <c:forEach begin="0" end="${pageable.total -1}" varStatus="index">
-        <c:choose>
-          <c:when test="${index.first}">
-            <li data-target="#myCarousel" data-slide-to="${index.index}" class="active"></li>
-          </c:when>
-          <c:otherwise>
-            <li data-target="#myCarousel" data-slide-to="${index.index}"></li>
-          </c:otherwise>
-        </c:choose>
-      </c:forEach>
-    </ol>
-    <div class="carousel-inner">
-      <c:forEach var="item" items="${pageable.items}" varStatus="counter">
-        <c:set var="active" value="${counter.first ? ' active':''}"/>
-        <div class="item${active}">
-          <img src="<hst:link hippobean="${item.image}" />" alt="${item.title}"/>
-          <div class="carousel-caption">
-            <h3>${item.title}</h3>
-            <hst:html hippohtml="${item.content}"/>
-          </div>
-        </div>
-      </c:forEach>
-    </div>
-    <c:if test="${cparam.showNavigation}">
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </c:if>
-  </div>
-  <style type="text/css">
-    /* Carousel base class */
-    .carousel {
-      height: ${cparam.carouselHeight}px;
-      /*width: ${cparam.carouselWidth}px;*/
-      margin-bottom: 60px;
-    }
 
-    /* Since positioning the image, we need to help out the caption */
-    .carousel-caption {
-      z-index: 10;
-    }
-
-    /* Declare heights because of positioning of img element */
-    .carousel .item {
-      height: ${cparam.carouselHeight}px;
-      background-color: ${cparam.carouselBackgroundColor};
-    }
-    /* center images*/
-    .carousel-inner > .item > img {
-      margin: 0 auto;
-    }
-  </style>
-
-  <hst:headContribution category="htmlBodyEnd">
-    <script type="text/javascript" src="<hst:link path="/js/jquery-1.11.2.min.js"/>"></script>
-    </hst:headContribution>
-    <hst:headContribution category="htmlBodyEnd">
-      <script type="text/javascript" src="<hst:link path="/js/bootstrap.min.js"/>"></script>
-  </hst:headContribution></c:if>
-<%--@elvariable id="editMode" type="java.lang.Boolean"--%>
-<c:if test="${editMode && (pageable eq null || pageable.total lt 1)}">
-  <img src="<hst:link path='/images/essentials/catalog-component-icons/carousel.png'/>"> Click to edit Carousel
-</c:if>
+<div id="home-news">
+	<c:set var="pauseCarousel" value="${cparam.pause ? 'hover':''}"/>
+	<c:if test="${pageable ne null && pageable.total gt 0}">
+	  <div id="slider" class="carousel slide" data-ride="carousel" data-interval="${cparam.interval}"
+	       data-pause="${pauseCarousel}" data-wrap="${cparam.cycle}">
+	    <ol class="carousel-indicators" style="z-index: 1;">
+	      <c:forEach begin="0" end="${pageable.total -1}" varStatus="index">
+	        <c:choose>
+	          <c:when test="${index.first}">
+	            <li data-target="#slider" data-slide-to="${index.index}" class="active"></li>
+	          </c:when>
+	          <c:otherwise>
+	            <li data-target="#slider" data-slide-to="${index.index}"></li>
+	          </c:otherwise>
+	        </c:choose>
+	      </c:forEach>
+	    </ol>
+	    <div class="scroll" style="overflow: hidden;">
+		    <div class="carousel-inner scrollContainer">
+		      <c:forEach var="item" items="${pageable.items}" varStatus="counter">
+		      
+		        <c:set var="active" value="${counter.first ? ' active':''}"/>
+                <div class="item active panel">		        
+			        <div class="item${active}">
+			          <img src="<hst:link hippobean="${item.image.banner}" />" alt="${item.title}"/>
+			          <div class="carousel-caption title">
+			            ${item.title}
+			            <hst:html hippohtml="${item.content}"/>
+			          </div>
+			        </div>
+			    </div>
+		      </c:forEach>
+		    </div>
+	    </div>
+	    <c:if test="${cparam.showNavigation}">
+	      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+	      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+	    </c:if>
+	  </div>
+	  <style type="text/css">
+	    /* Carousel base class */
+	    .carousel {
+	      height: ${cparam.carouselHeight}px;
+	      /*width: ${cparam.carouselWidth}px;*/
+	      margin-bottom: 60px;
+	    }
+	
+	    /* Since positioning the image, we need to help out the caption */
+	    .carousel-caption {
+	      z-index: 10;
+	    }
+	
+	    /* Declare heights because of positioning of img element */
+	    .carousel .item {
+	      height: ${cparam.carouselHeight}px;
+	      background-color: ${cparam.carouselBackgroundColor};
+	    }
+	    /* center images*/
+	    .carousel-inner > .item > img {
+	      margin: 0 auto;
+	    }
+	  </style>
+	
+	  <hst:headContribution category="htmlBodyEnd">
+	    <script type="text/javascript" src="<hst:link path="/js/jquery-1.11.2.min.js"/>"></script>
+	    </hst:headContribution>
+	    <hst:headContribution category="htmlBodyEnd">
+	      <script type="text/javascript" src="<hst:link path="/js/bootstrap.min.js"/>"></script>
+	  </hst:headContribution></c:if>
+	<%--@elvariable id="editMode" type="java.lang.Boolean"--%>
+	<c:if test="${editMode && (pageable eq null || pageable.total lt 1)}">
+	  <img src="<hst:link path='/images/essentials/catalog-component-icons/carousel.png'/>"> Click to edit Carousel
+	</c:if>
+</div>

@@ -10,21 +10,21 @@ import org.codehaus.jackson.map.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.finalist.domain.TrajectInformation;
+import com.finalist.domain.TrajectInformationObject;
 
 
 public class JsonUtil {
 	
 	public static final Logger log = LoggerFactory.getLogger(JsonUtil.class);
 	
-	TrajectInformation trajectInformation = null;
+	TrajectInformationObject trajectInformation = null;
 
-	public TrajectInformation mapTrajectInformation() {
+	public TrajectInformationObject mapTrajectInformation() {
 	ObjectMapper mapper = new ObjectMapper(); 
 	
 	try {
 		URL url = new URL("http://www.trafficlink-online.nl/trafficlinkdata/wegdata/TrajectSensorsNH.GeoJSON"); 
-		trajectInformation = mapper.readValue(url, TrajectInformation.class);
+		trajectInformation = mapper.readValue(url, TrajectInformationObject.class);
 
 	}
 	catch (JsonGenerationException e){
