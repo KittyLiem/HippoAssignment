@@ -1,4 +1,4 @@
-package com.finalist.services;
+package com.finalist.rest;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,13 +16,16 @@ import org.hippoecm.hst.content.beans.query.HstQueryManager;
 import org.hippoecm.hst.content.beans.query.HstQueryResult;
 import org.hippoecm.hst.content.beans.standard.HippoBeanIterator;
 import org.hippoecm.hst.core.request.HstRequestContext;
-import org.hippoecm.hst.jaxrs.services.AbstractResource;
 import org.hippoecm.hst.util.PathUtils;
+import org.onehippo.cms7.essentials.components.paging.Pageable;
+import org.onehippo.cms7.essentials.components.rest.BaseRestResource;
+import org.onehippo.cms7.essentials.components.rest.ctx.DefaultRestContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.finalist.beans.TrajectInformation;
-import com.finalist.model.TrajectInformationRepresentation;
+import com.finalist.beans.Trajectinformation;
+import com.finalist.model.TrajectinformationRepresentation;
+import com.finalist.services.ResponseUtils;
 
 /**
  * 
@@ -31,19 +34,39 @@ import com.finalist.model.TrajectInformationRepresentation;
  * Resource for Plain RESTful API
  */
 @Path("/trajectinformation/")
-public class TrajectInformationPlainResource extends AbstractResource {
+public class TrajectInformationPlainResource extends BaseRestResource {
 		
 		public static final Logger log = LoggerFactory.getLogger(TrajectInformationPlainResource.class);
+	    @GET
+	    @Path("/")
+	    public Pageable<Trajectinformation> index(@Context HttpServletRequest request) {
+	        return findBeans(new DefaultRestContext(this, request), Trajectinformation.class);
+	    }
+/*
 
 	    @GET
-	    @Path("/{trajectId}/")
-	    public List<TrajectInformationRepresentation> getTrajectInformationResources(
+	    @Path("/page/{page}")
+	    public Pageable<TrajectInformation> page(@Context HttpServletRequest request, @PathParam("page") int page) {
+	        return findBeans(new DefaultRestContext(this, request, page, DefaultRestContext.PAGE_SIZE), TrajectInformation.class);
+	    }
+
+
+	    @GET
+	    @Path("/page/{page}/{pageSize}")
+	    public Pageable<TrajectInformation> pageForSize(@Context HttpServletRequest request, @PathParam("page") int page, @PathParam("pageSize") int pageSize) {
+	        return findBeans(new DefaultRestContext(this, request, page, pageSize), TrajectInformation.class);
+	    }
+
+*/
+	    @GET
+	    @Path("/")
+	    public List<TrajectinformationRepresentation> getTrajectInformationPlainResources(
 	                           @Context HttpServletRequest servletRequest,
 	                           @Context HttpServletResponse servletResponse) {
 	        
-	    	log.info("GET getTrajectInformationResource");
+	    	log.info("GET getTrajectInformationPlainResource");
 	    	
-	        List<TrajectInformationRepresentation> trajects = new ArrayList<TrajectInformationRepresentation>();
+	        List<TrajectinformationRepresentation> trajects = new ArrayList<TrajectinformationRepresentation>();
 	               
 	        try {
 
@@ -56,23 +79,23 @@ public class TrajectInformationPlainResource extends AbstractResource {
 	            
 	            Node mountContentNode = requestContext.getSession().getRootNode().getNode(PathUtils.normalizePath(mountContentPath));
 	            
-	            HstQuery hstQuery = hstQueryManager.createQuery(mountContentNode, TrajectInformation.class, true);  
+	            HstQuery hstQuery = hstQueryManager.createQuery(mountContentNode, Trajectinformation.class, true);  
 	                    
 	            HstQueryResult result = hstQuery.execute();
 	            
 	            HippoBeanIterator iterator = result.getHippoBeans();
 	            
 	            while (iterator.hasNext()) {
-	            	TrajectInformation trajectInformation =
-	                    (TrajectInformation) iterator.nextHippoBean();
+	            	Trajectinformation trajectinformation =
+	                    (Trajectinformation) iterator.nextHippoBean();
 	 
-	                if (trajectInformation != null) {
-	                	TrajectInformationRepresentation trajectRep =
-	                        new TrajectInformationRepresentation().represent(trajectInformation);
+	                if (trajectinformation != null) {
+	                	TrajectinformationRepresentation trajectRep =
+	                        new TrajectinformationRepresentation().represent(trajectinformation);
 	                	trajectRep.addLink(getNodeLink(requestContext,
-	                			trajectInformation));
+	                			trajectinformation));
 	                    trajectRep.addLink(getSiteLink(requestContext,
-	                    		trajectInformation));
+	                    		trajectinformation));
 	                    trajects.add(trajectRep);
 	                }
 	            }

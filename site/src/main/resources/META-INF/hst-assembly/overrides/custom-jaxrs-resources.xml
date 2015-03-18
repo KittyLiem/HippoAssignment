@@ -18,13 +18,6 @@
     <property name="sourceList">
       <list>
         <!-- Wrap your JAX-RS component by SingletonResourceProvider. -->
-        <bean class=
-              "org.apache.cxf.jaxrs.lifecycle.SingletonResourceProvider">
-          <constructor-arg>
-            <bean class=
-         "com.finalist.services.TrajectInformationPlainResource" />
-          </constructor-arg>
-        </bean>
       </list>
     </property>
   </bean>

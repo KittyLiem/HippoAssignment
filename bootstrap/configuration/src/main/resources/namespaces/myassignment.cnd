@@ -26,3 +26,9 @@
 [myassignment:newsdocument] > hippostd:relaxed, hippotranslation:translated, myassignment:basedocument
   orderable
 
+[myassignment:trajectinformation] > hippostd:relaxed, hippotranslation:translated, myassignment:basedocument
+  orderable
+
+[myassignment:trajectmeasurement] > hippo:compound, hippostd:relaxed
+  orderable
+
