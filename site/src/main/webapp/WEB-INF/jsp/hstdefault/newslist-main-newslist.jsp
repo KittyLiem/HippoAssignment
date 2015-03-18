@@ -18,22 +18,45 @@
 <%--@elvariable id="document" type="com.finalist.beans.NewsDocument"--%>
 <%--@elvariable id="pageable" type="org.onehippo.cms7.essentials.components.paging.Pageable"--%>
 
-<c:forEach var="item" items="${pageable.items}" varStatus="status">
-  <hst:link var="link" hippobean="${item}"/>
-  <article class="has-edit-button">
-    <hst:cmseditlink hippobean="${item}"/>
-    <h3><a href="${link}"><c:out value="${item.title}"/></a></h3>
-    <c:if test="${hst:isReadable(item, 'date.time')}">
-      <p>
-        <fmt:formatDate value="${item.date.time}" type="both" dateStyle="medium" timeStyle="short"/>
-      </p>
-    </c:if>
-    <p><c:out value="${item.introduction}"/></p>
-  </article>
-</c:forEach>
+
+<div class="yui-main">
+	<div id="content" class="yui-b left-and-right">
+
+    	<h2>News Overview</h2>
+		<div id="news">
+			<c:forEach var="item" items="${pageable.items}" varStatus="status">
+
+			  	<hst:link var="link" hippobean="${item}"/>
+			  	<article class="has-edit-button">
+			  	<ul class="news-item">	
+			    	<hst:cmseditlink hippobean="${item}"/>
+			          <c:if test="${not empty item.image.small}">
+			          	<li class="image"><a href="${item}">
+			                    <hst:link var="img" hippobean="${item.image.small }"/>
+			                    <img  src="${img}" alt="${link}" /></a></li>
+                      </c:if>
+			    	<li class="title">
+			    		<a href="${link}"><c:out value="${item.title}"/></a>
+			    	</li>
+			    	<li class="date">
+			    		<c:if test="${hst:isReadable(item, 'date.time')}">
+			        		<fmt:formatDate value="${item.date.time}" type="both" dateStyle="medium" timeStyle="short"/>
+			   			</c:if>
+			   		</li>
+			   		<li>
+			    		<c:out value="${item.introduction}"/>
+			    	</li>
+			    </ul>
+			  </article>
+
+			</c:forEach>
+		</div>
+	</div>
+
 <c:if test="${pageable.showPagination}">
   <%@ include file="/WEB-INF/jsp/include/pagination.jsp" %>
 </c:if>
+</div>
 <%--@elvariable id="editMode" type="java.lang.Boolean"--%>
 <c:if test="${editMode and empty pageable}">
   <img src="<hst:link path='/images/essentials/catalog-component-icons/news-list.png'/>"> Click to edit News List

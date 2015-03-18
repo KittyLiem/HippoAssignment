@@ -225,4 +225,216 @@
       </sv:node>
     </sv:node>
   </sv:node>
+  <sv:node sv:name="about">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>64422afd-73c1-4dea-b3ae-67ae1a78e673</sv:value>
+    </sv:property>
+    <sv:node sv:name="about">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myassignment:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>52abf7a4-34b6-41a9-a5ee-5632ce499a36</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/about/about[2]</sv:value>
+        <sv:value>content/about/about[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-03-17T21:28:06.877+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-03-17T21:28:07.682+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>8e8bb3fb-f243-41f4-8fb2-5326e17bdad3</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:introduction" sv:type="String">
+        <sv:value>This is a demo of  Hippo CMS in combination with my Finalist assignment.</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:title" sv:type="String">
+        <sv:value>About Hippo archetype (Go Green) and my assignment</sv:value>
+      </sv:property>
+      <sv:node sv:name="myassignment:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;h3 style="text-align: left;"&gt;Hippo CMS&lt;/h3&gt; 
+&lt;p style="text-align:left"&gt;With our innovative Content Management and Portal technologies, Hippo helps companies manage and access information, protect sensitive data, share knowledge, optimize collaboration and reduce operational costs. The combination of enterprise-class support and open source technology, brings our customers the best of both worlds: the flexibility, innovation and robustness of open source software combined with the stability, reach and service quality of an established vendor.&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Hippo was founded in 1999 and today has a global base of over 150 customers across multiple categories including education, publishing, manufacturing, financial services and government. Hippo was recognized by Deloitte in its&amp;nbsp;
+&lt;a href="http://www.deloitte.com/view/en_GX/global/categories/technology-media-telecommunications/deloitte-technology-fast-500-emea/index.htm" style="color: rgb(111, 93, 22); text-decoration: none;"&gt;Fast 500&lt;/a&gt;&amp;nbsp;for 2007, 2008 and 2009 based on revenue growth. To support the rapidly expanding Hippo community, Hippo has over 60 employees located in its European headquarters in Amsterdam, The Netherlands and North American headquarters in San Francisco, California.&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h3 style="text-align: left;"&gt;My assignment&lt;/h3&gt; 
+&lt;p&gt;To test the level of my skills a starting assignment is given to new employees. In essence the purpose of the assignment is the same for different competences. As my competences will contain Java and Hippo CMS I have choosen to develop the assignment with the help of the Hippo archetype, Developer Trail (at least Sprint 1), Hippo documentation and any help from my mentor, Rob Krabbendam, and of course the world wide web.&lt;/p&gt; 
+&lt;p&gt;A dairy is to be found in the news items, and the result of the assignment in...&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>About</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="about">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myassignment:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>89601fa9-8690-453d-bc42-2df6f21e6248</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/about/about[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-03-17T21:28:06.877+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-03-17T21:36:42.770+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>8e8bb3fb-f243-41f4-8fb2-5326e17bdad3</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:introduction" sv:type="String">
+        <sv:value>This is a demo of  Hippo CMS in combination with my Finalist assignment.</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:title" sv:type="String">
+        <sv:value>About Hippo archetype (Go Green) and my assignment</sv:value>
+      </sv:property>
+      <sv:node sv:name="myassignment:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;h3 style="text-align: left;"&gt;Hippo CMS&lt;/h3&gt; 
+&lt;p style="text-align:left"&gt;With our innovative Content Management and Portal technologies, Hippo helps companies manage and access information, protect sensitive data, share knowledge, optimize collaboration and reduce operational costs. The combination of enterprise-class support and open source technology, brings our customers the best of both worlds: the flexibility, innovation and robustness of open source software combined with the stability, reach and service quality of an established vendor.&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Hippo was founded in 1999 and today has a global base of over 150 customers across multiple categories including education, publishing, manufacturing, financial services and government. Hippo was recognized by Deloitte in its&amp;nbsp;
+&lt;a href="http://www.deloitte.com/view/en_GX/global/categories/technology-media-telecommunications/deloitte-technology-fast-500-emea/index.htm" style="color: rgb(111, 93, 22); text-decoration: none;"&gt;Fast 500&lt;/a&gt;&amp;nbsp;for 2007, 2008 and 2009 based on revenue growth. To support the rapidly expanding Hippo community, Hippo has over 60 employees located in its European headquarters in Amsterdam, The Netherlands and North American headquarters in San Francisco, California.&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h3 style="text-align: left;"&gt;My assignment&lt;/h3&gt; 
+&lt;p&gt;To test the level of my skills a starting assignment is given to new employees. In essence the purpose of the assignment is the same for different competences. As my competences will contain Java and Hippo CMS I have choosen to develop the assignment with the help of the Hippo archetype, Developer Trail (at least Sprint 1), Hippo documentation and any help from my mentor, Rob Krabbendam, and of course the world wide web.&lt;/p&gt; 
+&lt;p&gt;A dairy is to be found in the news items, and the result of the assignment in...&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="about">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myassignment:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>af216ea5-68f1-4766-adeb-94fee8d93d9c</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/about/about[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-03-17T21:28:06.877+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-03-17T21:36:42.770+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2015-03-17T21:36:48.730+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>8e8bb3fb-f243-41f4-8fb2-5326e17bdad3</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:introduction" sv:type="String">
+        <sv:value>This is a demo of  Hippo CMS in combination with my Finalist assignment.</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:title" sv:type="String">
+        <sv:value>About Hippo archetype (Go Green) and my assignment</sv:value>
+      </sv:property>
+      <sv:node sv:name="myassignment:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;h3 style="text-align: left;"&gt;Hippo CMS&lt;/h3&gt; 
+&lt;p style="text-align:left"&gt;With our innovative Content Management and Portal technologies, Hippo helps companies manage and access information, protect sensitive data, share knowledge, optimize collaboration and reduce operational costs. The combination of enterprise-class support and open source technology, brings our customers the best of both worlds: the flexibility, innovation and robustness of open source software combined with the stability, reach and service quality of an established vendor.&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Hippo was founded in 1999 and today has a global base of over 150 customers across multiple categories including education, publishing, manufacturing, financial services and government. Hippo was recognized by Deloitte in its&amp;nbsp;
+&lt;a href="http://www.deloitte.com/view/en_GX/global/categories/technology-media-telecommunications/deloitte-technology-fast-500-emea/index.htm" style="color: rgb(111, 93, 22); text-decoration: none;"&gt;Fast 500&lt;/a&gt;&amp;nbsp;for 2007, 2008 and 2009 based on revenue growth. To support the rapidly expanding Hippo community, Hippo has over 60 employees located in its European headquarters in Amsterdam, The Netherlands and North American headquarters in San Francisco, California.&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h3 style="text-align: left;"&gt;My assignment&lt;/h3&gt; 
+&lt;p&gt;To test the level of my skills a starting assignment is given to new employees. In essence the purpose of the assignment is the same for different competences. As my competences will contain Java and Hippo CMS I have choosen to develop the assignment with the help of the Hippo archetype, Developer Trail (at least Sprint 1), Hippo documentation and any help from my mentor, Rob Krabbendam, and of course the world wide web.&lt;/p&gt; 
+&lt;p&gt;A dairy is to be found in the news items, and the result of the assignment in...&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
 </sv:node>

@@ -57,7 +57,7 @@
           <!-- search bar -->
           <!-- search bar -->
           <div id="search">
-            <form id="searchSubmit" action="search.html" method="get"
+            <form id="searchSubmit" action="<hst:link siteMapItemRefId="search" />" method="get"
               onsubmit="sanitizeRequestParam(document.forms['searchSubmit']['query'], 'Search')" >
             <p>
               <input class="search-field gray" type="text" name="query" value="Search" /> <input type="submit"
