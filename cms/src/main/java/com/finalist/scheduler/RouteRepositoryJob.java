@@ -1,30 +1,33 @@
 package com.finalist.scheduler;
 
+import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.jcr.RepositoryException;
 import javax.jcr.Session;
-import javax.net.ssl.HttpsURLConnection;
 
+import org.common.domain.TrajectInfo;
+import org.common.domain.TrajectMeting;
 import org.onehippo.repository.scheduling.RepositoryJob;
 import org.onehippo.repository.scheduling.RepositoryJobExecutionContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.finalist.domain.Feature;
-import com.finalist.domain.Properties;
 import com.finalist.domain.TrajectInformationObject;
 import com.finalist.util.JsonUtil;
-
-
+import com.finalist.util.XmlUtil;
 
 public class RouteRepositoryJob implements RepositoryJob {
 
 	public static final Logger log = LoggerFactory.getLogger(RouteRepositoryJob.class);
-
 
 	@Override
 	public void execute(RepositoryJobExecutionContext context)
@@ -32,50 +35,46 @@ public class RouteRepositoryJob implements RepositoryJob {
 		
 		Session session = null;
 		try {
-			// get session and output
+		// get session and output
 			session = context.createSystemSession();
              
-			//log.info("JCR Session retrieved from context: {}" + session);
 		// get the route info JSON to POJO's using Jackson
 			JsonUtil jsonUtil = new JsonUtil();
 			TrajectInformationObject trajectInformatie = jsonUtil.mapTrajectInformation();
         
         // save POJO's in repository in Hippo document using restapi
 		
-
-
+			XmlUtil xmlUtil = new XmlUtil();
+			String xml;
+			
         for (Feature feature: trajectInformatie.getFeatures()) {
-        	String trajectId = feature.getId();
-        	Properties properties = feature.getProperties();
-        	String trajectName = properties.getName();
-        	double trajectLength = properties.getLength();
-
+        	
+        	// set trajectinformation to XML
+            xml = xmlUtil.convertToXml(filterTrajectInfo(feature), TrajectInfo.class);
         	
         	// activate POST in site
 			String url = "http://localhost:8080/site/resttrajectapi/Trajectinformation/";
 			URL obj = new URL(url);
 			
-			HttpsURLConnection con = (HttpsURLConnection) obj.openConnection();
+			HttpURLConnection con = (HttpURLConnection) obj.openConnection();
 	 
-			//add reuqest header
+			//add request headers etc
 			con.setRequestMethod("POST");
-			con.setRequestProperty("trajectId", trajectId );
-	 
+			con.setRequestProperty("Content-Type", "application/xml" );
+			con.setRequestProperty( "charset", "utf-8");
+			con.setDoOutput(true);
+			
 			// Send post request
-			//con.setDoOutput(true);
-			 DataOutputStream wr = new DataOutputStream(con.getOutputStream());
-			wr.writeBytes(url);
+			DataOutputStream wr = new DataOutputStream(con.getOutputStream());
+			wr.writeBytes(xml);
 			wr.flush();
 			wr.close(); 
-			log.info("sending POST" + con.getRequestMethod() + con.getRequestProperties());
+			log.info("Sending " + con.getRequestMethod() + " " + xml);
 	 
-		/*	int responseCode = con.getResponseCode();
-			System.out.println("\nSending 'POST' request to URL : " + url);
-			System.out.println("Post parameters : " + url);
-			System.out.println("Response Code : " + responseCode);
+			log.info("Responsecode " + con.getResponseCode());			
 	 
 			BufferedReader in = new BufferedReader(
-			        new InputStreamReader(con.getInputStream()));
+			new InputStreamReader(con.getInputStream()));
 			String inputLine;
 			StringBuffer response = new StringBuffer();
 	 
@@ -84,27 +83,40 @@ public class RouteRepositoryJob implements RepositoryJob {
 			}
 			in.close();
 	 
-			//print result
-			System.out.println(response.toString());
-			*/
-        		
+			//log result
+			log.info("Result: " + response.toString());
         	
         	}
-        
 		}
         catch (MalformedURLException e) {
-        	log.info("bad URL");
+        	log.info("Bad URL");
         }
         catch (IOException e) {
-        	log.info("bad URL");
+        	log.info("IOexception");
         }
-
 		finally {
 			if (session != null) {
 				session.logout();
 			}
 		}
+	}
+	
+	public TrajectInfo filterTrajectInfo(Feature feature) {
+        List<TrajectMeting> trajectMetingen = new ArrayList<TrajectMeting> ();
+		TrajectInfo trajectInfo = new TrajectInfo();
+        TrajectMeting trajectMeting = new TrajectMeting();
+		
+		trajectInfo.setId(feature.getId());
+		trajectInfo.setName(feature.getProperties().getName());
+		trajectInfo.setLength(feature.getProperties().getLength());
+		trajectInfo.setTrajectMetingen(trajectMetingen);
 
+        trajectMeting.setMetingDatum(feature.getProperties().getTimestamp());
+        trajectMeting.setReistijd(feature.getProperties().getTraveltime());
+        trajectMeting.setVelocity(feature.getProperties().getVelocity());
+	        
+	    trajectMetingen.add(trajectMeting);
+	    return trajectInfo;
 	}
 
     public String toString() {

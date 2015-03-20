@@ -221,6 +221,7 @@
         <module>cms</module>
         <module>site</module>
         <module>essentials</module>
+        <module>common</module>
       </modules>
     </profile>
 
@@ -327,4 +328,7 @@
 
   </profiles>
 
+  <modules>
+    <module>common</module>
+  </modules>
 </project>

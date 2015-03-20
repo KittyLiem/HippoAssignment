@@ -24,32 +24,31 @@
 	<c:if test="${pageable ne null && pageable.total gt 0}">
 	  <div id="slider" class="carousel slide" data-ride="carousel" data-interval="${cparam.interval}"
 	       data-pause="${pauseCarousel}" data-wrap="${cparam.cycle}">
-	    <ol class="carousel-indicators" style="z-index: 1;">
+	    <ul class="carousel-indicators navigation" style="z-index: 1;">
 	      <c:forEach begin="0" end="${pageable.total -1}" varStatus="index">
 	        <c:choose>
 	          <c:when test="${index.first}">
-	            <li data-target="#slider" data-slide-to="${index.index}" class="active"></li>
+	            <li data-target="#slider" data-slide-to="${index.index}" class="active">
+	            	<hst:html hippohtml="${item.content}"/></li>
 	          </c:when>
 	          <c:otherwise>
-	            <li data-target="#slider" data-slide-to="${index.index}"></li>
+	            <li data-target="#slider" data-slide-to="${index.index}">
+	            	<hst:html hippohtml="${item.content}"/></li>
 	          </c:otherwise>
 	        </c:choose>
 	      </c:forEach>
-	    </ol>
+	    </ul>
 	    <div class="scroll" style="overflow: hidden;">
 		    <div class="carousel-inner scrollContainer">
 		      <c:forEach var="item" items="${pageable.items}" varStatus="counter">
-		      
 		        <c:set var="active" value="${counter.first ? ' active':''}"/>
-                <div class="item active panel">		        
-			        <div class="item${active}">
+			        <div class="item panel ${active}">
 			          <img src="<hst:link hippobean="${item.image.banner}" />" alt="${item.title}"/>
 			          <div class="carousel-caption title">
 			            ${item.title}
-			            <hst:html hippohtml="${item.content}"/>
 			          </div>
 			        </div>
-			    </div>
+			   
 		      </c:forEach>
 		    </div>
 	    </div>
@@ -57,7 +56,10 @@
 	      <a class="left carousel-control" href="#slider" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
 	      <a class="right carousel-control" href="#slider" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 	    </c:if>
-	  </div>
+	    </div>
+	</c:if>
+</div>
+
 	  <style type="text/css">
 	    /* Carousel base class */
 	    .carousel {
@@ -82,14 +84,14 @@
 	    }
 	  </style>
 	
-	  <hst:headContribution category="htmlBodyEnd">
-	    <script type="text/javascript" src="<hst:link path="/js/jquery-1.11.2.min.js"/>"></script>
-	    </hst:headContribution>
-	    <hst:headContribution category="htmlBodyEnd">
-	      <script type="text/javascript" src="<hst:link path="/js/bootstrap.min.js"/>"></script>
-	  </hst:headContribution></c:if>
+	<hst:headContribution category="componentsJavascript">
+	    <script type="text/javascript" src="<hst:link path="/js/jquery-2.1.0.min.js"/>"></script>
+	</hst:headContribution>
+	<hst:headContribution category="componentsJavascript">
+		<script type="text/javascript" src="<hst:link path="/js/bootstrap.min.js"/>"></script>
+	</hst:headContribution>
+
 	<%--@elvariable id="editMode" type="java.lang.Boolean"--%>
 	<c:if test="${editMode && (pageable eq null || pageable.total lt 1)}">
 	  <img src="<hst:link path='/images/essentials/catalog-component-icons/carousel.png'/>"> Click to edit Carousel
 	</c:if>
-</div>

@@ -28,6 +28,7 @@ import com.finalist.model.TrajectinformationRepresentation;
  *
  *Resource for the content/context aware RESTful API 
  */
+@Deprecated
 @Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
 @Consumes({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_FORM_URLENCODED})
 @Path("/myassignment:TrajectInformation/")

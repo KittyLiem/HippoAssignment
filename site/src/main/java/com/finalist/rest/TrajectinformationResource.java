@@ -30,6 +30,7 @@ import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.UriInfo;
 
+import org.common.domain.TrajectInfo;
 import org.hippoecm.hst.content.annotations.Persistable;
 import org.hippoecm.hst.content.beans.ObjectBeanManagerException;
 import org.hippoecm.hst.content.beans.manager.workflow.WorkflowPersistenceManager;
@@ -79,51 +80,55 @@ public class TrajectinformationResource extends BaseRestResource {
     
     @Persistable
     @POST
-    public TrajectinformationRepresentation createTrajectinformationResources(
+    @Path("/")
+    public TrajectInfo createTrajectinformationResource(
     				@Context HttpServletRequest servletRequest, 
     				@Context HttpServletResponse servletResponse, 
     				@Context UriInfo uriInfo,
-    				TrajectinformationRepresentation trajectInformationRepresentation) {
+    				TrajectInfo trajectInfo) {
         
         HstRequestContext requestContext = getRequestContext(servletRequest);
         
         try {
             WorkflowPersistenceManager wpm = (WorkflowPersistenceManager) getPersistenceManager(requestContext);
             HippoFolderBean contentBaseFolder = getMountContentBaseBean(requestContext);
-            String trajectInformationPath = contentBaseFolder.getPath() + "/trajectinformation";
+            String trajectInformationPath = contentBaseFolder.getPath() + "/trajectinformation/" + trajectInfo.getId();
+            log.info("In site, path: " + trajectInformationPath);
+            
             String beanPath = wpm.createAndReturn(trajectInformationPath, 
             										"myassignment:trajectinformation", 
-            										trajectInformationRepresentation.getTrajectId(),
+            										trajectInfo.getId(),
             										true);
             Trajectinformation trajectinformation = (Trajectinformation) wpm.getObject(beanPath);
+            log.info("Ontvangen van trajectinfo insite: " + trajectinformation.getName());
 
-            trajectinformation.setTrajectId(trajectInformationRepresentation.getTrajectId());
-            trajectinformation.setTrajectName(trajectInformationRepresentation.getTrajectName());
-            trajectinformation.setTrajectLength(trajectInformationRepresentation.getTrajectLength());
+            trajectinformation.setTrajectId(trajectInfo.getId());
+            trajectinformation.setTrajectName(trajectInfo.getName());
+            trajectinformation.setTrajectLength(trajectInfo.getLength());
     
             wpm.update(trajectinformation);
             wpm.save();
 
             // Note: Retrieve bean again from the repository to return.
             trajectinformation = (Trajectinformation) wpm.getObject(trajectinformation.getPath());
-            trajectInformationRepresentation = new TrajectinformationRepresentation().represent(trajectinformation);
+            trajectInfo = new TrajectInfo().represent(trajectinformation);
             
 
-            return trajectInformationRepresentation;
+            return trajectInfo;
             
         } catch (ObjectBeanManagerException e) {
             if (log.isDebugEnabled()) {
-                log.warn("Failed to create trajectInformation.", e);
+                log.warn("beanmanager Failed to create trajectInformation.", e);
             } else {
-                log.warn("Failed to create trajectInformation. {}", e.toString());
+                log.warn("beanmanager Failed to create trajectInformation. {}", e.toString());
             }
             
             throw new WebApplicationException(e, ResponseUtils.buildServerErrorResponse(e));
         } catch (RepositoryException e) {
             if (log.isDebugEnabled()) {
-                log.warn("Failed to create trajectInformation.", e);
+                log.warn("Repository Failed to create trajectInformation.", e);
             } else {
-                log.warn("Failed to create trajectInformation. {}", e.toString());
+                log.warn("|Repository Failed to create trajectInformation. {}", e.toString());
             }
             
             throw new WebApplicationException(e, ResponseUtils.buildServerErrorResponse(e));

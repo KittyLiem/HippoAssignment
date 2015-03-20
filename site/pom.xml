@@ -95,6 +95,11 @@
        	javax.annotation.security package. -->
   		<scope>compile</scope>
 	</dependency>
+	<dependency>
+      <groupId>com.finalist</groupId>
+      <artifactId>myassignment-common</artifactId>
+      <version>${project.version}</version>
+     </dependency>
   </dependencies>
   <build>
     <resources>

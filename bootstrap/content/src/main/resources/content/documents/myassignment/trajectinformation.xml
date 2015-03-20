@@ -19,224 +19,6 @@
   <sv:property sv:name="hippotranslation:locale" sv:type="String">
     <sv:value>en</sv:value>
   </sv:property>
-  <sv:node sv:name="trajectsensor_route059">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:handle</sv:value>
-    </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
-      <sv:value>hippo:translated</sv:value>
-    </sv:property>
-    <sv:property sv:name="jcr:uuid" sv:type="String">
-      <sv:value>046846f2-c9ea-4e0c-9857-c5ed1f5b7b8d</sv:value>
-    </sv:property>
-    <sv:node sv:name="trajectsensor_route059">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>myassignment:trajectinformation</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>4654b18d-45a1-4aff-b593-05180da9cd99</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
-      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>trajectinformation/trajectsensor_route059/trajectsensor_route059[3]</sv:value>
-        <sv:value>trajectinformation/trajectsensor_route059/trajectsensor_route059[2]</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:state" sv:type="String">
-        <sv:value>draft</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-        <sv:value>live</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-        <sv:value>admin</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-        <sv:value>2015-03-18T11:41:46.190+01:00</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-03-18T11:41:46.372+01:00</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-        <sv:value>admin</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippotranslation:id" sv:type="String">
-        <sv:value>15160625-4ea4-47a5-bc95-883116b89a3e</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippotranslation:locale" sv:type="String">
-        <sv:value>en</sv:value>
-      </sv:property>
-      <sv:property sv:name="myassignment:trajectId" sv:type="String">
-        <sv:value>TrajectSensor_Route059</sv:value>
-      </sv:property>
-      <sv:property sv:name="myassignment:trajectLength" sv:type="Long">
-        <sv:value>983</sv:value>
-      </sv:property>
-      <sv:property sv:name="myassignment:trajectName" sv:type="String">
-        <sv:value>TS_S116_S100_S114</sv:value>
-      </sv:property>
-      <sv:node sv:name="myassignment:trajectMeasurement">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>myassignment:trajectmeasurement</sv:value>
-        </sv:property>
-        <sv:property sv:name="myassignment:trajectMeasurementDate" sv:type="Date">
-          <sv:value>2015-03-18T11:39:00.000+01:00</sv:value>
-        </sv:property>
-        <sv:property sv:name="myassignment:trajectMeasurementTraveltime" sv:type="Long">
-          <sv:value>103</sv:value>
-        </sv:property>
-        <sv:property sv:name="myassignment:trajectMeasurementVelocity" sv:type="Long">
-          <sv:value>34</sv:value>
-        </sv:property>
-      </sv:node>
-    </sv:node>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>TrajectSensor_Route059</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="trajectsensor_route059">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>myassignment:trajectinformation</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
-        <sv:value>mix:versionable</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>c5575439-b0d0-44be-bf2f-03724d856e7e</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-        <sv:value>preview</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>trajectinformation/trajectsensor_route059/trajectsensor_route059[3]</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:state" sv:type="String">
-        <sv:value>unpublished</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-        <sv:value>live</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-        <sv:value>admin</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-        <sv:value>2015-03-18T11:41:46.190+01:00</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-03-18T11:43:10.635+01:00</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-        <sv:value>admin</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippotranslation:id" sv:type="String">
-        <sv:value>15160625-4ea4-47a5-bc95-883116b89a3e</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippotranslation:locale" sv:type="String">
-        <sv:value>en</sv:value>
-      </sv:property>
-      <sv:property sv:name="myassignment:trajectId" sv:type="String">
-        <sv:value>TrajectSensor_Route059</sv:value>
-      </sv:property>
-      <sv:property sv:name="myassignment:trajectLength" sv:type="Long">
-        <sv:value>983</sv:value>
-      </sv:property>
-      <sv:property sv:name="myassignment:trajectName" sv:type="String">
-        <sv:value>TS_S116_S100_S114</sv:value>
-      </sv:property>
-      <sv:node sv:name="myassignment:trajectMeasurement">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>myassignment:trajectmeasurement</sv:value>
-        </sv:property>
-        <sv:property sv:name="myassignment:trajectMeasurementDate" sv:type="Date">
-          <sv:value>2015-03-18T11:39:00.000+01:00</sv:value>
-        </sv:property>
-        <sv:property sv:name="myassignment:trajectMeasurementTraveltime" sv:type="Long">
-          <sv:value>103</sv:value>
-        </sv:property>
-        <sv:property sv:name="myassignment:trajectMeasurementVelocity" sv:type="Long">
-          <sv:value>34</sv:value>
-        </sv:property>
-      </sv:node>
-    </sv:node>
-    <sv:node sv:name="trajectsensor_route059">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>myassignment:trajectinformation</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>74c5c6a4-9884-4406-9513-3f5d8b742bb8</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-        <sv:value>live</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>trajectinformation/trajectsensor_route059/trajectsensor_route059[2]</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:state" sv:type="String">
-        <sv:value>published</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-        <sv:value>live</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-        <sv:value>admin</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-        <sv:value>2015-03-18T11:41:46.190+01:00</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-03-18T11:43:10.635+01:00</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-        <sv:value>admin</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2015-03-18T11:43:14.629+01:00</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippotranslation:id" sv:type="String">
-        <sv:value>15160625-4ea4-47a5-bc95-883116b89a3e</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippotranslation:locale" sv:type="String">
-        <sv:value>en</sv:value>
-      </sv:property>
-      <sv:property sv:name="myassignment:trajectId" sv:type="String">
-        <sv:value>TrajectSensor_Route059</sv:value>
-      </sv:property>
-      <sv:property sv:name="myassignment:trajectLength" sv:type="Long">
-        <sv:value>983</sv:value>
-      </sv:property>
-      <sv:property sv:name="myassignment:trajectName" sv:type="String">
-        <sv:value>TS_S116_S100_S114</sv:value>
-      </sv:property>
-      <sv:node sv:name="myassignment:trajectMeasurement">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>myassignment:trajectmeasurement</sv:value>
-        </sv:property>
-        <sv:property sv:name="myassignment:trajectMeasurementDate" sv:type="Date">
-          <sv:value>2015-03-18T11:39:00.000+01:00</sv:value>
-        </sv:property>
-        <sv:property sv:name="myassignment:trajectMeasurementTraveltime" sv:type="Long">
-          <sv:value>103</sv:value>
-        </sv:property>
-        <sv:property sv:name="myassignment:trajectMeasurementVelocity" sv:type="Long">
-          <sv:value>34</sv:value>
-        </sv:property>
-      </sv:node>
-    </sv:node>
-  </sv:node>
   <sv:node sv:name="traject-test">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:handle</sv:value>
@@ -454,5 +236,27 @@
         </sv:property>
       </sv:node>
     </sv:node>
+  </sv:node>
+  <sv:node sv:name="null">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:versionable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>cd49da81-e9c9-4ac5-8871-21e16078ed3b</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>0df50a9b-64bb-482c-bee1-5a7a458b9a64</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
   </sv:node>
 </sv:node>

@@ -59,6 +59,11 @@
       <groupId>org.onehippo.forge</groupId>
       <artifactId>resource-bundle-editor-plugin</artifactId>
     </dependency>
+    <dependency>
+      <groupId>com.finalist</groupId>
+      <artifactId>myassignment-common</artifactId>
+      <version>${project.version}</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>cms</finalName>
