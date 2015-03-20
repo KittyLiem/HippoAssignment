@@ -15,10 +15,5 @@
       <artifactId>junit</artifactId>
       <scope>test</scope>
     </dependency>
-    <dependency>
-      <groupId>com.finalist</groupId>
-      <artifactId>myassignment-site</artifactId>
-      <version>${project.version}</version>
-     </dependency>
   </dependencies>
 </project>

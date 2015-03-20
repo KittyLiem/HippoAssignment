@@ -5,6 +5,7 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlRootElement;
 
+@Deprecated
 @XmlRootElement(name = "trajectmeting")
 @XmlAccessorType(XmlAccessType.NONE)
 public class TrajectmetingRepresentation {

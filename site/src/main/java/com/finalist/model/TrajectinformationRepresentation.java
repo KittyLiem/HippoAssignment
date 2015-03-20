@@ -11,6 +11,7 @@ import org.slf4j.LoggerFactory;
 import com.finalist.beans.Trajectinformation;
 import com.finalist.beans.Trajectmeasurement;
 
+@Deprecated
 @XmlRootElement(name = "trajectinformation")
 public class TrajectinformationRepresentation extends BaseDocumentRepresentation {
 	

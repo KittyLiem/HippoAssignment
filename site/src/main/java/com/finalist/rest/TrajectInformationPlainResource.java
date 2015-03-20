@@ -33,6 +33,7 @@ import com.finalist.services.ResponseUtils;
  *
  * Resource for Plain RESTful API
  */
+@Deprecated
 @Path("/trajectinformation/")
 public class TrajectInformationPlainResource extends BaseRestResource {
 		

@@ -8,19 +8,15 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-import com.finalist.beans.Trajectinformation;
-import com.finalist.beans.Trajectmeasurement;
-import com.finalist.model.TrajectinformationRepresentation;
-
 @XmlRootElement(name="trajectinformation")
 @XmlType(propOrder={"id", "name", "length", "trajectMetingen"})
 public class TrajectInfo {
  	
 	private String id;
 	private String name;
-	private Long length;
+	private int length;
 	@XmlElement(name="trajectmeting", type=TrajectMeting.class)
-	private List<Trajectmeasurement> trajectMetingen;
+	private List<TrajectMeting> trajectMetingen;
 	
 	@XmlAttribute
 	public String getId(){
@@ -38,26 +34,27 @@ public class TrajectInfo {
 		this.name = name;
 	}
 	@XmlAttribute
- 	public Long getLength(){
+ 	public int getLength(){
 		return this.length;
 	}
-	public void setLength(Long length){
+	public void setLength(int length){
 		this.length = length;
 	}
 
-	public List<Trajectmeasurement> getTrajectmetingen(){
+	public List<TrajectMeting> getTrajectmetingen(){
 		return this.trajectMetingen;
 	}
-	public void setTrajectMetingen(List<Trajectmeasurement> trajectMetingen) {
+	public void setTrajectMetingen(List<TrajectMeting> trajectMetingen) {
 		this.trajectMetingen = trajectMetingen;
 	} 	
 	
-	public TrajectInfo represent(Trajectinformation bean) throws RepositoryException {
+	/* public TrajectInfo represent(Trajectinformation bean) throws RepositoryException {
 		//super.represent(bean);
 		this.id = bean.getTrajectId();
 		this.name = bean.getTrajectName();
 		this.length = bean.getTrajectLength();
-		this.trajectMetingen = bean.getTrajectMeasurement();
+		//this.trajectMetingen = (List<TrajectMeting>) bean.getTrajectMeasurement();
+		
 		return this;
-	}
+	} */
 }
