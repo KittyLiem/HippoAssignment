@@ -1,230 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="content">
-  <sv:property sv:name="jcr:primaryType" sv:type="Name">
-    <sv:value>hippostd:folder</sv:value>
-  </sv:property>
-  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-    <sv:value>mix:referenceable</sv:value>
-    <sv:value>hippotranslation:translated</sv:value>
-  </sv:property>
-  <sv:property sv:name="jcr:uuid" sv:type="String">
-    <sv:value>f7bdc6a4-d35f-4fb9-8dd9-674b440a8b5f</sv:value>
-  </sv:property>
-  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
-    <sv:value>new-content-folder</sv:value>
-    <sv:value>new-content-document</sv:value>
-  </sv:property>
-  <sv:property sv:name="hippotranslation:id" sv:type="String">
-    <sv:value>b6af10be-587f-456c-bfec-a556f3e212de</sv:value>
-  </sv:property>
-  <sv:property sv:name="hippotranslation:locale" sv:type="String">
-    <sv:value>en</sv:value>
-  </sv:property>
-  <sv:node sv:name="sample-document">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:handle</sv:value>
-    </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
-      <sv:value>hippo:translated</sv:value>
-    </sv:property>
-    <sv:property sv:name="jcr:uuid" sv:type="String">
-      <sv:value>64ab4648-0c20-40d2-9f18-d7a394f0334b</sv:value>
-    </sv:property>
-    <sv:node sv:name="sample-document">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>myassignment:contentdocument</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>be03d249-cf8b-4d5a-b64f-ecb0bff70f2f</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-        <sv:value>live</sv:value>
-        <sv:value>preview</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>content/sample-document</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:holder" sv:type="String">
-        <sv:value>admin</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:state" sv:type="String">
-        <sv:value>published</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-        <sv:value>live</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-        <sv:value>admin</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-        <sv:value>2014-03-25T16:52:00.000+01:00</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2014-03-25T16:52:00.000+01:00</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-        <sv:value>admin</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2014-03-25T16:52:00.000+01:00</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippotranslation:id" sv:type="String">
-        <sv:value>143906fa-4d1d-460d-b5cc-8f3eb46316e1</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippotranslation:locale" sv:type="String">
-        <sv:value>en</sv:value>
-      </sv:property>
-      <sv:property sv:name="myassignment:introduction" sv:type="String">
-        <sv:value>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</sv:value>
-      </sv:property>
-      <sv:property sv:name="myassignment:mypublicationdate" sv:type="Date">
-        <sv:value>2014-03-25T16:52:00.000+01:00</sv:value>
-      </sv:property>
-      <sv:property sv:name="myassignment:title" sv:type="String">
-        <sv:value>Lorem</sv:value>
-      </sv:property>
-      <sv:node sv:name="myassignment:content">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippostd:html</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;html&gt;
-            &lt;body&gt;
-
-            &lt;p&gt;Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-            roots in a piece of classical Latin literature from 45 BC, making it over 2000
-            years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
-            Virginia, looked up one of the more obscure Latin words, consectetur, from a
-            Lorem Ipsum passage, and going through the cites of the word in classical
-            literature, discovered the undoubtable source. Lorem Ipsum comes from sections
-            1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
-            Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
-            ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
-            "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.&lt;/p&gt;
-
-            &lt;/body&gt;
-            &lt;/html&gt;</sv:value>
-        </sv:property>
-      </sv:node>
-    </sv:node>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>Sample document</sv:value>
-      </sv:property>
-    </sv:node>
-  </sv:node>
-  <sv:node sv:name="another-sample-document">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:handle</sv:value>
-    </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
-      <sv:value>hippo:translated</sv:value>
-    </sv:property>
-    <sv:property sv:name="jcr:uuid" sv:type="String">
-      <sv:value>9caea793-42b1-4f3e-a8e5-d58f810ce2ef</sv:value>
-    </sv:property>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>Another sample document</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="another-sample-document">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>myassignment:contentdocument</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>2787e9b2-35fd-480d-9cbc-9f141bf7bd94</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-        <sv:value>live</sv:value>
-        <sv:value>preview</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>content/another-sample-document</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:holder" sv:type="String">
-        <sv:value>admin</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:state" sv:type="String">
-        <sv:value>published</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-        <sv:value>live</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-        <sv:value>admin</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-        <sv:value>2014-03-25T16:52:00.000+01:00</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2014-03-25T16:57:00.000+01:00</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-        <sv:value>admin</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2014-03-25T16:57:00.000+01:00</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippotranslation:id" sv:type="String">
-        <sv:value>f7363145-0c49-4ac8-861e-6d4ad717a5b2</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippotranslation:locale" sv:type="String">
-        <sv:value>en</sv:value>
-      </sv:property>
-      <sv:property sv:name="myassignment:introduction" sv:type="String">
-        <sv:value>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</sv:value>
-      </sv:property>
-      <sv:property sv:name="myassignment:mypublicationdate" sv:type="Date">
-        <sv:value>2014-03-25T16:52:00.000+01:00</sv:value>
-      </sv:property>
-      <sv:property sv:name="myassignment:title" sv:type="String">
-        <sv:value>Another Lorem</sv:value>
-      </sv:property>
-      <sv:node sv:name="myassignment:content">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippostd:html</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;html&gt;
-            &lt;body&gt;
-
-            &lt;p&gt;Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-            roots in a piece of classical Latin literature from 45 BC, making it over 2000
-            years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
-            Virginia, looked up one of the more obscure Latin words, consectetur, from a
-            Lorem Ipsum passage, and going through the cites of the word in classical
-            literature, discovered the undoubtable source. Lorem Ipsum comes from sections
-            1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
-            Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
-            ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
-            "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.&lt;/p&gt;
-
-            &lt;/body&gt;
-            &lt;/html&gt;</sv:value>
-        </sv:property>
-      </sv:node>
-    </sv:node>
-  </sv:node>
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:h="http://www.onehippo.org/jcr/xmlimport" sv:name="content" h:merge="combine">
   <sv:node sv:name="about">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:handle</sv:value>
@@ -234,7 +8,7 @@
       <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
-      <sv:value>64422afd-73c1-4dea-b3ae-67ae1a78e673</sv:value>
+      <sv:value>15fd96a3-7122-4b89-bbb8-39f30c12ec04</sv:value>
     </sv:property>
     <sv:node sv:name="about">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -244,12 +18,12 @@
         <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>52abf7a4-34b6-41a9-a5ee-5632ce499a36</sv:value>
+        <sv:value>eb3a3dcd-56b7-4399-9657-96dfedc73d3c</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>content/about/about[2]</sv:value>
-        <sv:value>content/about/about[3]</sv:value>
+        <sv:value>about/about[2]</sv:value>
+        <sv:value>about/about[3]</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:state" sv:type="String">
         <sv:value>draft</sv:value>
@@ -261,39 +35,42 @@
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-        <sv:value>2015-03-17T21:28:06.877+01:00</sv:value>
+        <sv:value>2015-03-21T15:49:27.282+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-03-17T21:28:07.682+01:00</sv:value>
+        <sv:value>2015-03-21T16:02:04.420+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
-        <sv:value>8e8bb3fb-f243-41f4-8fb2-5326e17bdad3</sv:value>
+        <sv:value>7bea1d7c-0356-4b8f-a5ab-a86f7d079ed9</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>en</sv:value>
       </sv:property>
       <sv:property sv:name="myassignment:introduction" sv:type="String">
-        <sv:value>This is a demo of  Hippo CMS in combination with my Finalist assignment.</sv:value>
+        <sv:value>This is a demo of my assignment using Hippo CMS Essentials</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:mypublicationdate" sv:type="Date">
+        <sv:value>2015-03-21T15:55:00.000+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="myassignment:title" sv:type="String">
-        <sv:value>About Hippo archetype (Go Green) and my assignment</sv:value>
+        <sv:value>About</sv:value>
       </sv:property>
       <sv:node sv:name="myassignment:content">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;h3 style="text-align: left;"&gt;Hippo CMS&lt;/h3&gt; 
-&lt;p style="text-align:left"&gt;With our innovative Content Management and Portal technologies, Hippo helps companies manage and access information, protect sensitive data, share knowledge, optimize collaboration and reduce operational costs. The combination of enterprise-class support and open source technology, brings our customers the best of both worlds: the flexibility, innovation and robustness of open source software combined with the stability, reach and service quality of an established vendor.&lt;/p&gt; 
-&lt;p style="text-align:left"&gt;Hippo was founded in 1999 and today has a global base of over 150 customers across multiple categories including education, publishing, manufacturing, financial services and government. Hippo was recognized by Deloitte in its&amp;nbsp;
-&lt;a href="http://www.deloitte.com/view/en_GX/global/categories/technology-media-telecommunications/deloitte-technology-fast-500-emea/index.htm" style="color: rgb(111, 93, 22); text-decoration: none;"&gt;Fast 500&lt;/a&gt;&amp;nbsp;for 2007, 2008 and 2009 based on revenue growth. To support the rapidly expanding Hippo community, Hippo has over 60 employees located in its European headquarters in Amsterdam, The Netherlands and North American headquarters in San Francisco, California.&lt;/p&gt; 
+          <sv:value>&lt;h3 style="text-align:left"&gt;About my assignment&lt;/h3&gt; 
+&lt;p style="text-align:left"&gt;The target of my assignment is to retrieve information (in JSON format) about traffic on trajects in and around Amsterdam every 5 minutes. Save the information in the repository, make it possible to retrieve hourly averages and visualize the information.&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;The target I added is&amp;nbsp;to use Hippo Essentials and the available doumentation and information from Hippo.&amp;nbsp;&lt;/p&gt; 
 &lt;p style="text-align:left"&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h3 style="text-align: left;"&gt;My assignment&lt;/h3&gt; 
-&lt;p&gt;To test the level of my skills a starting assignment is given to new employees. In essence the purpose of the assignment is the same for different competences. As my competences will contain Java and Hippo CMS I have choosen to develop the assignment with the help of the Hippo archetype, Developer Trail (at least Sprint 1), Hippo documentation and any help from my mentor, Rob Krabbendam, and of course the world wide web.&lt;/p&gt; 
-&lt;p&gt;A dairy is to be found in the news items, and the result of the assignment in...&lt;/p&gt;</sv:value>
+&lt;h3&gt;About Hippo&lt;/h3&gt; 
+&lt;p&gt;&amp;quot;With our innovative Content Management and Portal technologies, Hippo helps companies manage and access information, protect sensitive data, share knowledge, optimize collaboration and reduce operational costs. The combination of enterprise-class support and open source technology, brings our customers the best of both worlds: the flexibility, innovation and robustness of open source software combined with the stability, reach and service quality of an established vendor.&lt;/p&gt; 
+&lt;p&gt;Hippo was founded in 1999 and today has a global base of over 150 customers across multiple categories including education, publishing, manufacturing, financial services and government. Hippo was recognized by Deloitte in its&amp;nbsp; 
+&lt;a href="http://www.deloitte.com/view/en_GX/global/categories/technology-media-telecommunications/deloitte-technology-fast-500-emea/index.htm" style="color: rgb(111, 93, 22); text-decoration: none;"&gt;Fast 500&lt;/a&gt;&amp;nbsp;for 2007, 2008 and 2009 based on revenue growth. To support the rapidly expanding Hippo community, Hippo has over 60 employees located in its European headquarters in Amsterdam, The Netherlands and North American headquarters in San Francisco, California.&amp;quot;&lt;/p&gt;</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>
@@ -317,13 +94,13 @@
         <sv:value>mix:versionable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>89601fa9-8690-453d-bc42-2df6f21e6248</sv:value>
+        <sv:value>584de80a-3f67-432f-94ca-bfbe75ccfce9</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>preview</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>content/about/about[3]</sv:value>
+        <sv:value>about/about[3]</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:state" sv:type="String">
         <sv:value>unpublished</sv:value>
@@ -335,39 +112,42 @@
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-        <sv:value>2015-03-17T21:28:06.877+01:00</sv:value>
+        <sv:value>2015-03-21T15:49:27.282+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-03-17T21:36:42.770+01:00</sv:value>
+        <sv:value>2015-03-21T16:03:13.696+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
-        <sv:value>8e8bb3fb-f243-41f4-8fb2-5326e17bdad3</sv:value>
+        <sv:value>7bea1d7c-0356-4b8f-a5ab-a86f7d079ed9</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>en</sv:value>
       </sv:property>
       <sv:property sv:name="myassignment:introduction" sv:type="String">
-        <sv:value>This is a demo of  Hippo CMS in combination with my Finalist assignment.</sv:value>
+        <sv:value>This is a demo of my assignment using Hippo CMS Essentials</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:mypublicationdate" sv:type="Date">
+        <sv:value>2015-03-21T15:55:00.000+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="myassignment:title" sv:type="String">
-        <sv:value>About Hippo archetype (Go Green) and my assignment</sv:value>
+        <sv:value>About</sv:value>
       </sv:property>
       <sv:node sv:name="myassignment:content">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;h3 style="text-align: left;"&gt;Hippo CMS&lt;/h3&gt; 
-&lt;p style="text-align:left"&gt;With our innovative Content Management and Portal technologies, Hippo helps companies manage and access information, protect sensitive data, share knowledge, optimize collaboration and reduce operational costs. The combination of enterprise-class support and open source technology, brings our customers the best of both worlds: the flexibility, innovation and robustness of open source software combined with the stability, reach and service quality of an established vendor.&lt;/p&gt; 
-&lt;p style="text-align:left"&gt;Hippo was founded in 1999 and today has a global base of over 150 customers across multiple categories including education, publishing, manufacturing, financial services and government. Hippo was recognized by Deloitte in its&amp;nbsp;
-&lt;a href="http://www.deloitte.com/view/en_GX/global/categories/technology-media-telecommunications/deloitte-technology-fast-500-emea/index.htm" style="color: rgb(111, 93, 22); text-decoration: none;"&gt;Fast 500&lt;/a&gt;&amp;nbsp;for 2007, 2008 and 2009 based on revenue growth. To support the rapidly expanding Hippo community, Hippo has over 60 employees located in its European headquarters in Amsterdam, The Netherlands and North American headquarters in San Francisco, California.&lt;/p&gt; 
+          <sv:value>&lt;h3 style="text-align:left"&gt;About my assignment&lt;/h3&gt; 
+&lt;p style="text-align:left"&gt;The target of my assignment is to retrieve information (in JSON format) about traffic on trajects in and around Amsterdam every 5 minutes. Save the information in the repository, make it possible to retrieve hourly averages and visualize the information.&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;The target I added is&amp;nbsp;to use Hippo Essentials and the available doumentation and information from Hippo.&amp;nbsp;&lt;/p&gt; 
 &lt;p style="text-align:left"&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h3 style="text-align: left;"&gt;My assignment&lt;/h3&gt; 
-&lt;p&gt;To test the level of my skills a starting assignment is given to new employees. In essence the purpose of the assignment is the same for different competences. As my competences will contain Java and Hippo CMS I have choosen to develop the assignment with the help of the Hippo archetype, Developer Trail (at least Sprint 1), Hippo documentation and any help from my mentor, Rob Krabbendam, and of course the world wide web.&lt;/p&gt; 
-&lt;p&gt;A dairy is to be found in the news items, and the result of the assignment in...&lt;/p&gt;</sv:value>
+&lt;h3&gt;About Hippo&lt;/h3&gt; 
+&lt;p&gt;&amp;quot;With our innovative Content Management and Portal technologies, Hippo helps companies manage and access information, protect sensitive data, share knowledge, optimize collaboration and reduce operational costs. The combination of enterprise-class support and open source technology, brings our customers the best of both worlds: the flexibility, innovation and robustness of open source software combined with the stability, reach and service quality of an established vendor.&lt;/p&gt; 
+&lt;p&gt;Hippo was founded in 1999 and today has a global base of over 150 customers across multiple categories including education, publishing, manufacturing, financial services and government. Hippo was recognized by Deloitte in its&amp;nbsp; 
+&lt;a href="http://www.deloitte.com/view/en_GX/global/categories/technology-media-telecommunications/deloitte-technology-fast-500-emea/index.htm" style="color: rgb(111, 93, 22); text-decoration: none;"&gt;Fast 500&lt;/a&gt;&amp;nbsp;for 2007, 2008 and 2009 based on revenue growth. To support the rapidly expanding Hippo community, Hippo has over 60 employees located in its European headquarters in Amsterdam, The Netherlands and North American headquarters in San Francisco, California.&amp;quot;&lt;/p&gt;</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>
@@ -379,13 +159,13 @@
         <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>af216ea5-68f1-4766-adeb-94fee8d93d9c</sv:value>
+        <sv:value>9ac6a6d6-2a98-488f-bd6c-172af6de191a</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>content/about/about[2]</sv:value>
+        <sv:value>about/about[2]</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:state" sv:type="String">
         <sv:value>published</sv:value>
@@ -397,42 +177,45 @@
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-        <sv:value>2015-03-17T21:28:06.877+01:00</sv:value>
+        <sv:value>2015-03-21T15:49:27.282+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-03-17T21:36:42.770+01:00</sv:value>
+        <sv:value>2015-03-21T16:03:13.696+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2015-03-17T21:36:48.730+01:00</sv:value>
+        <sv:value>2015-03-21T16:03:17.223+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
-        <sv:value>8e8bb3fb-f243-41f4-8fb2-5326e17bdad3</sv:value>
+        <sv:value>7bea1d7c-0356-4b8f-a5ab-a86f7d079ed9</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>en</sv:value>
       </sv:property>
       <sv:property sv:name="myassignment:introduction" sv:type="String">
-        <sv:value>This is a demo of  Hippo CMS in combination with my Finalist assignment.</sv:value>
+        <sv:value>This is a demo of my assignment using Hippo CMS Essentials</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:mypublicationdate" sv:type="Date">
+        <sv:value>2015-03-21T15:55:00.000+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="myassignment:title" sv:type="String">
-        <sv:value>About Hippo archetype (Go Green) and my assignment</sv:value>
+        <sv:value>About</sv:value>
       </sv:property>
       <sv:node sv:name="myassignment:content">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;h3 style="text-align: left;"&gt;Hippo CMS&lt;/h3&gt; 
-&lt;p style="text-align:left"&gt;With our innovative Content Management and Portal technologies, Hippo helps companies manage and access information, protect sensitive data, share knowledge, optimize collaboration and reduce operational costs. The combination of enterprise-class support and open source technology, brings our customers the best of both worlds: the flexibility, innovation and robustness of open source software combined with the stability, reach and service quality of an established vendor.&lt;/p&gt; 
-&lt;p style="text-align:left"&gt;Hippo was founded in 1999 and today has a global base of over 150 customers across multiple categories including education, publishing, manufacturing, financial services and government. Hippo was recognized by Deloitte in its&amp;nbsp;
-&lt;a href="http://www.deloitte.com/view/en_GX/global/categories/technology-media-telecommunications/deloitte-technology-fast-500-emea/index.htm" style="color: rgb(111, 93, 22); text-decoration: none;"&gt;Fast 500&lt;/a&gt;&amp;nbsp;for 2007, 2008 and 2009 based on revenue growth. To support the rapidly expanding Hippo community, Hippo has over 60 employees located in its European headquarters in Amsterdam, The Netherlands and North American headquarters in San Francisco, California.&lt;/p&gt; 
+          <sv:value>&lt;h3 style="text-align:left"&gt;About my assignment&lt;/h3&gt; 
+&lt;p style="text-align:left"&gt;The target of my assignment is to retrieve information (in JSON format) about traffic on trajects in and around Amsterdam every 5 minutes. Save the information in the repository, make it possible to retrieve hourly averages and visualize the information.&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;The target I added is&amp;nbsp;to use Hippo Essentials and the available doumentation and information from Hippo.&amp;nbsp;&lt;/p&gt; 
 &lt;p style="text-align:left"&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h3 style="text-align: left;"&gt;My assignment&lt;/h3&gt; 
-&lt;p&gt;To test the level of my skills a starting assignment is given to new employees. In essence the purpose of the assignment is the same for different competences. As my competences will contain Java and Hippo CMS I have choosen to develop the assignment with the help of the Hippo archetype, Developer Trail (at least Sprint 1), Hippo documentation and any help from my mentor, Rob Krabbendam, and of course the world wide web.&lt;/p&gt; 
-&lt;p&gt;A dairy is to be found in the news items, and the result of the assignment in...&lt;/p&gt;</sv:value>
+&lt;h3&gt;About Hippo&lt;/h3&gt; 
+&lt;p&gt;&amp;quot;With our innovative Content Management and Portal technologies, Hippo helps companies manage and access information, protect sensitive data, share knowledge, optimize collaboration and reduce operational costs. The combination of enterprise-class support and open source technology, brings our customers the best of both worlds: the flexibility, innovation and robustness of open source software combined with the stability, reach and service quality of an established vendor.&lt;/p&gt; 
+&lt;p&gt;Hippo was founded in 1999 and today has a global base of over 150 customers across multiple categories including education, publishing, manufacturing, financial services and government. Hippo was recognized by Deloitte in its&amp;nbsp; 
+&lt;a href="http://www.deloitte.com/view/en_GX/global/categories/technology-media-telecommunications/deloitte-technology-fast-500-emea/index.htm" style="color: rgb(111, 93, 22); text-decoration: none;"&gt;Fast 500&lt;/a&gt;&amp;nbsp;for 2007, 2008 and 2009 based on revenue growth. To support the rapidly expanding Hippo community, Hippo has over 60 employees located in its European headquarters in Amsterdam, The Netherlands and North American headquarters in San Francisco, California.&amp;quot;&lt;/p&gt;</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>

@@ -3,7 +3,7 @@
     <sv:value>hst:sitemap</sv:value>
   </sv:property>
   <sv:property sv:name="hst:lastmodified" sv:type="Date">
-    <sv:value>2015-03-17T21:43:18.089+01:00</sv:value>
+    <sv:value>2015-03-21T15:58:24.122+01:00</sv:value>
   </sv:property>
   <sv:property sv:name="hst:lastmodifiedby" sv:type="String">
     <sv:value>admin</sv:value>
@@ -111,39 +111,6 @@
     <sv:property sv:name="hst:refId" sv:type="String">
       <sv:value>search</sv:value>
     </sv:property>
-  </sv:node>
-  <sv:node sv:name="trajectinformation">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hst:sitemapitem</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
-      <sv:value>hst:pages/trajectinformationlist</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:relativecontentpath" sv:type="String">
-      <sv:value>trajectinformation</sv:value>
-    </sv:property>
-    <sv:node sv:name="_any_">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:sitemapitem</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
-        <sv:value>hst:pages/trajectinformationlist</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:relativecontentpath" sv:type="String">
-        <sv:value>${parent}/${1}</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="_any_.html">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:sitemapitem</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
-        <sv:value>hst:pages/trajectinformationpage</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:relativecontentpath" sv:type="String">
-        <sv:value>${parent}/${1}</sv:value>
-      </sv:property>
-    </sv:node>
   </sv:node>
   <sv:node sv:name="about">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">

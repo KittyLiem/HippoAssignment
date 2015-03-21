@@ -57,7 +57,7 @@
       <sv:value>nl</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:message" sv:type="String">
-      <sv:value>nieuw nieuwsbericht</sv:value>
+      <sv:value>nieuw bannerdocument</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="hippo:translation">

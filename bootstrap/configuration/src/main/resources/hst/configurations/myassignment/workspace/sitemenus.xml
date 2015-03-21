@@ -7,7 +7,7 @@
       <sv:value>hst:sitemenu</sv:value>
     </sv:property>
     <sv:property sv:name="hst:lastmodified" sv:type="Date">
-      <sv:value>2015-03-17T21:59:00.185+01:00</sv:value>
+      <sv:value>2015-03-21T15:56:30.187+01:00</sv:value>
     </sv:property>
     <sv:node sv:name="Home">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -31,7 +31,7 @@
         <sv:value>false</sv:value>
       </sv:property>
     </sv:node>
-    <sv:node sv:name="Traject Information">
+    <sv:node sv:name="Trajectinformation Amsterdam">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hst:sitemenuitem</sv:value>
       </sv:property>

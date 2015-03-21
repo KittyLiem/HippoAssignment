@@ -66,7 +66,15 @@
       <sv:value>jsp/myassignment/search-main.jsp</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="trajectinformation-main-trajectinformationlist">
+  <sv:node sv:name="threecolumns-main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/myassignment/threecolumnsmain.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="trajectinformationlist-main-trajectinformationlist">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hst:template</sv:value>
     </sv:property>
@@ -80,14 +88,6 @@
     </sv:property>
     <sv:property sv:name="hst:renderpath" sv:type="String">
       <sv:value>jsp/myassignment/trajectinformationpage-main.jsp</sv:value>
-    </sv:property>
-  </sv:node>
-  <sv:node sv:name="threecolumns-main">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hst:template</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>jsp/myassignment/threecolumns-main.jsp</sv:value>
     </sv:property>
   </sv:node>
 </sv:node>

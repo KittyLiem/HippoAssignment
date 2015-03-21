@@ -41,9 +41,12 @@ import org.common.domain.TrajectMeting;
 import org.hippoecm.hst.content.annotations.Persistable;
 import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.ObjectBeanManagerException;
+import org.hippoecm.hst.content.beans.manager.workflow.BaseWorkflowCallbackHandler;
 import org.hippoecm.hst.content.beans.manager.workflow.WorkflowPersistenceManager;
 import org.hippoecm.hst.content.beans.standard.HippoBean;
+import org.hippoecm.hst.content.beans.standard.HippoDocument;
 import org.hippoecm.hst.content.beans.standard.HippoFolderBean;
+import org.hippoecm.hst.core.component.HstComponentException;
 import org.hippoecm.hst.core.request.HstRequestContext;
 import org.hippoecm.repository.api.Workflow;
 import org.hippoecm.repository.api.WorkflowException;
@@ -101,85 +104,60 @@ public class TrajectinformationResource extends BaseRestResource {
     				@Context HttpServletRequest servletRequest, 
     				@Context HttpServletResponse servletResponse, 
     				@Context UriInfo uriInfo,
-    				TrajectInfo trajectInfo) {
+    				TrajectInfo trajectInfo) throws RemoteException, WorkflowException {
         
         HstRequestContext requestContext = getRequestContext(servletRequest);
         
         try {
             WorkflowPersistenceManager wpm = (WorkflowPersistenceManager) getPersistenceManager(requestContext);
+            
+            // go to trajectinformatio folder
             HippoFolderBean contentBaseFolder = getMountContentBaseBean(requestContext);
             String trajectInformationPath = contentBaseFolder.getPath() + "/trajectinformation";
             
-        // via folderworkflow
+            // get the folder bean
             HippoFolderBean trajectFolder = (HippoFolderBean) wpm.getObject(trajectInformationPath);
             
-            Workflow wf = wpm.getWorkflow(FOLDER_NODE_WORKFLOW_CATEGORY, trajectFolder.getNode());
+            // try to get trajectinformation document with id
+            Object hippoDoc = wpm.getObject(trajectFolder.getPath() + "/" + trajectInfo.getId());
             
-            javax.jcr.Node newHandleNode = trajectFolder.getNode();
-            log.info("node: " + newHandleNode.getName());
+            boolean exists = false;
+            if (hippoDoc instanceof Trajectinformation) {
+            	exists = true;
+            	log.info("The id exists in repository");
+            }
+            
+            wpm.setWorkflowCallbackHandler(new BaseWorkflowCallbackHandler<DocumentWorkflow>() {
+                public void processWorkflow(DocumentWorkflow wf) throws Exception {
+                    wf.publish();
+                }
+            });
 
-            String added = ((FolderWorkflow) wf).add("new-trajectinformation", Trajectinformation.JCR_TYPE, trajectInfo.getId());
-            log.info("In site, added: " + added);
+            if (!exists) {
+	        	
+	            String trajectPath = wpm.createAndReturn(trajectFolder.getPath(), "myassignment:trajectinformation", trajectInfo.getId(), true);
             
-            HippoBean docuBean = (HippoBean) wpm.getObject(added);
-            newHandleNode = docuBean.getNode();
-            log.info("gemaakte node: " + newHandleNode.getName());
-      
-            newHandleNode.setProperty("myassignment:trajectName", trajectInfo.getName());
-            wpm.update((HippoBean)newHandleNode);
+	            Trajectinformation trajectinformation = (Trajectinformation) wpm.getObject(trajectPath);
+	             
+	            if (trajectinformation == null) {
+	                throw new HstComponentException("Failed to add Trajectinformation");
+	            }
+	            trajectinformation.setTrajectId(trajectInfo.getId());
+	            trajectinformation.setTrajectLength((long) trajectInfo.getLength());
+	            trajectinformation.setTrajectName(trajectInfo.getName());
+	
+	            wpm.update(trajectinformation);
+	            log.info("trajectinformation: " + trajectinformation.getTrajectId());
+            }
+            else {
+	
+	   
+	        	// TODO add childnode to document node
+	       
+            }
             
-       // document workflow
-            
-           	//javax.jcr.Node newHandleNode = (javax.jcr.Node) trajectFolder.getNode();
-           	
-            //DocumentWorkflow dwf = (DocumentWorkflow)wpm.getWorkflow(DEFAULT_WORKFLOW_CATEGORY, newHandleNode);
-            
-            //dwf.publish();
-            //Trajectinformation trajectinformation = (Trajectinformation) getBean(added);
-            //log.info("trajectinformation: " + newHandleNode.getNode(added));
-           	//trajectinformation.setTrajectId(trajectInfo.getId());
-           	//trajectinformation.setTrajectName(trajectInfo.getName());
-           	//trajectinformation.setTrajectLength(trajectInfo.getLength());
-            //wf.hints();
-            
-            //String beanPath = wpm.createAndReturn(trajectInformationPath, 
-            //									"myassignment:trajectinformation",
-            //									trajectInfo.getId(),
-            //									true);
-
-            
-            /*Trajectinformation trajectinformation = (Trajectinformation) wpm.getObject(beanPath); 
-
-           	trajectinformation.setTrajectId(trajectInfo.getId());
-           	trajectinformation.setTrajectName(trajectInfo.getName());
-           	trajectinformation.setTrajectLength(trajectInfo.getLength());
-           	
-        	log.info("Ontvangen van trajectinfo in site: " + trajectinformation.getTrajectId());
-           	*/
-           	// fill attributes for childnode 
-           	/*List<TrajectMeting> trajectMetingen = trajectInfo.getTrajectmetingen();
-        	Trajectmeasurement trajectmeting = new Trajectmeasurement();
-        	trajectmeting.setTrajectMeasurementTraveltime((long) trajectMetingen.get(0).getReistijd());
-        	trajectmeting.setTrajectMeasurementVelocity((long) trajectMetingen.get(0).getSnelheid());
-        	Calendar cal = Calendar.getInstance();
-        	SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
-        	cal.setTime(sdf.parse(trajectMetingen.get(0).getMetingDatum()));
-        	trajectmeting.setTrajectMeasurementDate(cal);
-           	log.info("Trajectmeasurement to be added: " + trajectmeting.getTrajectMeasurementDate());
-           	*/
-        	// TODO add childnode to document node
-                
-           	//wpm.update(trajectinformation);
-
-            // need this to publish?
-           	//javax.jcr.Node newHandleNode = trajectinformation.getNode().getParent();
-            //DocumentWorkflow dwf = (DocumentWorkflow)wpm.getWorkflow(DEFAULT_WORKFLOW_CATEGORY, newHandleNode);
-            // dwf.publish();
-
-           	wpm.save();
-            
-            return trajectInfo;
-            
+            return trajectInfo;      
+	            
         } catch (ObjectBeanManagerException e) {
             if (log.isDebugEnabled()) {
                 log.warn("beanmanager Failed to create trajectInformation.", e);
@@ -196,12 +174,12 @@ public class TrajectinformationResource extends BaseRestResource {
             }
             
             throw new WebApplicationException(e, ResponseUtils.buildServerErrorResponse(e));
-        } catch (RemoteException e) {
+        } /*catch (RemoteException e) {
         	log.warn("Remote exception.", e);
 		} catch (WorkflowException e) {
         	log.warn("Workflow exception.", e);
-		}
-		return trajectInfo;
+		}*/
+		//return trajectInfo;
 
     }
 

@@ -2,7 +2,6 @@ package com.finalist.beans;
 
 import java.util.List;
 
-import org.common.domain.TrajectInfo;
 import org.hippoecm.hst.content.beans.ContentNodeBindingException;
 import org.hippoecm.hst.content.beans.Node;
 import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
@@ -19,11 +18,12 @@ public class Trajectinformation extends BaseDocument {
 	
 	private String trajectId;
 	private String trajectName;
-	private double trajectLength;
+	private Long trajectLength;
+	private List<Trajectmeasurement> trajectMeasurements;
 	
 	@HippoEssentialsGenerated(internalName = "myassignment:trajectId")
 	public String getTrajectId() {
-		return getProperty("myassignment:trajectId");
+		return (trajectId == null ? (String) getProperty("myassignment:trajectId") : trajectId);
 	}
 	
 	public void setTrajectId(String trajectId) {
@@ -32,7 +32,7 @@ public class Trajectinformation extends BaseDocument {
 
 	@HippoEssentialsGenerated(internalName = "myassignment:trajectName")
 	public String getTrajectName() {
-		return getProperty("myassignment:trajectName");
+		return (trajectName == null ? (String) getProperty("myassignment:trajectName") : trajectName);
 	}
 	
 	public void setTrajectName(String trajectName) {
@@ -41,10 +41,10 @@ public class Trajectinformation extends BaseDocument {
 
 	@HippoEssentialsGenerated(internalName = "myassignment:trajectLength")
 	public Long getTrajectLength() {
-		return getProperty("myassignment:trajectLength");
+		return (trajectLength == null ? (Long) getProperty("myassignment:trajectLength") : trajectLength);
 	}
 	
-	public void setTrajectLength(double trajectLength) {
+	public void setTrajectLength(Long trajectLength) {
 		this.trajectLength = trajectLength;
 	}
 
@@ -52,6 +52,16 @@ public class Trajectinformation extends BaseDocument {
 	public List<Trajectmeasurement> getTrajectMeasurement() {
 		return getChildBeansByName("myassignment:trajectMeasurement",
 				Trajectmeasurement.class);
+	}
+	
+	public void setTrajectmeasurment(List<Trajectmeasurement> trajectMeasurments) {
+		this.trajectMeasurements = trajectMeasurments;
+	}
+	
+	public List<Trajectmeasurement> addTrajectMeasurement(Trajectmeasurement trajectmeasurement) {
+		List<Trajectmeasurement> trajectMeasurements = getTrajectMeasurement();
+		trajectMeasurements.add(trajectmeasurement);
+		return trajectMeasurements;
 	}
 	
 	public boolean bind(Object content, javax.jcr.Node node)
