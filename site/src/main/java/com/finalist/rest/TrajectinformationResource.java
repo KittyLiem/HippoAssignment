@@ -120,6 +120,7 @@ public class TrajectinformationResource extends BaseRestResource {
             
             // try to get trajectinformation document with id
             Object hippoDoc = wpm.getObject(trajectFolder.getPath() + "/" + trajectInfo.getId());
+            log.info("Object found: " + hippoDoc.getClass().getName());
             
             boolean exists = false;
             if (hippoDoc instanceof Trajectinformation) {
@@ -145,6 +146,7 @@ public class TrajectinformationResource extends BaseRestResource {
 	            trajectinformation.setTrajectId(trajectInfo.getId());
 	            trajectinformation.setTrajectLength((long) trajectInfo.getLength());
 	            trajectinformation.setTrajectName(trajectInfo.getName());
+	            //Trajectmeasurement trajectmeasurement = trajectinformation.getHippoCompound(trajectPath, beanMappingClass );
 	
 	            wpm.update(trajectinformation);
 	            log.info("trajectinformation: " + trajectinformation.getTrajectId());

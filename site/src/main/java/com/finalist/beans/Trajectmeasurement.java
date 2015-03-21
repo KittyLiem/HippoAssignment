@@ -16,7 +16,7 @@ public class Trajectmeasurement extends HippoDocument {
 
 	@HippoEssentialsGenerated(internalName = "myassignment:trajectMeasurementDate")
 	public Calendar getTrajectMeasurementDate() {
-		return getProperty("myassignment:trajectMeasurementDate");
+		return (Calendar) ((trajectMeasurementDate == null ? getProperty("myassignment:trajectMeasurementDate") : trajectMeasurementDate));
 	}
 		
 	public void setTrajectMeasurementDate(Calendar trajectMeasurementDate) {
@@ -25,7 +25,7 @@ public class Trajectmeasurement extends HippoDocument {
 
 	@HippoEssentialsGenerated(internalName = "myassignment:trajectMeasurementVelocity")
 	public Long getTrajectMeasurementVelocity() {
-		return getProperty("myassignment:trajectMeasurementVelocity");
+		return (Long) (trajectMeasurementVelocity == null ? getProperty("myassignment:trajectMeasurementVelocity") : trajectMeasurementVelocity);
 	}
 	
 	public void setTrajectMeasurementVelocity(Long trajectMeasurementVelocity) {
@@ -34,7 +34,7 @@ public class Trajectmeasurement extends HippoDocument {
 
 	@HippoEssentialsGenerated(internalName = "myassignment:trajectMeasurementTraveltime")
 	public Long getTrajectMeasurementTraveltime() {
-		return getProperty("myassignment:trajectMeasurementTraveltime");
+		return (Long) (trajectMeasurementTraveltime == null ? getProperty("myassignment:trajectMeasurementTraveltime") : trajectMeasurementTraveltime);
 	}
 	
 	public void setTrajectMeasurementTraveltime(Long trajectMeasurementTraveltime) {
