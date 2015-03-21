@@ -17,7 +17,7 @@
         <sv:value>org.onehippo.cms7.essentials.components.EssentialsListComponent</sv:value>
       </sv:property>
       <sv:property sv:name="hst:template" sv:type="String">
-        <sv:value>trajectinformation-main-trajectinformationlist</sv:value>
+        <sv:value>trajectinformationlist-main-trajectinformationlist</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>

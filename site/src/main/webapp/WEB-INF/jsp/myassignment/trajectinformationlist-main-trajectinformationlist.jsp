@@ -11,7 +11,8 @@
 				<c:forEach var="item" items="${pageable.items}" varStatus="status">  
 					<hst:link var="link" hippobean="${document}"/>
 					<ul class="product-item">
-						<li class="title"><a href="${link}"> ${item.trajectName}</a></li>
+						<li class="title"><a href="${link}"> ${item.trajectId}</a></li>
+						<li><a href="${link}"> ${item.trajectName}</a></li>
 						<li>${item.trajectLength}</li>
 						<!--TODO add measurements -->
 					</ul>             

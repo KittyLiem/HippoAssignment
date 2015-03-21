@@ -85,26 +85,12 @@
         <sv:property sv:name="hst:mountpoint" sv:type="String">
           <sv:value>/hst:hst/hst:sites/myassignment</sv:value>
         </sv:property>
-        <sv:node sv:name="restapi">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hst:mount</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:alias" sv:type="String">
-            <sv:value>restapi</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:isSite" sv:type="Boolean">
-            <sv:value>false</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:namedpipeline" sv:type="String">
-            <sv:value>JaxrsRestContentPipeline</sv:value>
-          </sv:property>
-        </sv:node>
         <sv:node sv:name="restservices">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hst:mount</sv:value>
           </sv:property>
           <sv:property sv:name="hst:alias" sv:type="String">
-            <sv:value>restservices</sv:value>
+            <sv:value>resttrajectapi</sv:value>
           </sv:property>
           <sv:property sv:name="hst:isSite" sv:type="Boolean">
             <sv:value>false</sv:value>
@@ -119,12 +105,12 @@
             <sv:value>rest</sv:value>
           </sv:property>
         </sv:node>
-        <sv:node sv:name="trajectservice">
+        <sv:node sv:name="restapi">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hst:mount</sv:value>
           </sv:property>
           <sv:property sv:name="hst:alias" sv:type="String">
-            <sv:value>trajectservice</sv:value>
+            <sv:value>restapi</sv:value>
           </sv:property>
           <sv:property sv:name="hst:isSite" sv:type="Boolean">
             <sv:value>false</sv:value>
@@ -143,13 +129,7 @@
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hst:mount</sv:value>
           </sv:property>
-          <sv:property sv:name="hst:alias" sv:type="String">
-            <sv:value>resttrajectapi</sv:value>
-          </sv:property>
           <sv:property sv:name="hst:isSite" sv:type="Boolean">
-            <sv:value>false</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:ismapped" sv:type="Boolean">
             <sv:value>false</sv:value>
           </sv:property>
           <sv:property sv:name="hst:namedpipeline" sv:type="String">
