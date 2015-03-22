@@ -54,7 +54,7 @@ public class Trajectinformation extends BaseDocument {
 				Trajectmeasurement.class);
 	}
 	
-	public void setTrajectmeasurment(List<Trajectmeasurement> trajectMeasurments) {
+	public void setTrajectmeasurement(List<Trajectmeasurement> trajectMeasurments) {
 		this.trajectMeasurements = trajectMeasurments;
 	}
 	

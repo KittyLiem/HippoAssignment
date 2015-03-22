@@ -45,7 +45,7 @@
 			        <div class="item panel ${active}">
 			          <img src="<hst:link hippobean="${item.image.banner}" />" alt="${item.title}"/>
 			          <div class="carousel-caption title">
-			            ${item.title}
+			           <a> ${item.title}</a>
 			          </div>
 			        </div>
 			   

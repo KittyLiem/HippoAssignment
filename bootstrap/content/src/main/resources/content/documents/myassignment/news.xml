@@ -115,13 +115,13 @@
             <sv:value>2013-11-12T13:03:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-03-21T16:12:54.776+01:00</sv:value>
+            <sv:value>2015-03-22T09:35:23.414+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2015-03-21T16:16:23.312+01:00</sv:value>
+            <sv:value>2015-03-22T09:35:28.697+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>a1d996f5-7152-47e1-a617-f85293b19579</sv:value>
@@ -148,7 +148,7 @@
             <sv:value/>
           </sv:property>
           <sv:property sv:name="myassignment:title" sv:type="String">
-            <sv:value>6 maart</sv:value>
+            <sv:value>3 maart</sv:value>
           </sv:property>
           <sv:node sv:name="myassignment:content">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -219,7 +219,7 @@
             <sv:value>2013-11-12T13:03:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-03-21T16:10:39.994+01:00</sv:value>
+            <sv:value>2015-03-22T09:35:19.355+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -249,7 +249,7 @@
             <sv:value/>
           </sv:property>
           <sv:property sv:name="myassignment:title" sv:type="String">
-            <sv:value>6 maart</sv:value>
+            <sv:value>3 maart</sv:value>
           </sv:property>
           <sv:node sv:name="myassignment:content">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -322,7 +322,7 @@
             <sv:value>2013-11-12T13:03:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-03-21T16:12:54.776+01:00</sv:value>
+            <sv:value>2015-03-22T09:35:23.414+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -352,7 +352,7 @@
             <sv:value/>
           </sv:property>
           <sv:property sv:name="myassignment:title" sv:type="String">
-            <sv:value>6 maart</sv:value>
+            <sv:value>3 maart</sv:value>
           </sv:property>
           <sv:node sv:name="myassignment:content">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -1106,6 +1106,3239 @@
           <sv:property sv:name="hippo:message" sv:type="String">
             <sv:value>6 maart</sv:value>
           </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="9-maart">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>4bee8585-788d-4042-a985-fe8e71ad6e7a</sv:value>
+        </sv:property>
+        <sv:node sv:name="9-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>67821e46-405b-45ad-8c60-ad640d656eca</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/9-maart/9-maart[3]</sv:value>
+            <sv:value>news/2015/03/9-maart/9-maart[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:51:20.321+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:51:20.502+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>eca61bef-bebc-4d14-9254-7f7fba760cbc</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-09T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>Opstart issues?</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>9 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Hmm, het gaat nog niet echt lekker na vanochtend met Rob gesproken te hebben. Het is mij wel duidelijk wat te doen maar het hoe ontsnapt toch nog wel. Er is ook niet veel te vinden over waar je nu de scheduler van hippo het beste kan laten lopen.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>3c740fcf-8ec5-4f00-a713-ff96caa645c8</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>9 maart</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="9-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>fd28a6e2-1e2a-445b-8257-81968fefe0ac</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/9-maart/9-maart[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:51:20.321+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:52:14.600+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>eca61bef-bebc-4d14-9254-7f7fba760cbc</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-09T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>Opstart issues?</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>9 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Hmm, het gaat nog niet echt lekker na vanochtend met Rob gesproken te hebben. Het is mij wel duidelijk wat te doen maar het hoe ontsnapt toch nog wel. Er is ook niet veel te vinden over waar je nu de scheduler van hippo het beste kan laten lopen.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>3c740fcf-8ec5-4f00-a713-ff96caa645c8</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="9-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>0c203c47-a1be-4a8b-a07f-7e864bd286d8</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/9-maart/9-maart[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:51:20.321+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:52:14.600+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:52:18.032+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>eca61bef-bebc-4d14-9254-7f7fba760cbc</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-09T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>Opstart issues?</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>9 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Hmm, het gaat nog niet echt lekker na vanochtend met Rob gesproken te hebben. Het is mij wel duidelijk wat te doen maar het hoe ontsnapt toch nog wel. Er is ook niet veel te vinden over waar je nu de scheduler van hippo het beste kan laten lopen.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>3c740fcf-8ec5-4f00-a713-ff96caa645c8</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="10-maart">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>2af37206-afed-44b6-a86c-f62b73d0123f</sv:value>
+        </sv:property>
+        <sv:node sv:name="10-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>dee23e5d-6955-481a-8b96-37460191af9c</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/10-maart/10-maart[3]</sv:value>
+            <sv:value>news/2015/03/10-maart/10-maart[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:52:42.580+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:52:42.653+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>a6c662b3-6ea1-423c-837a-6a73a76cf7c2</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-10T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>Het er mooi uit laten zien, werkt niet!</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>10 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Vanwege de JSP template die ik gebruikte opnieuw gestart, dus nu opdracht, myhippoassignment. Niet vergeten in Stash te zetten, en ook even nieuw in Git doorlopen.&lt;/p&gt; 
+&lt;p&gt;Planning voor vandaag: POJO objects maken, in scheduler Jackson gebruiken om JSON binnen te halen.&lt;/p&gt; 
+&lt;p&gt;De POJO’s zijn binnen in de scheduler.&lt;/p&gt; 
+&lt;p&gt;Volgende stap is het in de repository zetten van de POJO’s.&lt;/p&gt; 
+&lt;p&gt;Ik heb gekozen om dat te doen via Hippo Document, &amp;nbsp;TrajectInformation (met compound type TrajectMeting, voor de metingen). Deze zijn opgevoerd via CMS, beans geschreven en nu opzoek naar de components.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Zie 
+&lt;a href="http://www.onehippo.org/library/concepts/component-development/hstcomponent-persistable-annotation-and-workflow.html" style="text-decoration:none;"&gt;&lt;u&gt;http://www.onehippo.org/library/concepts/component-development/hstcomponent-persistable-annotation-and-workflow.html&lt;/u&gt;&lt;/a&gt;, gekozen om tweede manier te volgen, gebruiken van @Persistable annotatie.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Donderdag eerst maar eens GIT commondo’s leren! https://confluence.atlassian.com/display/STASH036/Basic+Git+commands&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c8f03498-56eb-46c9-83b2-cf014f2e03d7</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>10 maart</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="10-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>640a7e6c-524a-45da-b50a-036df24fe73b</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/10-maart/10-maart[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:52:42.580+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:54:05.721+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>a6c662b3-6ea1-423c-837a-6a73a76cf7c2</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-10T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>Het er mooi uit laten zien, werkt niet!</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>10 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Vanwege de JSP template die ik gebruikte opnieuw gestart, dus nu opdracht, myhippoassignment. Niet vergeten in Stash te zetten, en ook even nieuw in Git doorlopen.&lt;/p&gt; 
+&lt;p&gt;Planning voor vandaag: POJO objects maken, in scheduler Jackson gebruiken om JSON binnen te halen.&lt;/p&gt; 
+&lt;p&gt;De POJO’s zijn binnen in de scheduler.&lt;/p&gt; 
+&lt;p&gt;Volgende stap is het in de repository zetten van de POJO’s.&lt;/p&gt; 
+&lt;p&gt;Ik heb gekozen om dat te doen via Hippo Document, &amp;nbsp;TrajectInformation (met compound type TrajectMeting, voor de metingen). Deze zijn opgevoerd via CMS, beans geschreven en nu opzoek naar de components.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Zie 
+&lt;a href="http://www.onehippo.org/library/concepts/component-development/hstcomponent-persistable-annotation-and-workflow.html" style="text-decoration:none;"&gt;&lt;u&gt;http://www.onehippo.org/library/concepts/component-development/hstcomponent-persistable-annotation-and-workflow.html&lt;/u&gt;&lt;/a&gt;, gekozen om tweede manier te volgen, gebruiken van @Persistable annotatie.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Donderdag eerst maar eens GIT commondo’s leren! https://confluence.atlassian.com/display/STASH036/Basic+Git+commands&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c8f03498-56eb-46c9-83b2-cf014f2e03d7</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="10-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>2ed57390-c99d-49ef-ba1e-ef00f3372549</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/10-maart/10-maart[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:52:42.580+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:54:05.721+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:54:09.065+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>a6c662b3-6ea1-423c-837a-6a73a76cf7c2</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-10T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>Het er mooi uit laten zien, werkt niet!</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>10 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Vanwege de JSP template die ik gebruikte opnieuw gestart, dus nu opdracht, myhippoassignment. Niet vergeten in Stash te zetten, en ook even nieuw in Git doorlopen.&lt;/p&gt; 
+&lt;p&gt;Planning voor vandaag: POJO objects maken, in scheduler Jackson gebruiken om JSON binnen te halen.&lt;/p&gt; 
+&lt;p&gt;De POJO’s zijn binnen in de scheduler.&lt;/p&gt; 
+&lt;p&gt;Volgende stap is het in de repository zetten van de POJO’s.&lt;/p&gt; 
+&lt;p&gt;Ik heb gekozen om dat te doen via Hippo Document, &amp;nbsp;TrajectInformation (met compound type TrajectMeting, voor de metingen). Deze zijn opgevoerd via CMS, beans geschreven en nu opzoek naar de components.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Zie 
+&lt;a href="http://www.onehippo.org/library/concepts/component-development/hstcomponent-persistable-annotation-and-workflow.html" style="text-decoration:none;"&gt;&lt;u&gt;http://www.onehippo.org/library/concepts/component-development/hstcomponent-persistable-annotation-and-workflow.html&lt;/u&gt;&lt;/a&gt;, gekozen om tweede manier te volgen, gebruiken van @Persistable annotatie.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Donderdag eerst maar eens GIT commondo’s leren! https://confluence.atlassian.com/display/STASH036/Basic+Git+commands&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c8f03498-56eb-46c9-83b2-cf014f2e03d7</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="12-maart">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>c0a9ec3c-de5f-4c6f-9bab-3528aa4f791b</sv:value>
+        </sv:property>
+        <sv:node sv:name="12-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>1ba8cb0f-e9e3-400a-849a-a1eb805b59f8</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/12-maart/12-maart[3]</sv:value>
+            <sv:value>news/2015/03/12-maart/12-maart[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:54:21.878+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:54:21.940+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>0dbb7e95-b2ec-4e51-a43e-9a9133913707</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-12T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>Drukke dag, niet alleen met werk...</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>12 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Stappen voor vandaag:&lt;/p&gt; 
+&lt;ul&gt; 
+&lt;li&gt; 
+&lt;p&gt;GIT nieuw lezen. en&lt;/p&gt; &lt;/li&gt; 
+&lt;li&gt; 
+&lt;p&gt;keuze maken op welke wijze de POJO’s in repository te zetten.&lt;/p&gt; &lt;/li&gt; 
+&lt;li&gt; 
+&lt;p&gt;start bouw POJO’s naar repository.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;GIT is dus DCVS, dat is anders dan SVN.&lt;/p&gt; 
+&lt;p&gt;Ik heb ervoor gekozen om met Eclipse te werken met plugin EGit.&lt;/p&gt; 
+&lt;p&gt;Ik heb een lokale repository voor mijn project en op Stash heb ik, onder project “Kitty Liem” een repository “myhippoassignment”.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;euhm, ik lijk van alles kwijt te zijjn nadat ik dinsdag naar Stash heb gezet…&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Op aanraden van Rob, met als uitgangspunt 
+&lt;a href="https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/" style="text-decoration:none;"&gt;&lt;u&gt;https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/&lt;/u&gt;&lt;/a&gt;, eerst maar eens gekeken wat je nu allemaal in command line kan doen voor in git zetten.&lt;/p&gt; 
+&lt;p&gt;Eigen. prive GitHub gemaakt (daar wordt handige GitShell bijgeleverd, die je kan gebruiken voor Git commandline zaken) en mijn project in GitHub gezet.&lt;/p&gt; 
+&lt;p&gt;Dat heeft de rest van de dag gekost.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>12 maart</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="12-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>ef5265c5-7047-4ddb-a427-23a2bab2038f</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/12-maart/12-maart[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:54:21.878+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:55:28.292+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>0dbb7e95-b2ec-4e51-a43e-9a9133913707</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-12T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>Drukke dag, niet alleen met werk...</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>12 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Stappen voor vandaag:&lt;/p&gt; 
+&lt;ul&gt; 
+&lt;li&gt; 
+&lt;p&gt;GIT nieuw lezen. en&lt;/p&gt; &lt;/li&gt; 
+&lt;li&gt; 
+&lt;p&gt;keuze maken op welke wijze de POJO’s in repository te zetten.&lt;/p&gt; &lt;/li&gt; 
+&lt;li&gt; 
+&lt;p&gt;start bouw POJO’s naar repository.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;GIT is dus DCVS, dat is anders dan SVN.&lt;/p&gt; 
+&lt;p&gt;Ik heb ervoor gekozen om met Eclipse te werken met plugin EGit.&lt;/p&gt; 
+&lt;p&gt;Ik heb een lokale repository voor mijn project en op Stash heb ik, onder project “Kitty Liem” een repository “myhippoassignment”.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;euhm, ik lijk van alles kwijt te zijjn nadat ik dinsdag naar Stash heb gezet…&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Op aanraden van Rob, met als uitgangspunt 
+&lt;a href="https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/" style="text-decoration:none;"&gt;&lt;u&gt;https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/&lt;/u&gt;&lt;/a&gt;, eerst maar eens gekeken wat je nu allemaal in command line kan doen voor in git zetten.&lt;/p&gt; 
+&lt;p&gt;Eigen. prive GitHub gemaakt (daar wordt handige GitShell bijgeleverd, die je kan gebruiken voor Git commandline zaken) en mijn project in GitHub gezet.&lt;/p&gt; 
+&lt;p&gt;Dat heeft de rest van de dag gekost.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="12-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>b317afe7-4aad-4259-a0a5-3450f81666c1</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/12-maart/12-maart[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:54:21.878+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:55:28.292+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:55:31.420+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>0dbb7e95-b2ec-4e51-a43e-9a9133913707</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-12T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>Drukke dag, niet alleen met werk...</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>12 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Stappen voor vandaag:&lt;/p&gt; 
+&lt;ul&gt; 
+&lt;li&gt; 
+&lt;p&gt;GIT nieuw lezen. en&lt;/p&gt; &lt;/li&gt; 
+&lt;li&gt; 
+&lt;p&gt;keuze maken op welke wijze de POJO’s in repository te zetten.&lt;/p&gt; &lt;/li&gt; 
+&lt;li&gt; 
+&lt;p&gt;start bouw POJO’s naar repository.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;GIT is dus DCVS, dat is anders dan SVN.&lt;/p&gt; 
+&lt;p&gt;Ik heb ervoor gekozen om met Eclipse te werken met plugin EGit.&lt;/p&gt; 
+&lt;p&gt;Ik heb een lokale repository voor mijn project en op Stash heb ik, onder project “Kitty Liem” een repository “myhippoassignment”.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;euhm, ik lijk van alles kwijt te zijjn nadat ik dinsdag naar Stash heb gezet…&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Op aanraden van Rob, met als uitgangspunt 
+&lt;a href="https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/" style="text-decoration:none;"&gt;&lt;u&gt;https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/&lt;/u&gt;&lt;/a&gt;, eerst maar eens gekeken wat je nu allemaal in command line kan doen voor in git zetten.&lt;/p&gt; 
+&lt;p&gt;Eigen. prive GitHub gemaakt (daar wordt handige GitShell bijgeleverd, die je kan gebruiken voor Git commandline zaken) en mijn project in GitHub gezet.&lt;/p&gt; 
+&lt;p&gt;Dat heeft de rest van de dag gekost.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="13-maart">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>a96566bc-fb4a-4775-aa95-78a2e5b3cc71</sv:value>
+        </sv:property>
+        <sv:node sv:name="13-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>d4eefdf0-08b2-4d6e-bda6-b851914c325a</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/13-maart/13-maart[2]</sv:value>
+            <sv:value>news/2015/03/13-maart/13-maart[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:55:42.658+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:55:42.724+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>03e283e0-cb29-4b76-a5e5-86e414f36f70</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-13T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>Lokcatie: Maarssen</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>13 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Vandaag naar Maarssen, in middag foto’s laten maken.&lt;/p&gt; 
+&lt;p&gt;Herstel acties voor mijn project, de scheduler werkt weer, nu check of ik aanpassingen in GitHub krijg.&lt;/p&gt; 
+&lt;p&gt;Dat lukt ook, via Eclipse dit keer. Blijft lastig dat commit (naar lokaal repository) en push (naar remote repository)&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Document type en samengestelde type voor TrajectInformation en TrajectMeasurement aangemaakt.&lt;/p&gt; 
+&lt;p&gt;Component voor TrajectInformationComponent is er ook weer en 1 document aangemaakt.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Nu opnieuw kijken naar hoe POJO’s in repository zetten. Start met http://www.onehippo.org/library/concepts/component-development/hstcomponent-persistable-annotation-and-workflow.html. &amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;A writeable HST user in doAction kan verkregen worden op 2 manieren, ik kies voor annoteren van doAction method met @Persistable.&lt;/p&gt; 
+&lt;p&gt;Check of er extra access rights nodig zijn, zie 
+&lt;a href="http://www.onehippo.org/library/concepts/security/access-rights-when-you-want-to-use-workflow-from-the-hst.html" style="text-decoration:none;"&gt;&lt;u&gt;http://www.onehippo.org/library/concepts/security/access-rights-when-you-want-to-use-workflow-from-the-hst.html&lt;/u&gt;&lt;/a&gt; voor het toekennen van permissies aan sitewriters.&lt;/p&gt; 
+&lt;p&gt;Na het foto’s maken hard nagedacht en geprobeerd over waar nu wat moet gaan komen en hoe…&lt;/p&gt; 
+&lt;p&gt;Deze aanpassingen staan nog alleen in Eclipse..&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>13 maart</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="13-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>7cf3a2d5-ff41-4bf8-bfba-775dfc11fc07</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/13-maart/13-maart[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:55:42.658+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:56:40.086+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>03e283e0-cb29-4b76-a5e5-86e414f36f70</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-13T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>Lokcatie: Maarssen</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>13 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Vandaag naar Maarssen, in middag foto’s laten maken.&lt;/p&gt; 
+&lt;p&gt;Herstel acties voor mijn project, de scheduler werkt weer, nu check of ik aanpassingen in GitHub krijg.&lt;/p&gt; 
+&lt;p&gt;Dat lukt ook, via Eclipse dit keer. Blijft lastig dat commit (naar lokaal repository) en push (naar remote repository)&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Document type en samengestelde type voor TrajectInformation en TrajectMeasurement aangemaakt.&lt;/p&gt; 
+&lt;p&gt;Component voor TrajectInformationComponent is er ook weer en 1 document aangemaakt.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Nu opnieuw kijken naar hoe POJO’s in repository zetten. Start met http://www.onehippo.org/library/concepts/component-development/hstcomponent-persistable-annotation-and-workflow.html. &amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;A writeable HST user in doAction kan verkregen worden op 2 manieren, ik kies voor annoteren van doAction method met @Persistable.&lt;/p&gt; 
+&lt;p&gt;Check of er extra access rights nodig zijn, zie 
+&lt;a href="http://www.onehippo.org/library/concepts/security/access-rights-when-you-want-to-use-workflow-from-the-hst.html" style="text-decoration:none;"&gt;&lt;u&gt;http://www.onehippo.org/library/concepts/security/access-rights-when-you-want-to-use-workflow-from-the-hst.html&lt;/u&gt;&lt;/a&gt; voor het toekennen van permissies aan sitewriters.&lt;/p&gt; 
+&lt;p&gt;Na het foto’s maken hard nagedacht en geprobeerd over waar nu wat moet gaan komen en hoe…&lt;/p&gt; 
+&lt;p&gt;Deze aanpassingen staan nog alleen in Eclipse..&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="13-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>c2a99f2f-b91c-4538-8c61-09871fa7401e</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/13-maart/13-maart[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:55:42.658+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:56:40.086+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:56:42.630+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>03e283e0-cb29-4b76-a5e5-86e414f36f70</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-13T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>Lokcatie: Maarssen</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>13 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Vandaag naar Maarssen, in middag foto’s laten maken.&lt;/p&gt; 
+&lt;p&gt;Herstel acties voor mijn project, de scheduler werkt weer, nu check of ik aanpassingen in GitHub krijg.&lt;/p&gt; 
+&lt;p&gt;Dat lukt ook, via Eclipse dit keer. Blijft lastig dat commit (naar lokaal repository) en push (naar remote repository)&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Document type en samengestelde type voor TrajectInformation en TrajectMeasurement aangemaakt.&lt;/p&gt; 
+&lt;p&gt;Component voor TrajectInformationComponent is er ook weer en 1 document aangemaakt.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Nu opnieuw kijken naar hoe POJO’s in repository zetten. Start met http://www.onehippo.org/library/concepts/component-development/hstcomponent-persistable-annotation-and-workflow.html. &amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;A writeable HST user in doAction kan verkregen worden op 2 manieren, ik kies voor annoteren van doAction method met @Persistable.&lt;/p&gt; 
+&lt;p&gt;Check of er extra access rights nodig zijn, zie 
+&lt;a href="http://www.onehippo.org/library/concepts/security/access-rights-when-you-want-to-use-workflow-from-the-hst.html" style="text-decoration:none;"&gt;&lt;u&gt;http://www.onehippo.org/library/concepts/security/access-rights-when-you-want-to-use-workflow-from-the-hst.html&lt;/u&gt;&lt;/a&gt; voor het toekennen van permissies aan sitewriters.&lt;/p&gt; 
+&lt;p&gt;Na het foto’s maken hard nagedacht en geprobeerd over waar nu wat moet gaan komen en hoe…&lt;/p&gt; 
+&lt;p&gt;Deze aanpassingen staan nog alleen in Eclipse..&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="16-maart">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>4593b1eb-7a0d-4301-9bcb-0874037507bf</sv:value>
+        </sv:property>
+        <sv:node sv:name="16-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>9c070a86-498f-4fc4-87f5-a94b22cb0400</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/16-maart/16-maart[3]</sv:value>
+            <sv:value>news/2015/03/16-maart/16-maart[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:57:06.713+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:57:06.769+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>002092ee-67ff-4827-afc0-5302e229cd78</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-16T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>Lastig, die API's tussen cms en site..</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>16 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;In de ochtend nog eens goed gekeken naar hoe en wat voor het in repository zetten van de POJO’s. 
+&lt;a href="http://www.onehippo.org/library/concepts/rest/restful-jax-rs-component-support-in-hst-2.html" style="text-decoration:none;"&gt;&lt;u&gt;http://www.onehippo.org/library/concepts/rest/restful-jax-rs-component-support-in-hst-2.html&lt;/u&gt;&lt;/a&gt; maar dan kom ik er niet uit.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Na overleg met Rob, eerst maar eens weer naar 
+&lt;a href="http://www.onehippo.org/library/concepts/rest/restful-jax-rs-component-support-in-hst-2.html" style="text-decoration:none;"&gt;&lt;u&gt;http://www.onehippo.org/library/concepts/rest/restful-jax-rs-component-support-in-hst-2.html&lt;/u&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;gekeken.&lt;/p&gt; 
+&lt;p&gt;Uitgangspunt is wel dat ik de workflow persistence manager van hippo wil blijven gebruiken.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Aan site kant JAX-RS zaken gebouwd (morgen even opsommen).&lt;/p&gt; 
+&lt;p&gt;Ik blijf de link tussen site en cms lastig vinden&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>ae480839-c9a0-4388-a92c-4743030ac753</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>16 maart</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="16-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>a3ea5468-aecf-4137-9f8b-09f7beda805b</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/16-maart/16-maart[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:57:06.713+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:58:38.635+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>002092ee-67ff-4827-afc0-5302e229cd78</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-16T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>Lastig, die API's tussen cms en site..</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>16 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;In de ochtend nog eens goed gekeken naar hoe en wat voor het in repository zetten van de POJO’s. 
+&lt;a href="http://www.onehippo.org/library/concepts/rest/restful-jax-rs-component-support-in-hst-2.html" style="text-decoration:none;"&gt;&lt;u&gt;http://www.onehippo.org/library/concepts/rest/restful-jax-rs-component-support-in-hst-2.html&lt;/u&gt;&lt;/a&gt; maar dan kom ik er niet uit.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Na overleg met Rob, eerst maar eens weer naar 
+&lt;a href="http://www.onehippo.org/library/concepts/rest/restful-jax-rs-component-support-in-hst-2.html" style="text-decoration:none;"&gt;&lt;u&gt;http://www.onehippo.org/library/concepts/rest/restful-jax-rs-component-support-in-hst-2.html&lt;/u&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;gekeken.&lt;/p&gt; 
+&lt;p&gt;Uitgangspunt is wel dat ik de workflow persistence manager van hippo wil blijven gebruiken.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Aan site kant JAX-RS zaken gebouwd (morgen even opsommen).&lt;/p&gt; 
+&lt;p&gt;Ik blijf de link tussen site en cms lastig vinden&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>ae480839-c9a0-4388-a92c-4743030ac753</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="16-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>75c0eadf-8410-4c6f-8abc-bd9c243533a4</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/16-maart/16-maart[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:57:06.713+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:58:38.635+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:58:41.109+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>002092ee-67ff-4827-afc0-5302e229cd78</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-16T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>Lastig, die API's tussen cms en site..</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>16 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;In de ochtend nog eens goed gekeken naar hoe en wat voor het in repository zetten van de POJO’s. 
+&lt;a href="http://www.onehippo.org/library/concepts/rest/restful-jax-rs-component-support-in-hst-2.html" style="text-decoration:none;"&gt;&lt;u&gt;http://www.onehippo.org/library/concepts/rest/restful-jax-rs-component-support-in-hst-2.html&lt;/u&gt;&lt;/a&gt; maar dan kom ik er niet uit.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Na overleg met Rob, eerst maar eens weer naar 
+&lt;a href="http://www.onehippo.org/library/concepts/rest/restful-jax-rs-component-support-in-hst-2.html" style="text-decoration:none;"&gt;&lt;u&gt;http://www.onehippo.org/library/concepts/rest/restful-jax-rs-component-support-in-hst-2.html&lt;/u&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;gekeken.&lt;/p&gt; 
+&lt;p&gt;Uitgangspunt is wel dat ik de workflow persistence manager van hippo wil blijven gebruiken.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Aan site kant JAX-RS zaken gebouwd (morgen even opsommen).&lt;/p&gt; 
+&lt;p&gt;Ik blijf de link tussen site en cms lastig vinden&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>ae480839-c9a0-4388-a92c-4743030ac753</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="17-maart">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>57d36712-3f78-46ef-95a6-cfb520d07c54</sv:value>
+        </sv:property>
+        <sv:node sv:name="17-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>10afe427-dc16-41d4-8658-4b429cf11919</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/17-maart/17-maart[3]</sv:value>
+            <sv:value>news/2015/03/17-maart/17-maart[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:58:51.843+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:58:51.911+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>300e2a0a-3b00-4547-ac77-d03400acaab7</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-17T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>POST-en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>17 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Gister sitewriter de goede autorisaties gegeven via Permissies.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Check mijn objecten.&lt;/p&gt; 
+&lt;p&gt;Zet map met trajectinformatie in sitemap. aangezien ik gebruik wil maken van RESTful jax rs.&lt;/p&gt; 
+&lt;p&gt;&lt;a href="http://www.onehippo.org/library/concepts/rest/restful-api-support---content-context-aware-jax-rs-services.html" style="text-decoration:none;"&gt;&lt;u&gt;http://www.onehippo.org/library/concepts/rest/restful-api-support---content-context-aware-jax-rs-services.html&lt;/u&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&amp;lt;sv:node sv:name=&amp;quot;restapi&amp;quot;&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;lt;sv:property sv:name=&amp;quot;jcr:primaryType&amp;quot; sv:type=&amp;quot;Name&amp;quot;&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;sv:value&amp;gt;hst:mount&amp;lt;/sv:value&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;lt;/sv:property&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;lt;sv:property sv:name=&amp;quot;hst:alias&amp;quot; sv:type=&amp;quot;String&amp;quot;&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;sv:value&amp;gt;restapi&amp;lt;/sv:value&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;lt;/sv:property&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;lt;sv:property sv:name=&amp;quot;hst:isSite&amp;quot; sv:type=&amp;quot;Boolean&amp;quot;&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;sv:value&amp;gt;false&amp;lt;/sv:value&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;lt;/sv:property&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;lt;sv:property sv:name=&amp;quot;hst:namedpipeline&amp;quot; sv:type=&amp;quot;String&amp;quot;&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;sv:value&amp;gt;JaxrsRestContentPipeline&amp;lt;/sv:value&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;lt;/sv:property&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;lt;/sv:node&amp;gt;&lt;/p&gt; 
+&lt;p&gt;toegevoegd onder hst:root (want dat is de hst:mount).&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Ok, REST java objecten zijn gebouwd maar het werkt nog niet.&lt;/p&gt; 
+&lt;p&gt;Ik blijkt te kunnen testen met &amp;nbsp;curl voor de POST. De GET kan ik bekijken door 
+&lt;a href="http://localhost:8080/site/restapi/trajectinformation" style="text-decoration:none;"&gt;&lt;u&gt;http://localhost:8080/site/restapi/trajectinformation&lt;/u&gt;&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;Deze geeft nu alleen geen document terug (en er is er wel 1)&lt;/p&gt; 
+&lt;p&gt;maar wel als je 
+&lt;a href="http://localhost:8080/site/restapi/trajectinformation/traject-test" style="text-decoration:none;"&gt;&lt;u&gt;http://localhost:8080/site/restapi/trajectinformation/traject-test&lt;/u&gt;&lt;/a&gt; doet wel.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p style="margin-left:8pt; margin-right:8pt"&gt;This XML file does not appear to have any style information associated with it. The document tree is shown below.&lt;/p&gt; 
+&lt;p style="margin-left:15pt"&gt;&amp;lt;document&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;leaf&amp;gt;false&amp;lt;/leaf&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;links&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:35pt"&gt;&amp;lt;link href=&amp;quot;http://localhost:8080/site/restapi/trajectinformation/traject-test.html&amp;quot; rel=&amp;quot;http://www.onehippo.org/cms7/hst/rest/relations/mount:rest&amp;quot; title=&amp;quot;traject-test&amp;quot;/&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:35pt"&gt;&amp;lt;link href=&amp;quot;http://localhost:8080/site/restapi/trajectinformation/traject-test.html&amp;quot; rel=&amp;quot;http://www.onehippo.org/cms7/hst/rest/relations/mount:site&amp;quot; title=&amp;quot;traject-test&amp;quot;/&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;/links&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;localizedName&amp;gt;Traject Test&amp;lt;/localizedName&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;name&amp;gt;traject-test&amp;lt;/name&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;path&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:35pt"&gt;/content/documents/myassignment/trajectinformation/traject-test/traject-test&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;/path&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;primaryNodeTypeName&amp;gt;myassignment:TrajectInformation&amp;lt;/primaryNodeTypeName&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;canonicalHandleUuid&amp;gt;39815555-a482-4328-a5ea-e6f78a0aaddb&amp;lt;/canonicalHandleUuid&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:15pt"&gt;&amp;lt;/document&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&lt;br /&gt; &amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Rob geeft als advies om goed te kijken naar verschil tussen plain en content: normal plain JAX-RS components, but also JAX-RS components which are aware of their own mapped contents with full HST-2 URL mappings and link rewriting supports&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;ok, ook restservice (plain RESTful API) gemaakt.&lt;/p&gt; 
+&lt;p&gt;&lt;a href="http://localhost:8080/site/restservices/trajectinformation" style="text-decoration:none;"&gt;&lt;u&gt;http://localhost:8080/site/restservices/trajectinformation&lt;/u&gt;&lt;/a&gt; werkt (nog niet…)&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>17 maart</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="17-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>9ea1bd98-9a25-496b-a3ea-566ad69e2618</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/17-maart/17-maart[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:58:51.843+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:59:36.151+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>300e2a0a-3b00-4547-ac77-d03400acaab7</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-17T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>POST-en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>17 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Gister sitewriter de goede autorisaties gegeven via Permissies.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Check mijn objecten.&lt;/p&gt; 
+&lt;p&gt;Zet map met trajectinformatie in sitemap. aangezien ik gebruik wil maken van RESTful jax rs.&lt;/p&gt; 
+&lt;p&gt;&lt;a href="http://www.onehippo.org/library/concepts/rest/restful-api-support---content-context-aware-jax-rs-services.html" style="text-decoration:none;"&gt;&lt;u&gt;http://www.onehippo.org/library/concepts/rest/restful-api-support---content-context-aware-jax-rs-services.html&lt;/u&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&amp;lt;sv:node sv:name=&amp;quot;restapi&amp;quot;&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;lt;sv:property sv:name=&amp;quot;jcr:primaryType&amp;quot; sv:type=&amp;quot;Name&amp;quot;&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;sv:value&amp;gt;hst:mount&amp;lt;/sv:value&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;lt;/sv:property&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;lt;sv:property sv:name=&amp;quot;hst:alias&amp;quot; sv:type=&amp;quot;String&amp;quot;&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;sv:value&amp;gt;restapi&amp;lt;/sv:value&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;lt;/sv:property&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;lt;sv:property sv:name=&amp;quot;hst:isSite&amp;quot; sv:type=&amp;quot;Boolean&amp;quot;&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;sv:value&amp;gt;false&amp;lt;/sv:value&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;lt;/sv:property&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;lt;sv:property sv:name=&amp;quot;hst:namedpipeline&amp;quot; sv:type=&amp;quot;String&amp;quot;&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;sv:value&amp;gt;JaxrsRestContentPipeline&amp;lt;/sv:value&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;lt;/sv:property&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;lt;/sv:node&amp;gt;&lt;/p&gt; 
+&lt;p&gt;toegevoegd onder hst:root (want dat is de hst:mount).&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Ok, REST java objecten zijn gebouwd maar het werkt nog niet.&lt;/p&gt; 
+&lt;p&gt;Ik blijkt te kunnen testen met &amp;nbsp;curl voor de POST. De GET kan ik bekijken door 
+&lt;a href="http://localhost:8080/site/restapi/trajectinformation" style="text-decoration:none;"&gt;&lt;u&gt;http://localhost:8080/site/restapi/trajectinformation&lt;/u&gt;&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;Deze geeft nu alleen geen document terug (en er is er wel 1)&lt;/p&gt; 
+&lt;p&gt;maar wel als je 
+&lt;a href="http://localhost:8080/site/restapi/trajectinformation/traject-test" style="text-decoration:none;"&gt;&lt;u&gt;http://localhost:8080/site/restapi/trajectinformation/traject-test&lt;/u&gt;&lt;/a&gt; doet wel.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p style="margin-left:8pt; margin-right:8pt"&gt;This XML file does not appear to have any style information associated with it. The document tree is shown below.&lt;/p&gt; 
+&lt;p style="margin-left:15pt"&gt;&amp;lt;document&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;leaf&amp;gt;false&amp;lt;/leaf&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;links&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:35pt"&gt;&amp;lt;link href=&amp;quot;http://localhost:8080/site/restapi/trajectinformation/traject-test.html&amp;quot; rel=&amp;quot;http://www.onehippo.org/cms7/hst/rest/relations/mount:rest&amp;quot; title=&amp;quot;traject-test&amp;quot;/&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:35pt"&gt;&amp;lt;link href=&amp;quot;http://localhost:8080/site/restapi/trajectinformation/traject-test.html&amp;quot; rel=&amp;quot;http://www.onehippo.org/cms7/hst/rest/relations/mount:site&amp;quot; title=&amp;quot;traject-test&amp;quot;/&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;/links&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;localizedName&amp;gt;Traject Test&amp;lt;/localizedName&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;name&amp;gt;traject-test&amp;lt;/name&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;path&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:35pt"&gt;/content/documents/myassignment/trajectinformation/traject-test/traject-test&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;/path&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;primaryNodeTypeName&amp;gt;myassignment:TrajectInformation&amp;lt;/primaryNodeTypeName&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;canonicalHandleUuid&amp;gt;39815555-a482-4328-a5ea-e6f78a0aaddb&amp;lt;/canonicalHandleUuid&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:15pt"&gt;&amp;lt;/document&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&lt;br /&gt; &amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Rob geeft als advies om goed te kijken naar verschil tussen plain en content: normal plain JAX-RS components, but also JAX-RS components which are aware of their own mapped contents with full HST-2 URL mappings and link rewriting supports&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;ok, ook restservice (plain RESTful API) gemaakt.&lt;/p&gt; 
+&lt;p&gt;&lt;a href="http://localhost:8080/site/restservices/trajectinformation" style="text-decoration:none;"&gt;&lt;u&gt;http://localhost:8080/site/restservices/trajectinformation&lt;/u&gt;&lt;/a&gt; werkt (nog niet…)&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="17-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>52ea013d-bd8d-45d8-b7f0-774c33618040</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/17-maart/17-maart[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:58:51.843+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:59:36.151+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:59:39.553+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>300e2a0a-3b00-4547-ac77-d03400acaab7</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-17T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>POST-en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>17 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Gister sitewriter de goede autorisaties gegeven via Permissies.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Check mijn objecten.&lt;/p&gt; 
+&lt;p&gt;Zet map met trajectinformatie in sitemap. aangezien ik gebruik wil maken van RESTful jax rs.&lt;/p&gt; 
+&lt;p&gt;&lt;a href="http://www.onehippo.org/library/concepts/rest/restful-api-support---content-context-aware-jax-rs-services.html" style="text-decoration:none;"&gt;&lt;u&gt;http://www.onehippo.org/library/concepts/rest/restful-api-support---content-context-aware-jax-rs-services.html&lt;/u&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&amp;lt;sv:node sv:name=&amp;quot;restapi&amp;quot;&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;lt;sv:property sv:name=&amp;quot;jcr:primaryType&amp;quot; sv:type=&amp;quot;Name&amp;quot;&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;sv:value&amp;gt;hst:mount&amp;lt;/sv:value&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;lt;/sv:property&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;lt;sv:property sv:name=&amp;quot;hst:alias&amp;quot; sv:type=&amp;quot;String&amp;quot;&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;sv:value&amp;gt;restapi&amp;lt;/sv:value&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;lt;/sv:property&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;lt;sv:property sv:name=&amp;quot;hst:isSite&amp;quot; sv:type=&amp;quot;Boolean&amp;quot;&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;sv:value&amp;gt;false&amp;lt;/sv:value&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;lt;/sv:property&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;lt;sv:property sv:name=&amp;quot;hst:namedpipeline&amp;quot; sv:type=&amp;quot;String&amp;quot;&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;sv:value&amp;gt;JaxrsRestContentPipeline&amp;lt;/sv:value&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&amp;lt;/sv:property&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&amp;lt;/sv:node&amp;gt;&lt;/p&gt; 
+&lt;p&gt;toegevoegd onder hst:root (want dat is de hst:mount).&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Ok, REST java objecten zijn gebouwd maar het werkt nog niet.&lt;/p&gt; 
+&lt;p&gt;Ik blijkt te kunnen testen met &amp;nbsp;curl voor de POST. De GET kan ik bekijken door 
+&lt;a href="http://localhost:8080/site/restapi/trajectinformation" style="text-decoration:none;"&gt;&lt;u&gt;http://localhost:8080/site/restapi/trajectinformation&lt;/u&gt;&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;Deze geeft nu alleen geen document terug (en er is er wel 1)&lt;/p&gt; 
+&lt;p&gt;maar wel als je 
+&lt;a href="http://localhost:8080/site/restapi/trajectinformation/traject-test" style="text-decoration:none;"&gt;&lt;u&gt;http://localhost:8080/site/restapi/trajectinformation/traject-test&lt;/u&gt;&lt;/a&gt; doet wel.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p style="margin-left:8pt; margin-right:8pt"&gt;This XML file does not appear to have any style information associated with it. The document tree is shown below.&lt;/p&gt; 
+&lt;p style="margin-left:15pt"&gt;&amp;lt;document&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;leaf&amp;gt;false&amp;lt;/leaf&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;links&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:35pt"&gt;&amp;lt;link href=&amp;quot;http://localhost:8080/site/restapi/trajectinformation/traject-test.html&amp;quot; rel=&amp;quot;http://www.onehippo.org/cms7/hst/rest/relations/mount:rest&amp;quot; title=&amp;quot;traject-test&amp;quot;/&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:35pt"&gt;&amp;lt;link href=&amp;quot;http://localhost:8080/site/restapi/trajectinformation/traject-test.html&amp;quot; rel=&amp;quot;http://www.onehippo.org/cms7/hst/rest/relations/mount:site&amp;quot; title=&amp;quot;traject-test&amp;quot;/&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;/links&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;localizedName&amp;gt;Traject Test&amp;lt;/localizedName&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;name&amp;gt;traject-test&amp;lt;/name&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;path&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:35pt"&gt;/content/documents/myassignment/trajectinformation/traject-test/traject-test&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;/path&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;primaryNodeTypeName&amp;gt;myassignment:TrajectInformation&amp;lt;/primaryNodeTypeName&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:25pt"&gt;&amp;lt;canonicalHandleUuid&amp;gt;39815555-a482-4328-a5ea-e6f78a0aaddb&amp;lt;/canonicalHandleUuid&amp;gt;&lt;/p&gt; 
+&lt;p style="margin-left:15pt"&gt;&amp;lt;/document&amp;gt;&lt;/p&gt; 
+&lt;p&gt;&lt;br /&gt; &amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Rob geeft als advies om goed te kijken naar verschil tussen plain en content: normal plain JAX-RS components, but also JAX-RS components which are aware of their own mapped contents with full HST-2 URL mappings and link rewriting supports&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;ok, ook restservice (plain RESTful API) gemaakt.&lt;/p&gt; 
+&lt;p&gt;&lt;a href="http://localhost:8080/site/restservices/trajectinformation" style="text-decoration:none;"&gt;&lt;u&gt;http://localhost:8080/site/restservices/trajectinformation&lt;/u&gt;&lt;/a&gt; werkt (nog niet…)&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="18-maart">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>01d45444-8025-4f53-ad5c-cad99657420a</sv:value>
+        </sv:property>
+        <sv:node sv:name="18-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>1748db73-0714-4794-bf93-d1b9c48b9217</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/18-maart/18-maart[2]</sv:value>
+            <sv:value>news/2015/03/18-maart/18-maart[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:59:48.707+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T10:01:29.912+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>2e151b84-8f6d-4cbd-a874-990c166ea4b6</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-18T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>Op vrije dag toch wat doen...</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>18 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;De POST begint te werken.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>18 maart</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="18-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>1defb46c-2c02-4d47-87b8-0c984564c33a</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/18-maart/18-maart[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:59:48.707+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T10:01:47.938+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>2e151b84-8f6d-4cbd-a874-990c166ea4b6</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-18T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>Op vrije dag toch wat doen...</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>18 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;De POST begint te werken.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="18-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>6c03fed9-97a7-4edc-b3e4-a6c220f0216e</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/18-maart/18-maart[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T09:59:48.707+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T10:01:47.938+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2015-03-22T10:01:51.680+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>2e151b84-8f6d-4cbd-a874-990c166ea4b6</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-18T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>Op vrije dag toch wat doen...</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>18 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;De POST begint te werken.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="19-maart">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>c98644af-458e-4e7a-aa92-287bd9ee188e</sv:value>
+        </sv:property>
+        <sv:node sv:name="19-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>6c6e5d95-55a4-49a6-b3bf-3fc74f785598</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/19-maart/19-maart[3]</sv:value>
+            <sv:value>news/2015/03/19-maart/19-maart[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T10:00:58.602+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T10:01:57.768+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>0125b2ab-9b9c-400a-bb58-e8e0a862c877</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-19T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>Het begint te werken!</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>19 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value/>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>19 maart</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="19-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>4564548e-adac-43c5-a840-4b1d18484908</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/19-maart/19-maart[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T10:00:58.602+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T10:02:14.901+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>0125b2ab-9b9c-400a-bb58-e8e0a862c877</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-19T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>Het begint te werken!</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>19 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value/>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="19-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>376eeaae-6b7d-4843-bfc6-27ce50f661ec</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/19-maart/19-maart[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T10:00:58.602+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T10:02:14.901+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2015-03-22T10:02:17.457+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>0125b2ab-9b9c-400a-bb58-e8e0a862c877</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-19T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>Het begint te werken!</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>19 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value/>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="20-maart">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>de1b579d-1cfa-445a-8438-5d46ae4a039e</sv:value>
+        </sv:property>
+        <sv:node sv:name="20-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>6b8098f6-6648-4d54-8c0e-654c253a2cfd</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/20-maart/20-maart[2]</sv:value>
+            <sv:value>news/2015/03/20-maart/20-maart[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T10:02:44.402+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T10:02:44.464+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>d82e4bad-0e42-472b-a99f-92a9a90032f6</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-20T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>Stil in Rotterdam.</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>20 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Het is erg rustig in Rotterdam.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Via HipChat een maven pom probleem opgelost.&lt;/p&gt; 
+&lt;p&gt;Voor rest van de dag met de Hippo workflow gestoeit. Dank aan Gerard voor zijn hulp (via HipChat).&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>20 maart</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="20-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>c99204c4-4a4b-4a75-90d2-1a5de319b180</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/20-maart/20-maart[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T10:02:44.402+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T10:05:07.985+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>d82e4bad-0e42-472b-a99f-92a9a90032f6</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-20T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>Stil in Rotterdam.</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>20 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Het is erg rustig in Rotterdam.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Via HipChat een maven pom probleem opgelost.&lt;/p&gt; 
+&lt;p&gt;Voor rest van de dag met de Hippo workflow gestoeit. Dank aan Gerard voor zijn hulp (via HipChat).&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="20-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>ce90b620-1e1d-450a-b2ae-0cd1f88ad666</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/20-maart/20-maart[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T10:02:44.402+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T10:05:07.985+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2015-03-22T10:05:11.774+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>d82e4bad-0e42-472b-a99f-92a9a90032f6</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-20T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>Stil in Rotterdam.</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>20 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Het is erg rustig in Rotterdam.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Via HipChat een maven pom probleem opgelost.&lt;/p&gt; 
+&lt;p&gt;Voor rest van de dag met de Hippo workflow gestoeit. Dank aan Gerard voor zijn hulp (via HipChat).&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="22-maart">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>9c00f489-8358-4477-bbf8-dd1a30ea423a</sv:value>
+        </sv:property>
+        <sv:node sv:name="22-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>5b4eeae6-5474-44dc-8a73-6f7b83a7b5e6</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/22-maart/22-maart[2]</sv:value>
+            <sv:value>news/2015/03/22-maart/22-maart[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T10:05:27.187+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T10:05:27.369+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>52c1143c-83c0-4fba-86d6-4c8774f84ccf</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-22T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>De tijd dringt...</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>22 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Gister goed en slecht nieuws ...&lt;/p&gt; 
+&lt;p&gt;Goed dat ik de workflow beter begin te begrijpen en slecht dat ik op een gegeven moment mijn repository kwijt was... Je moet het ook niet allemaal te snel willen..., klikklik en weg!&lt;/p&gt; 
+&lt;p&gt;Gister merendeel van de dag bezig geweest met herstel, en vandaag weer mijn nieuw berichten inbrengen, layout opbouwen en verbeteren en nog eens kijken naar workflow want het werkt wel maar nog niet goed voor de compound metingen.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>22 maart</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="22-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>67b723eb-e2fe-491c-b00b-497d83a68595</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/22-maart/22-maart[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T10:05:27.187+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T10:10:08.462+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>52c1143c-83c0-4fba-86d6-4c8774f84ccf</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-22T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>De tijd dringt...</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>22 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Gister goed en slecht nieuws ...&lt;/p&gt; 
+&lt;p&gt;Goed dat ik de workflow beter begin te begrijpen en slecht dat ik op een gegeven moment mijn repository kwijt was... Je moet het ook niet allemaal te snel willen..., klikklik en weg!&lt;/p&gt; 
+&lt;p&gt;Gister merendeel van de dag bezig geweest met herstel, en vandaag weer mijn nieuw berichten inbrengen, layout opbouwen en verbeteren en nog eens kijken naar workflow want het werkt wel maar nog niet goed voor de compound metingen.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="22-maart">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myassignment:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>6928f50b-2dda-4783-bbc7-ebcf549f296a</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2015/03/22-maart/22-maart[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-03-22T10:05:27.187+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-03-22T10:10:08.462+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2015-03-22T10:10:10.913+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>52c1143c-83c0-4fba-86d6-4c8774f84ccf</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:date" sv:type="Date">
+            <sv:value>2015-03-22T00:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:introduction" sv:type="String">
+            <sv:value>De tijd dringt...</sv:value>
+          </sv:property>
+          <sv:property sv:name="myassignment:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="myassignment:title" sv:type="String">
+            <sv:value>22 maart</sv:value>
+          </sv:property>
+          <sv:node sv:name="myassignment:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Gister goed en slecht nieuws ...&lt;/p&gt; 
+&lt;p&gt;Goed dat ik de workflow beter begin te begrijpen en slecht dat ik op een gegeven moment mijn repository kwijt was... Je moet het ook niet allemaal te snel willen..., klikklik en weg!&lt;/p&gt; 
+&lt;p&gt;Gister merendeel van de dag bezig geweest met herstel, en vandaag weer mijn nieuw berichten inbrengen, layout opbouwen en verbeteren en nog eens kijken naar workflow want het werkt wel maar nog niet goed voor de compound metingen.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myassignment:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="myassignment:relatednews">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
         </sv:node>
       </sv:node>
     </sv:node>

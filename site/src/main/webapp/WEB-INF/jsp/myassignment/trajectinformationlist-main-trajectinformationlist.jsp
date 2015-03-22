@@ -1,6 +1,6 @@
 <%@ include file="/WEB-INF/jsp/include/imports.jsp" %>
 
-<%--@elvariable id="document" type="com.finalist.beans.TrajectInformationt"--%>
+<%--@elvariable id="document" type="com.finalist.beans.Trajectinformationt"--%>
 <%--@elvariable id="pageable" type="org.onehippo.cms7.essentials.components.paging.Pageable"--%>
 
 <div class="yui-main">
@@ -14,17 +14,21 @@
 						<li class="title"><a href="${link}"> ${item.trajectId}</a></li>
 						<li><a href="${link}"> ${item.trajectName}</a></li>
 						<li>${item.trajectLength}</li>
-						<!--TODO add measurements -->
+						<!-- measurements -->
+						<c:forEach var="measure" items="${item.trajectMeasurement}" >  
+							<c:if test="${hst:isReadable(measure, 'date.time')}">
+							    <span class="date">
+							      <fmt:formatDate value="${measure.date.time}" type="both" dateStyle="medium" timeStyle="short"/>
+							    </span>
+							</c:if>
+							<li>Snelheid: ${measure.trajectMeasurementVelocity}</li>
+							<li>Reistijd: ${measure.trajectMeasurementTraveltime}</li>
+						</c:forEach>
+		
 					</ul>             
 				</c:forEach>
-	<!-- Later for measurements			<c:if test="${hst:isReadable(document, 'date.time')}">
-				    <span class="date">
-				      <fmt:formatDate value="${document.date.time}" type="both" dateStyle="medium" timeStyle="short"/>
-				    </span>
-				</c:if>
-				
-		-->
-				 </div>
+
+			</div>
 			
 	</div>
 </div>
