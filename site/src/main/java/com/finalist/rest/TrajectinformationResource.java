@@ -104,7 +104,7 @@ public class TrajectinformationResource extends BaseRestResource {
     				@Context HttpServletRequest servletRequest, 
     				@Context HttpServletResponse servletResponse, 
     				@Context UriInfo uriInfo,
-    				TrajectInfo trajectInfo) throws RemoteException, WorkflowException {
+    				TrajectInfo trajectInfo) throws RemoteException, WorkflowException, ParseException {
         
         HstRequestContext requestContext = getRequestContext(servletRequest);
         
@@ -120,7 +120,7 @@ public class TrajectinformationResource extends BaseRestResource {
             
             // try to get trajectinformation document with id
             Object hippoDoc = wpm.getObject(trajectFolder.getPath() + "/" + trajectInfo.getId());
-            log.info("Object found: " + hippoDoc.getClass().getName());
+            //log.info("Object found: " + hippoDoc.getClass().getName());
             
             boolean exists = false;
             if (hippoDoc instanceof Trajectinformation) {
@@ -146,8 +146,16 @@ public class TrajectinformationResource extends BaseRestResource {
 	            trajectinformation.setTrajectId(trajectInfo.getId());
 	            trajectinformation.setTrajectLength((long) trajectInfo.getLength());
 	            trajectinformation.setTrajectName(trajectInfo.getName());
-	            //Trajectmeasurement trajectmeasurement = trajectinformation.getHippoCompound(trajectPath, beanMappingClass );
-	
+	            List<Trajectmeasurement> trajectmeasurements = trajectinformation.getTrajectMeasurement();
+	            List<TrajectMeting> trajectMetingen = trajectInfo.getTrajectmetingen();
+	            Calendar cal = Calendar.getInstance();
+	        	SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+	        	cal.setTime(sdf.parse(trajectMetingen.get(0).getMetingDatum()));
+	            trajectmeasurements.get(0).setTrajectMeasurementDate(cal); 
+	            trajectmeasurements.get(0).setTrajectMeasurementTraveltime((long) trajectMetingen.get(0).getReistijd());
+	            trajectmeasurements.get(0).setTrajectMeasurementVelocity((long) trajectMetingen.get(0).getSnelheid());
+	            trajectinformation.setTrajectmeasurement(trajectmeasurements);
+	            
 	            wpm.update(trajectinformation);
 	            log.info("trajectinformation: " + trajectinformation.getTrajectId());
             }
