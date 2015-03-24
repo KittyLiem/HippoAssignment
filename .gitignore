@@ -2,7 +2,6 @@
 ## Maven build artifacts
 target/
 
-
 *.pydevproject
 .metadata
 .gradle
@@ -15,6 +14,11 @@ tmp/
 local.properties
 .settings/
 .loadpath
+
+# IntelliJ
+.idea/
+*.iml
+overlays/
 
 # Eclipse Core
 .project
