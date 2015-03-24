@@ -7,14 +7,14 @@
     <sv:value>mix:versionable</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
-    <sv:value>f6f96940-1c8c-42c0-9e01-4e47623e7caa</sv:value>
+    <sv:value>df5e0f44-e6cf-4399-a2c8-effa6a56af83</sv:value>
   </sv:property>
   <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
     <sv:value>new-translated-folder</sv:value>
     <sv:value>new-document</sv:value>
   </sv:property>
   <sv:property sv:name="hippotranslation:id" sv:type="String">
-    <sv:value>2781fcd6-10d3-49f7-8e6a-8cd5b69618a9</sv:value>
+    <sv:value>916e237e-4a6a-4dee-9ef9-58ef9ee8845e</sv:value>
   </sv:property>
   <sv:property sv:name="hippotranslation:locale" sv:type="String">
     <sv:value>en</sv:value>

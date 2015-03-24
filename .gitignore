@@ -1,6 +1,7 @@
 
 ## Maven build artifacts
 target/
+storage/
 
 *.pydevproject
 .metadata
