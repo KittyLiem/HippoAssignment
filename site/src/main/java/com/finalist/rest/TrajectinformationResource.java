@@ -183,7 +183,6 @@ public class TrajectinformationResource extends BaseRestResource {
 	            trajectinformation.setTrajectMeasurementTraveltime((long) trajectInfo.getReistijd());
 	            trajectinformation.setTrajectMeasurementVelocity((long) trajectInfo.getSnelheid());
 
-	        	log.info("Datum: " + trajectinformation.getTrajectMeasurementDate()); 
 	            wpm.update(trajectinformation);
 	            log.info("trajectinformation: " + trajectinformation.getTrajectId());
             

@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="content">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippostd:folder</sv:value>
-    </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
-        <sv:value>hippotranslation:translated</sv:value>
-    </sv:property>
-    <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>532a8975-fce7-454e-addd-3b8865a9bf77</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
-        <sv:value>new-banner-document</sv:value>
-        <sv:value>new-banner-folder</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippotranslation:id" sv:type="String">
-        <sv:value>e9b38ec6-9245-4dcd-a431-9cdbde01e1fe</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippotranslation:locale" sv:type="String">
-        <sv:value>en</sv:value>
-    </sv:property>
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="content">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>mix:referenceable</sv:value>
+    <sv:value>hippotranslation:translated</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>d61d2b10-d2f4-47b5-aa3b-cf7184195928</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-banner-document</sv:value>
+    <sv:value>new-banner-folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>e9b38ec6-9245-4dcd-a431-9cdbde01e1fe</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>en</sv:value>
+  </sv:property>
   <sv:node sv:name="about">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:handle</sv:value>
@@ -43,8 +42,8 @@
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>about/about[2]</sv:value>
-        <sv:value>about/about[3]</sv:value>
+        <sv:value>content/about/about[2]</sv:value>
+        <sv:value>content/about/about[3]</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:state" sv:type="String">
         <sv:value>draft</sv:value>
@@ -59,7 +58,7 @@
         <sv:value>2015-03-21T15:49:27.282+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-03-21T16:02:04.420+01:00</sv:value>
+        <sv:value>2015-03-24T13:58:07.766+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -85,8 +84,8 @@
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
           <sv:value>&lt;h3 style="text-align:left"&gt;About my assignment&lt;/h3&gt; 
-&lt;p style="text-align:left"&gt;The target of my assignment is to retrieve information (in JSON format) about traffic on trajects in and around Amsterdam every 5 minutes. Save the information in the repository, make it possible to retrieve hourly averages and visualize the information.&lt;/p&gt; 
-&lt;p style="text-align:left"&gt;The target I added is&amp;nbsp;to use Hippo Essentials and the available doumentation and information from Hippo.&amp;nbsp;&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;The target of my assignment is to retrieve information (in JSON format) about traffic on trajects in and around Amsterdam every 5 minutes. The information has to be saved in the repository and make it possible to retrieve hourly averages and visualize the information.&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;The target I added is&amp;nbsp;to use Hippo Essentials and the available doumentation and information from Hippo to achieve this.&amp;nbsp;&lt;/p&gt; 
 &lt;p style="text-align:left"&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h3&gt;About Hippo&lt;/h3&gt; 
 &lt;p&gt;&amp;quot;With our innovative Content Management and Portal technologies, Hippo helps companies manage and access information, protect sensitive data, share knowledge, optimize collaboration and reduce operational costs. The combination of enterprise-class support and open source technology, brings our customers the best of both worlds: the flexibility, innovation and robustness of open source software combined with the stability, reach and service quality of an established vendor.&lt;/p&gt; 
@@ -121,7 +120,7 @@
         <sv:value>preview</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>about/about[3]</sv:value>
+        <sv:value>content/about/about[3]</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:state" sv:type="String">
         <sv:value>unpublished</sv:value>
@@ -136,7 +135,7 @@
         <sv:value>2015-03-21T15:49:27.282+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-03-21T16:03:13.696+01:00</sv:value>
+        <sv:value>2015-03-24T13:59:29.639+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -162,8 +161,8 @@
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
           <sv:value>&lt;h3 style="text-align:left"&gt;About my assignment&lt;/h3&gt; 
-&lt;p style="text-align:left"&gt;The target of my assignment is to retrieve information (in JSON format) about traffic on trajects in and around Amsterdam every 5 minutes. Save the information in the repository, make it possible to retrieve hourly averages and visualize the information.&lt;/p&gt; 
-&lt;p style="text-align:left"&gt;The target I added is&amp;nbsp;to use Hippo Essentials and the available doumentation and information from Hippo.&amp;nbsp;&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;The target of my assignment is to retrieve information (in JSON format) about traffic on trajects in and around Amsterdam every 5 minutes. The information has to be saved in the repository and make it possible to retrieve hourly averages and visualize the information.&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;The target I added is&amp;nbsp;to use Hippo Essentials and the available doumentation and information from Hippo to achieve this.&amp;nbsp;&lt;/p&gt; 
 &lt;p style="text-align:left"&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h3&gt;About Hippo&lt;/h3&gt; 
 &lt;p&gt;&amp;quot;With our innovative Content Management and Portal technologies, Hippo helps companies manage and access information, protect sensitive data, share knowledge, optimize collaboration and reduce operational costs. The combination of enterprise-class support and open source technology, brings our customers the best of both worlds: the flexibility, innovation and robustness of open source software combined with the stability, reach and service quality of an established vendor.&lt;/p&gt; 
@@ -186,7 +185,7 @@
         <sv:value>live</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>about/about[2]</sv:value>
+        <sv:value>content/about/about[2]</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:state" sv:type="String">
         <sv:value>published</sv:value>
@@ -201,13 +200,13 @@
         <sv:value>2015-03-21T15:49:27.282+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-03-21T16:03:13.696+01:00</sv:value>
+        <sv:value>2015-03-24T13:59:29.639+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2015-03-21T16:03:17.223+01:00</sv:value>
+        <sv:value>2015-03-24T13:59:32.899+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>7bea1d7c-0356-4b8f-a5ab-a86f7d079ed9</sv:value>
@@ -230,8 +229,8 @@
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
           <sv:value>&lt;h3 style="text-align:left"&gt;About my assignment&lt;/h3&gt; 
-&lt;p style="text-align:left"&gt;The target of my assignment is to retrieve information (in JSON format) about traffic on trajects in and around Amsterdam every 5 minutes. Save the information in the repository, make it possible to retrieve hourly averages and visualize the information.&lt;/p&gt; 
-&lt;p style="text-align:left"&gt;The target I added is&amp;nbsp;to use Hippo Essentials and the available doumentation and information from Hippo.&amp;nbsp;&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;The target of my assignment is to retrieve information (in JSON format) about traffic on trajects in and around Amsterdam every 5 minutes. The information has to be saved in the repository and make it possible to retrieve hourly averages and visualize the information.&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;The target I added is&amp;nbsp;to use Hippo Essentials and the available doumentation and information from Hippo to achieve this.&amp;nbsp;&lt;/p&gt; 
 &lt;p style="text-align:left"&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h3&gt;About Hippo&lt;/h3&gt; 
 &lt;p&gt;&amp;quot;With our innovative Content Management and Portal technologies, Hippo helps companies manage and access information, protect sensitive data, share knowledge, optimize collaboration and reduce operational costs. The combination of enterprise-class support and open source technology, brings our customers the best of both worlds: the flexibility, innovation and robustness of open source software combined with the stability, reach and service quality of an established vendor.&lt;/p&gt; 
