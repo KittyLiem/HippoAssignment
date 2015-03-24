@@ -7,14 +7,11 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
 
 import javax.jcr.RepositoryException;
 import javax.jcr.Session;
 
 import org.common.domain.TrajectInfo;
-import org.common.domain.TrajectMeting;
 import org.onehippo.repository.scheduling.RepositoryJob;
 import org.onehippo.repository.scheduling.RepositoryJobExecutionContext;
 import org.slf4j.Logger;
@@ -102,20 +99,16 @@ public class RouteRepositoryJob implements RepositoryJob {
 	}
 	
 	public TrajectInfo filterTrajectInfo(Feature feature) {
-        List<TrajectMeting> trajectMetingen = new ArrayList<TrajectMeting> ();
 		TrajectInfo trajectInfo = new TrajectInfo();
-        TrajectMeting trajectMeting = new TrajectMeting();
 		
 		trajectInfo.setId(feature.getId());
 		trajectInfo.setName(feature.getProperties().getName());
 		trajectInfo.setLength(feature.getProperties().getLength());
-		trajectInfo.setTrajectMetingen(trajectMetingen);
 
-        trajectMeting.setMetingDatum(feature.getProperties().getTimestamp());
-        trajectMeting.setReistijd(feature.getProperties().getTraveltime());
-        trajectMeting.setVelocity(feature.getProperties().getVelocity());
+        trajectInfo.setMetingDatum(feature.getProperties().getTimestamp());
+        trajectInfo.setReistijd(feature.getProperties().getTraveltime());
+        trajectInfo.setVelocity(feature.getProperties().getVelocity());
 	        
-	    trajectMetingen.add(trajectMeting);
 	    return trajectInfo;
 	}
 

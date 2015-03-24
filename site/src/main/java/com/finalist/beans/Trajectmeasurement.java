@@ -6,6 +6,7 @@ import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoDocument;
 import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 
+@Deprecated
 @HippoEssentialsGenerated(internalName = "myassignment:trajectmeasurement")
 @Node(jcrType = "myassignment:trajectmeasurement")
 public class Trajectmeasurement extends HippoDocument {

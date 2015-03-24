@@ -90,15 +90,7 @@ public class TrajectInformationPlainResource extends BaseRestResource {
 	            	Trajectinformation trajectinformation =
 	                    (Trajectinformation) iterator.nextHippoBean();
 	 
-	                if (trajectinformation != null) {
-	                	TrajectinformationRepresentation trajectRep =
-	                        new TrajectinformationRepresentation().represent(trajectinformation);
-	                	trajectRep.addLink(getNodeLink(requestContext,
-	                			trajectinformation));
-	                    trajectRep.addLink(getSiteLink(requestContext,
-	                    		trajectinformation));
-	                    trajects.add(trajectRep);
-	                }
+
 	            }
                 	            		
 	        } catch (Exception e) {

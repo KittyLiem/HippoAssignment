@@ -6,8 +6,6 @@ import java.util.List;
 import org.common.domain.TrajectInfo;
 import org.common.domain.TrajectMeting;
 
-import com.finalist.domain.TrajectInformationObject;
-import com.finalist.util.JsonUtil;
 import com.finalist.util.XmlUtil;
 
 public class XmlMaker {
@@ -32,7 +30,6 @@ public class XmlMaker {
         trajectInfo.setId("Test Xml");
         trajectInfo.setName("Test traject naam");
         trajectInfo.setLength(123);
-        trajectInfo.setTrajectMetingen(trajectMetingen);
 
         String xml = xmlUtil.convertToXml(trajectInfo, trajectInfo.getClass());
         

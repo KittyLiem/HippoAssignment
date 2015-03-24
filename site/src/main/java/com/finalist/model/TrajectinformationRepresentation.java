@@ -2,13 +2,11 @@ package com.finalist.model;
 
 import java.util.List;
 
-import javax.jcr.RepositoryException;
 import javax.xml.bind.annotation.XmlRootElement;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.finalist.beans.Trajectinformation;
 import com.finalist.beans.Trajectmeasurement;
 
 @Deprecated
@@ -21,17 +19,6 @@ public class TrajectinformationRepresentation extends BaseDocumentRepresentation
 	private String trajectName;
 	private double trajectLength;
 
-	private List<Trajectmeasurement> trajectMetingen;
-	
-
-	public TrajectinformationRepresentation represent(Trajectinformation bean) throws RepositoryException {
-		super.represent(bean);
-		this.trajectId = bean.getTrajectId();
-		this.trajectName = bean.getTrajectName();
-		this.trajectLength = bean.getTrajectLength();
-		this.trajectMetingen = bean.getTrajectMeasurement();
-		return this;
-	}
 
 	public String getTrajectId() {
 		return trajectId;
@@ -56,13 +43,4 @@ public class TrajectinformationRepresentation extends BaseDocumentRepresentation
 		this.trajectLength = trajectLength;
 	}
 
-	public List<Trajectmeasurement> getTrajectMetingen() {
-		return trajectMetingen;
-	}
-
-	public void setTrajectMetingen (List<Trajectmeasurement> trajectMetingen) {
-		this.trajectMetingen = trajectMetingen;
-	}
-
-	
 }

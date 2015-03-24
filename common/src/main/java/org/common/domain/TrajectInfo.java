@@ -1,22 +1,19 @@
 package org.common.domain;
 
-import java.util.List;
-
-import javax.jcr.RepositoryException;
 import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
 @XmlRootElement(name="trajectinformation")
-@XmlType(propOrder={"id", "name", "length", "trajectMetingen"})
+@XmlType(propOrder={"id", "name", "length", "metingDatum", "snelheid", "reistijd"})
 public class TrajectInfo {
  	
 	private String id;
 	private String name;
 	private int length;
-	@XmlElement(name="trajectmeting", type=TrajectMeting.class)
-	private List<TrajectMeting> trajectMetingen;
+	private String metingDatum;
+	private int snelheid;
+	private int reistijd;
 	
 	@XmlAttribute
 	public String getId(){
@@ -40,13 +37,29 @@ public class TrajectInfo {
 	public void setLength(int length){
 		this.length = length;
 	}
-
-	public List<TrajectMeting> getTrajectmetingen(){
-		return this.trajectMetingen;
+	@XmlAttribute
+	public String getMetingDatum(){
+		return this.metingDatum;
 	}
-	public void setTrajectMetingen(List<TrajectMeting> trajectMetingen) {
-		this.trajectMetingen = trajectMetingen;
-	} 	
+	public void setMetingDatum(String metingDatum){
+		this.metingDatum = metingDatum;
+	}
+	
+	@XmlAttribute
+ 	public int getReistijd(){
+		return this.reistijd;
+	}
+	public void setReistijd(int reistijd){
+		this.reistijd = reistijd;
+	}
+	
+	@XmlAttribute
+ 	public int getSnelheid(){
+		return this.snelheid;
+	}
+	public void setVelocity(int snelheid){
+		this.snelheid = snelheid;
+	}
 	
 	/* public TrajectInfo represent(Trajectinformation bean) throws RepositoryException {
 		//super.represent(bean);

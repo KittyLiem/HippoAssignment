@@ -60,11 +60,7 @@ public class TrajectInformationResource extends AbstractResource {
 	            HstQueryResult result = hstQuery.execute();
 	            
                 Trajectinformation trajectinformation = (Trajectinformation) result;
-	            if (trajectinformation != null) {
-	                TrajectinformationRepresentation trajectinformationRep = new TrajectinformationRepresentation().represent(trajectinformation);
-	                trajectinformationRep.addLink(getNodeLink(requestContext, trajectinformation));
-	                traject = trajectinformationRep;
-	            }
+
 	            		
 	        } catch (Exception e) {
 	            if (log.isDebugEnabled()) {

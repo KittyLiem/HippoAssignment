@@ -20,9 +20,13 @@ import java.rmi.RemoteException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.List;
 
+import javax.jcr.Node;
+import javax.jcr.NodeIterator;
 import javax.jcr.RepositoryException;
+import javax.jcr.query.Query;
+import javax.jcr.query.QueryManager;
+import javax.jcr.query.QueryResult;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.ws.rs.Consumes;
@@ -34,39 +38,42 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response.ResponseBuilder;
 import javax.ws.rs.core.UriInfo;
+import javax.xml.ws.WebServiceException;
 
+import org.apache.cxf.transport.Session;
+import org.apache.cxf.transport.http.HTTPSession;
 import org.common.domain.TrajectInfo;
-import org.common.domain.TrajectMeting;
+import org.hippoecm.hst.container.RequestContextProvider;
 import org.hippoecm.hst.content.annotations.Persistable;
-import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.ObjectBeanManagerException;
 import org.hippoecm.hst.content.beans.manager.workflow.BaseWorkflowCallbackHandler;
 import org.hippoecm.hst.content.beans.manager.workflow.WorkflowPersistenceManager;
-import org.hippoecm.hst.content.beans.standard.HippoBean;
-import org.hippoecm.hst.content.beans.standard.HippoDocument;
+import org.hippoecm.hst.content.beans.query.HstQuery;
+import org.hippoecm.hst.content.beans.query.HstQueryManager;
+import org.hippoecm.hst.content.beans.query.exceptions.QueryException;
 import org.hippoecm.hst.content.beans.standard.HippoFolderBean;
 import org.hippoecm.hst.core.component.HstComponentException;
 import org.hippoecm.hst.core.request.HstRequestContext;
-import org.hippoecm.repository.api.Workflow;
 import org.hippoecm.repository.api.WorkflowException;
-import org.hippoecm.repository.standardworkflow.FolderWorkflow;
+import org.onehippo.cms7.essentials.components.paging.DefaultPagination;
 import org.onehippo.cms7.essentials.components.paging.Pageable;
 import org.onehippo.cms7.essentials.components.rest.BaseRestResource;
 import org.onehippo.cms7.essentials.components.rest.ctx.DefaultRestContext;
+import org.onehippo.cms7.essentials.components.rest.ctx.RestContext;
 import org.onehippo.repository.documentworkflow.DocumentWorkflow;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.finalist.beans.Trajectinformation;
-import com.finalist.beans.Trajectmeasurement;
 import com.finalist.services.ResponseUtils;
 
 /**
  * @version "$Id$"
  */
 
-@Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
+@Produces({MediaType.APPLICATION_JSON})
 @Consumes({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_FORM_URLENCODED})
 @Path("/Trajectinformation/")
 public class TrajectinformationResource extends BaseRestResource {
@@ -97,6 +104,39 @@ public class TrajectinformationResource extends BaseRestResource {
     }
 
     
+    @SuppressWarnings("unchecked")
+	@GET
+    @Path("/{name}")
+    public Pageable<Trajectinformation> getTraject(@Context HttpServletRequest request, @PathParam("name") String name) {
+     //TODO dispaly the average node made when getting the traject info in cms
+    	/*	
+    	
+		String queryString = 
+				"SELECT * FROM myassignment:averagetraject " +
+				"WHERE myassignment:trajectName=" + name ;
+		HstRequestContext restContext = RequestContextProvider.get();
+		try {
+			HTTPSession session = (HTTPSession) restContext.getSession();
+		
+			QueryManager queryManager;
+
+			queryManager = ((javax.jcr.Session) session).getWorkspace().getQueryManager();
+
+			Query query = queryManager.createQuery(
+	                queryString, Query.SQL);
+			QueryResult result = query.execute();
+			for (NodeIterator i=result.getNodes(); i.hasNext(); ) {
+				log.info("document " + i.nextNode().getPath() + " matches");
+			       return (Pageable<Trajectinformation>) i.nextNode();
+			}
+		} catch (RepositoryException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} */
+		return DefaultPagination.emptyCollection();
+    }
+
+    
     @Persistable
     @POST
     @Path("/")
@@ -118,23 +158,11 @@ public class TrajectinformationResource extends BaseRestResource {
             // get the folder bean
             HippoFolderBean trajectFolder = (HippoFolderBean) wpm.getObject(trajectInformationPath);
             
-            // try to get trajectinformation document with id
-            Object hippoDoc = wpm.getObject(trajectFolder.getPath() + "/" + trajectInfo.getId());
-            //log.info("Object found: " + hippoDoc.getClass().getName());
-            
-            boolean exists = false;
-            if (hippoDoc instanceof Trajectinformation) {
-            	exists = true;
-            	log.info("The id exists in repository");
-            }
-            
             wpm.setWorkflowCallbackHandler(new BaseWorkflowCallbackHandler<DocumentWorkflow>() {
                 public void processWorkflow(DocumentWorkflow wf) throws Exception {
                     wf.publish();
                 }
             });
-
-            if (!exists) {
 	        	
 	            String trajectPath = wpm.createAndReturn(trajectFolder.getPath(), "myassignment:trajectinformation", trajectInfo.getId(), true);
             
@@ -146,25 +174,18 @@ public class TrajectinformationResource extends BaseRestResource {
 	            trajectinformation.setTrajectId(trajectInfo.getId());
 	            trajectinformation.setTrajectLength((long) trajectInfo.getLength());
 	            trajectinformation.setTrajectName(trajectInfo.getName());
-	            List<Trajectmeasurement> trajectmeasurements = trajectinformation.getTrajectMeasurement();
-	            List<TrajectMeting> trajectMetingen = trajectInfo.getTrajectmetingen();
+
 	            Calendar cal = Calendar.getInstance();
 	        	SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
-	        	cal.setTime(sdf.parse(trajectMetingen.get(0).getMetingDatum()));
-	            trajectmeasurements.get(0).setTrajectMeasurementDate(cal); 
-	            trajectmeasurements.get(0).setTrajectMeasurementTraveltime((long) trajectMetingen.get(0).getReistijd());
-	            trajectmeasurements.get(0).setTrajectMeasurementVelocity((long) trajectMetingen.get(0).getSnelheid());
-	            trajectinformation.setTrajectmeasurement(trajectmeasurements);
-	            
+	        	cal.setTime(sdf.parse(trajectInfo.getMetingDatum()));
+
+	        	trajectinformation.setTrajectMeasurementDate(cal); 
+	            trajectinformation.setTrajectMeasurementTraveltime((long) trajectInfo.getReistijd());
+	            trajectinformation.setTrajectMeasurementVelocity((long) trajectInfo.getSnelheid());
+
+	        	log.info("Datum: " + trajectinformation.getTrajectMeasurementDate()); 
 	            wpm.update(trajectinformation);
 	            log.info("trajectinformation: " + trajectinformation.getTrajectId());
-            }
-            else {
-	
-	   
-	        	// TODO add childnode to document node
-	       
-            }
             
             return trajectInfo;      
 	            
@@ -184,12 +205,7 @@ public class TrajectinformationResource extends BaseRestResource {
             }
             
             throw new WebApplicationException(e, ResponseUtils.buildServerErrorResponse(e));
-        } /*catch (RemoteException e) {
-        	log.warn("Remote exception.", e);
-		} catch (WorkflowException e) {
-        	log.warn("Workflow exception.", e);
-		}*/
-		//return trajectInfo;
+        } 
 
     }
 
