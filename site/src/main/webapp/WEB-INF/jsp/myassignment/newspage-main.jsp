@@ -49,7 +49,7 @@
 		-->
 		          <div id="editable_cont" class="inline-editor-editable-container">
 					  <c:if test="${not empty document.introduction}">
-					    <li><c:out value="${document.introduction}"/></li>
+					    <li><h2><c:out value="${document.introduction}"/></h2></li>
 					  </c:if>
 					  <div class="yui-cssbase body">
 				  	<span class=" inline" id="myassignment:description">
@@ -65,8 +65,8 @@
 	            <ul class="box-general bullet-points">
 	              <li class="title">Related News</li>
 	              <c:forEach var="item" items="${document.relatednews}">
-	              	<hst:link var="link" hippobean=${item}"/>
-	              	<li class="link"><a href="${link}">${item.title}</a></li>
+	              	<hst:link var="relatedLink" hippobean="${item}"/>
+	              	<li class="link"><a href="${relatedLink}">${item.title}</a></li>
 	              </c:forEach>
 	            </ul>
           	</c:if>
