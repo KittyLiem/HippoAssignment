@@ -44,8 +44,9 @@
 		        <c:set var="active" value="${counter.first ? ' active':''}"/>
 			        <div class="item panel ${active}">
 			          <img src="<hst:link hippobean="${item.image.banner}" />" alt="${item.title}"/>
+			          <hst:link var="link" hippobean="${item.link}"/>
 			          <div class="carousel-caption title">
-			           <a> ${item.title}</a>
+			           <a href="${link}"> ${item.title}</a>
 			          </div>
 			        </div>
 			   

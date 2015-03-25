@@ -12,6 +12,7 @@
   <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
     <sv:value>new-banner-document</sv:value>
     <sv:value>new-banner-folder</sv:value>
+    <sv:value>new-content-document</sv:value>
   </sv:property>
   <sv:property sv:name="hippotranslation:id" sv:type="String">
     <sv:value>e9b38ec6-9245-4dcd-a431-9cdbde01e1fe</sv:value>
@@ -236,6 +237,962 @@
 &lt;p&gt;&amp;quot;With our innovative Content Management and Portal technologies, Hippo helps companies manage and access information, protect sensitive data, share knowledge, optimize collaboration and reduce operational costs. The combination of enterprise-class support and open source technology, brings our customers the best of both worlds: the flexibility, innovation and robustness of open source software combined with the stability, reach and service quality of an established vendor.&lt;/p&gt; 
 &lt;p&gt;Hippo was founded in 1999 and today has a global base of over 150 customers across multiple categories including education, publishing, manufacturing, financial services and government. Hippo was recognized by Deloitte in its&amp;nbsp; 
 &lt;a href="http://www.deloitte.com/view/en_GX/global/categories/technology-media-telecommunications/deloitte-technology-fast-500-emea/index.htm" style="color: rgb(111, 93, 22); text-decoration: none;"&gt;Fast 500&lt;/a&gt;&amp;nbsp;for 2007, 2008 and 2009 based on revenue growth. To support the rapidly expanding Hippo community, Hippo has over 60 employees located in its European headquarters in Amsterdam, The Netherlands and North American headquarters in San Francisco, California.&amp;quot;&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="banner-1-content">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>93f40751-38fe-4534-83e1-a2e3a09b515f</sv:value>
+    </sv:property>
+    <sv:node sv:name="banner-1-content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myassignment:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>a8fe7bdd-34ed-4120-8304-55f812a42ee5</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/banner-1-content/banner-1-content[3]</sv:value>
+        <sv:value>content/banner-1-content/banner-1-content[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-03-25T19:23:17.446+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-03-25T19:25:09.347+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>ccb351c2-65e7-4fc8-9936-2cae1f222f9f</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:introduction" sv:type="String">
+        <sv:value>I have chosen to to my assigment using Hippo archetype with essentials.</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:mypublicationdate" sv:type="Date">
+        <sv:value>2015-03-25T19:24:00.000+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:title" sv:type="String">
+        <sv:value>My Hippo Assignment</sv:value>
+      </sv:property>
+      <sv:node sv:name="myassignment:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;De actuele reistijden van trafficlink sensor in Noord-Holland worden opgehaald en in de Hippo Repository gezet als&amp;nbsp; 
+&lt;a href="http://www.trafficlink-online.nl/trafficlinkdata/wegdata/TrajectSensorsNH.GeoJSON" style="margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; outline: none !important; background-color: rgb(245, 245, 245);"&gt;&amp;quot;trajectinformation&amp;quot; documenten&lt;/a&gt;, de hippo scheduler wordt hiervoor gebruikt.&lt;/p&gt; 
+&lt;p&gt;Er kan gezet worden om de hoeveel minuten de informatie moet worden opgehaald.&lt;/p&gt; 
+&lt;p&gt;Een overzicht van de aanwezige informatie kan opgehaald worden met: http://localhost:8080/site/trajectinformation.&amp;nbsp;Er kan geklikt worden op een traject naam, de traject naam detailgegevens en meting worden dan getoond en het is mogelijk om te klikken om de gemiddlelde reistijd en snelheid van het afgelopen uur op te vragen in JSON formaat (dit werkt momenteel nog niet, er wordt een &amp;quot;lege&amp;quot; JSON getoond).&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Banner 1 content</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="banner-1-content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myassignment:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>6d2320cd-1801-4083-9849-e9dec3a62315</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/banner-1-content/banner-1-content[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-03-25T19:23:17.446+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-03-25T19:25:52.932+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>ccb351c2-65e7-4fc8-9936-2cae1f222f9f</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:introduction" sv:type="String">
+        <sv:value>I have chosen to to my assigment using Hippo archetype with essentials.</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:mypublicationdate" sv:type="Date">
+        <sv:value>2015-03-25T19:24:00.000+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:title" sv:type="String">
+        <sv:value>My Hippo Assignment</sv:value>
+      </sv:property>
+      <sv:node sv:name="myassignment:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;De actuele reistijden van trafficlink sensor in Noord-Holland worden opgehaald en in de Hippo Repository gezet als&amp;nbsp; 
+&lt;a href="http://www.trafficlink-online.nl/trafficlinkdata/wegdata/TrajectSensorsNH.GeoJSON" style="margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; outline: none !important; background-color: rgb(245, 245, 245);"&gt;&amp;quot;trajectinformation&amp;quot; documenten&lt;/a&gt;, de hippo scheduler wordt hiervoor gebruikt.&lt;/p&gt; 
+&lt;p&gt;Er kan gezet worden om de hoeveel minuten de informatie moet worden opgehaald.&lt;/p&gt; 
+&lt;p&gt;Een overzicht van de aanwezige informatie kan opgehaald worden met: http://localhost:8080/site/trajectinformation.&amp;nbsp;Er kan geklikt worden op een traject naam, de traject naam detailgegevens en meting worden dan getoond en het is mogelijk om te klikken om de gemiddlelde reistijd en snelheid van het afgelopen uur op te vragen in JSON formaat (dit werkt momenteel nog niet, er wordt een &amp;quot;lege&amp;quot; JSON getoond).&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="banner-1-content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myassignment:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>63420518-15a0-4004-a818-4538c4d261bd</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/banner-1-content/banner-1-content[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-03-25T19:23:17.446+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-03-25T19:25:52.932+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2015-03-25T19:25:55.426+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>ccb351c2-65e7-4fc8-9936-2cae1f222f9f</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:introduction" sv:type="String">
+        <sv:value>I have chosen to to my assigment using Hippo archetype with essentials.</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:mypublicationdate" sv:type="Date">
+        <sv:value>2015-03-25T19:24:00.000+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:title" sv:type="String">
+        <sv:value>My Hippo Assignment</sv:value>
+      </sv:property>
+      <sv:node sv:name="myassignment:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;De actuele reistijden van trafficlink sensor in Noord-Holland worden opgehaald en in de Hippo Repository gezet als&amp;nbsp; 
+&lt;a href="http://www.trafficlink-online.nl/trafficlinkdata/wegdata/TrajectSensorsNH.GeoJSON" style="margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; outline: none !important; background-color: rgb(245, 245, 245);"&gt;&amp;quot;trajectinformation&amp;quot; documenten&lt;/a&gt;, de hippo scheduler wordt hiervoor gebruikt.&lt;/p&gt; 
+&lt;p&gt;Er kan gezet worden om de hoeveel minuten de informatie moet worden opgehaald.&lt;/p&gt; 
+&lt;p&gt;Een overzicht van de aanwezige informatie kan opgehaald worden met: http://localhost:8080/site/trajectinformation.&amp;nbsp;Er kan geklikt worden op een traject naam, de traject naam detailgegevens en meting worden dan getoond en het is mogelijk om te klikken om de gemiddlelde reistijd en snelheid van het afgelopen uur op te vragen in JSON formaat (dit werkt momenteel nog niet, er wordt een &amp;quot;lege&amp;quot; JSON getoond).&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="banner-2-content">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>db208597-454f-4716-9389-a599ac97f0a6</sv:value>
+    </sv:property>
+    <sv:node sv:name="banner-2-content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myassignment:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>944bbe63-edc5-4a28-9596-3204d7fdceaf</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/banner-2-content/banner-2-content[2]</sv:value>
+        <sv:value>content/banner-2-content/banner-2-content[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-03-25T19:32:41.299+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-03-25T19:32:41.348+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>0318a41a-3930-4259-9eba-16816aa84056</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:introduction" sv:type="String">
+        <sv:value>What is in News?</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:mypublicationdate" sv:type="Date">
+        <sv:value>2015-03-25T19:33:00.000+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:title" sv:type="String">
+        <sv:value>News</sv:value>
+      </sv:property>
+      <sv:node sv:name="myassignment:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;In the menu item News you can find an account of the activities and actions I have taken during the realisation&amp;nbsp;of the assignment. You can start at&amp;nbsp;
+&lt;a href="http://localhost:8080/cms/?1&amp;amp;path=/content/documents/myassignment/banners/banner2" style="margin: 0px; padding: 0px; color: rgb(7, 130, 193); font-family: sans-serif, Arial, Verdana, &amp;apos;Trebuchet MS&amp;apos;; font-size: 13px; line-height: 20.7999992370605px; background-color: rgb(255, 255, 255);"&gt;day 1&lt;/a&gt;&amp;nbsp;and the walk through them.&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Banner 2 content</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="banner-2-content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myassignment:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>171e0cb9-8599-4e53-82a0-dba79a6ea39f</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/banner-2-content/banner-2-content[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-03-25T19:32:41.299+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-03-25T19:33:25.668+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>0318a41a-3930-4259-9eba-16816aa84056</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:introduction" sv:type="String">
+        <sv:value>What is in News?</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:mypublicationdate" sv:type="Date">
+        <sv:value>2015-03-25T19:33:00.000+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:title" sv:type="String">
+        <sv:value>News</sv:value>
+      </sv:property>
+      <sv:node sv:name="myassignment:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;In the menu item News you can find an account of the activities and actions I have taken during the realisation&amp;nbsp;of the assignment. You can start at&amp;nbsp;
+&lt;a href="http://localhost:8080/cms/?1&amp;amp;path=/content/documents/myassignment/banners/banner2" style="margin: 0px; padding: 0px; color: rgb(7, 130, 193); font-family: sans-serif, Arial, Verdana, &amp;apos;Trebuchet MS&amp;apos;; font-size: 13px; line-height: 20.7999992370605px; background-color: rgb(255, 255, 255);"&gt;day 1&lt;/a&gt;&amp;nbsp;and the walk through them.&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="banner-2-content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myassignment:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>e9d857aa-6aa0-4b07-9139-b65cfb863d2b</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/banner-2-content/banner-2-content[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-03-25T19:32:41.299+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-03-25T19:33:25.668+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2015-03-25T19:33:31.772+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>0318a41a-3930-4259-9eba-16816aa84056</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:introduction" sv:type="String">
+        <sv:value>What is in News?</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:mypublicationdate" sv:type="Date">
+        <sv:value>2015-03-25T19:33:00.000+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:title" sv:type="String">
+        <sv:value>News</sv:value>
+      </sv:property>
+      <sv:node sv:name="myassignment:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;In the menu item News you can find an account of the activities and actions I have taken during the realisation&amp;nbsp;of the assignment. You can start at&amp;nbsp;
+&lt;a href="http://localhost:8080/cms/?1&amp;amp;path=/content/documents/myassignment/banners/banner2" style="margin: 0px; padding: 0px; color: rgb(7, 130, 193); font-family: sans-serif, Arial, Verdana, &amp;apos;Trebuchet MS&amp;apos;; font-size: 13px; line-height: 20.7999992370605px; background-color: rgb(255, 255, 255);"&gt;day 1&lt;/a&gt;&amp;nbsp;and the walk through them.&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="banner-3-content">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>74b0726e-65b1-4162-a07e-daa501e3de1e</sv:value>
+    </sv:property>
+    <sv:node sv:name="banner-3-content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myassignment:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>e3be9021-dd8d-47c8-8765-4a41c6e54e47</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/banner-3-content/banner-3-content[2]</sv:value>
+        <sv:value>content/banner-3-content/banner-3-content[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-03-25T19:36:12.979+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-03-25T20:07:46.187+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>7edc0f5e-9ab2-419c-92a8-c025f40590b9</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:introduction" sv:type="String">
+        <sv:value>De classes die ik gemaakt, afgewezen en gebruikt heb.</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:mypublicationdate" sv:type="Date">
+        <sv:value>2015-03-25T19:36:00.000+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:title" sv:type="String">
+        <sv:value>Java Classes</sv:value>
+      </sv:property>
+      <sv:node sv:name="myassignment:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;&lt;u&gt;Ontvangen van JSON in POJO&amp;apos;s:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;TrajectinformationObject, Feature, Geometry enProperties.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;Deze zijn gegenereerd met behulp van de JSON in de url en een online tool. Ik heb wel&amp;nbsp;@JsonIgnoreProperties(ignoreUnknown=true) toegevoegd zodat mogelijke wijzigingen in de JSON van de url de applicatie niet storen.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Ontvangen van JSON in POJO&amp;apos;s: en doorzetten van POJO&amp;apos;s naar repository:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;RouteRepositoryJob.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;Deze class wordt gestart doormiddel van de Hippo scheduler en zorgt ervoor dat de JSON wordt vertaald naar POJO&amp;apos;s en dat elk traject, door middel van REST actie POST, wordt&amp;nbsp;doorgezet worden naar de repository zodat een Hippo document &amp;quot;trajectinformatie&amp;quot; voor een traject gepubliceerd&amp;nbsp;wordt&amp;nbsp;.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Utilities:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;JSONUtil en&amp;nbsp;XMLUtil.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;JSONUtil voor het mappen van de JSON naar POJO&amp;apos;s.&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;XMLUtil voor het vertalen van de POJO&amp;apos;s naar XML ten behoeve van POST.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Berekenen gemiddeldes:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;TrajectAverageModule.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;Is nog in test fase.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Common:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;TrajectInfo en TrajectMeting.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;Classes voor het doorgeven van de informatie van cms naar site.&lt;/p&gt; 
+&lt;p&gt;De class TrajectMeting is vervallen, deze moest een weergave zijn van een eigen samengesteld object, deze kunnen echter niet automatisch gepersisteerd worden.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Beans:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Trajectinformation en Trajectmeasurement.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;De repository objecten.&lt;/p&gt; 
+&lt;p&gt;Class Trajectmeasurement is vervallen.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Component:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;TrajectInformationComponent.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;Deze was i hoofdzaak bedoeld om de doAction methode te gebruiken voor het persisteren, dat is in dit geval niet noodzakelijk.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Model:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;Deze classes worden nu niet gebruikt.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Rest:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;TrajectinformationResource​,&amp;nbsp;NewsDocumentResource&amp;nbsp;en&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;TrajectinformationPlainResource.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;TrajectinformationResource is de class die ervoor zorgt dat traject informatie in repository wordt gezet (POST) en gepubliceerd en die er ook voor zorgt dat informatie als een Service wordt aangeboden (GET).&lt;/p&gt; 
+&lt;p&gt;Net als NewsDocumentResource is TrajectinformationResource een class die gegenereerd is door de Rest Services Setup van Hippo Essentials.&lt;/p&gt; 
+&lt;p&gt;Class TrajectinformationPlainResource was toen ik nog niet goed doorhad wat er nodig was, wordt niet meer gebruikt.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Services:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;TrajectinformationResource en ResponseUtil.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;Vervallen.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Banner 3 content</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="banner-3-content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myassignment:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>b9caf94e-f036-4145-a454-1738008a2caa</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/banner-3-content/banner-3-content[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-03-25T19:36:12.979+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-03-25T20:24:15.726+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>7edc0f5e-9ab2-419c-92a8-c025f40590b9</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:introduction" sv:type="String">
+        <sv:value>De classes die ik gemaakt, afgewezen en gebruikt heb.</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:mypublicationdate" sv:type="Date">
+        <sv:value>2015-03-25T19:36:00.000+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:title" sv:type="String">
+        <sv:value>Java Classes</sv:value>
+      </sv:property>
+      <sv:node sv:name="myassignment:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;&lt;u&gt;Ontvangen van JSON in POJO&amp;apos;s:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;TrajectinformationObject, Feature, Geometry enProperties.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;Deze zijn gegenereerd met behulp van de JSON in de url en een online tool. Ik heb wel&amp;nbsp;@JsonIgnoreProperties(ignoreUnknown=true) toegevoegd zodat mogelijke wijzigingen in de JSON van de url de applicatie niet storen.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Ontvangen van JSON in POJO&amp;apos;s: en doorzetten van POJO&amp;apos;s naar repository:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;RouteRepositoryJob.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;Deze class wordt gestart doormiddel van de Hippo scheduler en zorgt ervoor dat de JSON wordt vertaald naar POJO&amp;apos;s en dat elk traject, door middel van REST actie POST, wordt&amp;nbsp;doorgezet worden naar de repository zodat een Hippo document &amp;quot;trajectinformatie&amp;quot; voor een traject gepubliceerd&amp;nbsp;wordt&amp;nbsp;.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Utilities:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;JSONUtil en&amp;nbsp;XMLUtil.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;JSONUtil voor het mappen van de JSON naar POJO&amp;apos;s.&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;XMLUtil voor het vertalen van de POJO&amp;apos;s naar XML ten behoeve van POST.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Berekenen gemiddeldes:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;TrajectAverageModule.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;Is nog in test fase.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Common:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;TrajectInfo en TrajectMeting.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;Classes voor het doorgeven van de informatie van cms naar site.&lt;/p&gt; 
+&lt;p&gt;De class TrajectMeting is vervallen, deze moest een weergave zijn van een eigen samengesteld object, deze kunnen echter niet automatisch gepersisteerd worden.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Beans:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Trajectinformation en Trajectmeasurement.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;De repository objecten.&lt;/p&gt; 
+&lt;p&gt;Class Trajectmeasurement is vervallen.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Component:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;TrajectInformationComponent.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;Deze was i hoofdzaak bedoeld om de doAction methode te gebruiken voor het persisteren, dat is in dit geval niet noodzakelijk.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Model:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;Deze classes worden nu niet gebruikt.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Rest:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;TrajectinformationResource​,&amp;nbsp;NewsDocumentResource&amp;nbsp;en&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;TrajectinformationPlainResource.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;TrajectinformationResource is de class die ervoor zorgt dat traject informatie in repository wordt gezet (POST) en gepubliceerd en die er ook voor zorgt dat informatie als een Service wordt aangeboden (GET).&lt;/p&gt; 
+&lt;p&gt;Net als NewsDocumentResource is TrajectinformationResource een class die gegenereerd is door de Rest Services Setup van Hippo Essentials.&lt;/p&gt; 
+&lt;p&gt;Class TrajectinformationPlainResource was toen ik nog niet goed doorhad wat er nodig was, wordt niet meer gebruikt.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Services:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;TrajectinformationResource en ResponseUtil.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;Vervallen.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="banner-3-content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myassignment:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>fee4cf96-64b2-48c8-86d7-4da90d686f7a</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/banner-3-content/banner-3-content[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-03-25T19:36:12.979+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-03-25T20:24:15.726+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2015-03-25T20:24:23.328+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>7edc0f5e-9ab2-419c-92a8-c025f40590b9</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:introduction" sv:type="String">
+        <sv:value>De classes die ik gemaakt, afgewezen en gebruikt heb.</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:mypublicationdate" sv:type="Date">
+        <sv:value>2015-03-25T19:36:00.000+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:title" sv:type="String">
+        <sv:value>Java Classes</sv:value>
+      </sv:property>
+      <sv:node sv:name="myassignment:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;&lt;u&gt;Ontvangen van JSON in POJO&amp;apos;s:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;TrajectinformationObject, Feature, Geometry enProperties.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;Deze zijn gegenereerd met behulp van de JSON in de url en een online tool. Ik heb wel&amp;nbsp;@JsonIgnoreProperties(ignoreUnknown=true) toegevoegd zodat mogelijke wijzigingen in de JSON van de url de applicatie niet storen.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Ontvangen van JSON in POJO&amp;apos;s: en doorzetten van POJO&amp;apos;s naar repository:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;RouteRepositoryJob.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;Deze class wordt gestart doormiddel van de Hippo scheduler en zorgt ervoor dat de JSON wordt vertaald naar POJO&amp;apos;s en dat elk traject, door middel van REST actie POST, wordt&amp;nbsp;doorgezet worden naar de repository zodat een Hippo document &amp;quot;trajectinformatie&amp;quot; voor een traject gepubliceerd&amp;nbsp;wordt&amp;nbsp;.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Utilities:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;JSONUtil en&amp;nbsp;XMLUtil.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;JSONUtil voor het mappen van de JSON naar POJO&amp;apos;s.&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;XMLUtil voor het vertalen van de POJO&amp;apos;s naar XML ten behoeve van POST.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Berekenen gemiddeldes:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;TrajectAverageModule.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;Is nog in test fase.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Common:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;TrajectInfo en TrajectMeting.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;Classes voor het doorgeven van de informatie van cms naar site.&lt;/p&gt; 
+&lt;p&gt;De class TrajectMeting is vervallen, deze moest een weergave zijn van een eigen samengesteld object, deze kunnen echter niet automatisch gepersisteerd worden.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Beans:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Trajectinformation en Trajectmeasurement.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;De repository objecten.&lt;/p&gt; 
+&lt;p&gt;Class Trajectmeasurement is vervallen.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Component:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;TrajectInformationComponent.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;Deze was i hoofdzaak bedoeld om de doAction methode te gebruiken voor het persisteren, dat is in dit geval niet noodzakelijk.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Model:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;Deze classes worden nu niet gebruikt.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Rest:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;TrajectinformationResource​,&amp;nbsp;NewsDocumentResource&amp;nbsp;en&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;TrajectinformationPlainResource.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;TrajectinformationResource is de class die ervoor zorgt dat traject informatie in repository wordt gezet (POST) en gepubliceerd en die er ook voor zorgt dat informatie als een Service wordt aangeboden (GET).&lt;/p&gt; 
+&lt;p&gt;Net als NewsDocumentResource is TrajectinformationResource een class die gegenereerd is door de Rest Services Setup van Hippo Essentials.&lt;/p&gt; 
+&lt;p&gt;Class TrajectinformationPlainResource was toen ik nog niet goed doorhad wat er nodig was, wordt niet meer gebruikt.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Services:&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;TrajectinformationResource en ResponseUtil.&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;Vervallen.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="banner-4-content">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>c3961ce5-27ef-4ee8-8d84-e6fe1578b458</sv:value>
+    </sv:property>
+    <sv:node sv:name="banner-4-content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myassignment:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>fef32eea-28f3-4a72-ab5d-adfb888e1366</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/banner-4-content/banner-4-content[2]</sv:value>
+        <sv:value>content/banner-4-content/banner-4-content[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-03-25T20:27:06.489+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-03-25T20:27:06.556+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>f3ff08ea-511f-4e93-8c28-bfe57c68e0b1</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:introduction" sv:type="String">
+        <sv:value>Retrospective</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:mypublicationdate" sv:type="Date">
+        <sv:value>2015-03-25T20:27:00.000+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:title" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:node sv:name="myassignment:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Red.: Het toevoegen van metingen, als een Hippo samengesteld veld, aan de algemene traject informatie is een goed idee, het beperkt het aantal documenten tot het aantal trajecten. Jammer dat het niet mogelijk is in Hippo om samengestelde velden op te bergen via de workflow manager (er is geen bind method voor samengestelde velden, dit wist ik wel maar was ik in mijn enthousiasme voor deze oplossing vergeten...en herinnerde ik mij laat.)&lt;/p&gt; 
+&lt;p&gt;Het is een andere oplossing dan ik eerst in mijn hoofd had, @Persistable en doAction worden nu REST en POST.&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;eidingen om site te laten werken, sprint 1 van Hippo Developer Trail)
+&lt;br /&gt; Wt kan er beter: de steeds geladen trajecten moeten na 1 uur geschoond worden, het worden er anders teveel.
+&lt;br /&gt; De averages per uur kunnen bewaard worden, hoe dat in HippoCompound te krijgen blijft een issue. Hier kan nog meer bedacht worden hoe en wat bewaard moet worden.&lt;/p&gt; 
+&lt;p&gt;Nog uit te werken&amp;nbsp;&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Banner 4 content</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="banner-4-content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myassignment:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>1bd3e926-a166-4ea8-be30-123af0f4bb23</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/banner-4-content/banner-4-content[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-03-25T20:27:06.489+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-03-25T20:27:38.139+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>f3ff08ea-511f-4e93-8c28-bfe57c68e0b1</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:introduction" sv:type="String">
+        <sv:value>Retrospective</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:mypublicationdate" sv:type="Date">
+        <sv:value>2015-03-25T20:27:00.000+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:title" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:node sv:name="myassignment:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Red.: Het toevoegen van metingen, als een Hippo samengesteld veld, aan de algemene traject informatie is een goed idee, het beperkt het aantal documenten tot het aantal trajecten. Jammer dat het niet mogelijk is in Hippo om samengestelde velden op te bergen via de workflow manager (er is geen bind method voor samengestelde velden, dit wist ik wel maar was ik in mijn enthousiasme voor deze oplossing vergeten...en herinnerde ik mij laat.)&lt;/p&gt; 
+&lt;p&gt;Het is een andere oplossing dan ik eerst in mijn hoofd had, @Persistable en doAction worden nu REST en POST.&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;eidingen om site te laten werken, sprint 1 van Hippo Developer Trail)
+&lt;br /&gt; Wt kan er beter: de steeds geladen trajecten moeten na 1 uur geschoond worden, het worden er anders teveel.
+&lt;br /&gt; De averages per uur kunnen bewaard worden, hoe dat in HippoCompound te krijgen blijft een issue. Hier kan nog meer bedacht worden hoe en wat bewaard moet worden.&lt;/p&gt; 
+&lt;p&gt;Nog uit te werken&amp;nbsp;&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="banner-4-content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myassignment:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>72a8bd6b-5952-43b3-ac30-5fd2b6c11922</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/banner-4-content/banner-4-content[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-03-25T20:27:06.489+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-03-25T20:27:38.139+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2015-03-25T20:27:41.464+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>f3ff08ea-511f-4e93-8c28-bfe57c68e0b1</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:introduction" sv:type="String">
+        <sv:value>Retrospective</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:mypublicationdate" sv:type="Date">
+        <sv:value>2015-03-25T20:27:00.000+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:title" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:node sv:name="myassignment:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Red.: Het toevoegen van metingen, als een Hippo samengesteld veld, aan de algemene traject informatie is een goed idee, het beperkt het aantal documenten tot het aantal trajecten. Jammer dat het niet mogelijk is in Hippo om samengestelde velden op te bergen via de workflow manager (er is geen bind method voor samengestelde velden, dit wist ik wel maar was ik in mijn enthousiasme voor deze oplossing vergeten...en herinnerde ik mij laat.)&lt;/p&gt; 
+&lt;p&gt;Het is een andere oplossing dan ik eerst in mijn hoofd had, @Persistable en doAction worden nu REST en POST.&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;eidingen om site te laten werken, sprint 1 van Hippo Developer Trail)
+&lt;br /&gt; Wt kan er beter: de steeds geladen trajecten moeten na 1 uur geschoond worden, het worden er anders teveel.
+&lt;br /&gt; De averages per uur kunnen bewaard worden, hoe dat in HippoCompound te krijgen blijft een issue. Hier kan nog meer bedacht worden hoe en wat bewaard moet worden.&lt;/p&gt; 
+&lt;p&gt;Nog uit te werken&amp;nbsp;&lt;/p&gt;</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>

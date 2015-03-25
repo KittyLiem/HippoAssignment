@@ -61,13 +61,13 @@
         <sv:value>2014-03-20T17:00:00.000+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-03-21T14:56:05.685+01:00</sv:value>
+        <sv:value>2015-03-25T19:24:30.660+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2015-03-21T14:56:09.831+01:00</sv:value>
+        <sv:value>2015-03-25T19:24:32.970+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>d530d134-9c7f-4a5f-b1cb-4426a5eb9b03</sv:value>
@@ -102,7 +102,7 @@
           <sv:value>hippo:mirror</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:docbase" sv:type="String">
-          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          <sv:value>93f40751-38fe-4534-83e1-a2e3a09b515f</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>
@@ -134,7 +134,7 @@
         <sv:value>2014-03-20T17:00:00.000+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-03-21T14:55:02.177+01:00</sv:value>
+        <sv:value>2015-03-25T19:24:17.941+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -172,7 +172,7 @@
           <sv:value>hippo:mirror</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:docbase" sv:type="String">
-          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          <sv:value>93f40751-38fe-4534-83e1-a2e3a09b515f</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>
@@ -206,7 +206,7 @@
         <sv:value>2014-03-20T17:00:00.000+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-03-21T14:56:05.685+01:00</sv:value>
+        <sv:value>2015-03-25T19:24:30.660+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -244,7 +244,7 @@
           <sv:value>hippo:mirror</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:docbase" sv:type="String">
-          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          <sv:value>93f40751-38fe-4534-83e1-a2e3a09b515f</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>
@@ -303,13 +303,13 @@
         <sv:value>2014-03-20T17:00:00.000+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-03-21T14:57:07.616+01:00</sv:value>
+        <sv:value>2015-03-25T19:33:46.467+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2015-03-21T14:57:10.985+01:00</sv:value>
+        <sv:value>2015-03-25T19:33:49.794+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>3bed78bd-3452-4fe6-af46-97ced763012e</sv:value>
@@ -318,14 +318,14 @@
         <sv:value>en</sv:value>
       </sv:property>
       <sv:property sv:name="myassignment:title" sv:type="String">
-        <sv:value>Planning</sv:value>
+        <sv:value>News</sv:value>
       </sv:property>
       <sv:node sv:name="myassignment:content">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;p&gt;Planning is not easy with stuff you have not done before!&lt;/p&gt;</sv:value>
+          <sv:value/>
         </sv:property>
       </sv:node>
       <sv:node sv:name="myassignment:image">
@@ -344,7 +344,7 @@
           <sv:value>hippo:mirror</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:docbase" sv:type="String">
-          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          <sv:value>db208597-454f-4716-9389-a599ac97f0a6</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>
@@ -376,7 +376,7 @@
         <sv:value>2014-03-20T17:00:00.000+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-03-21T14:56:14.135+01:00</sv:value>
+        <sv:value>2015-03-25T19:27:33.763+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -388,14 +388,14 @@
         <sv:value>en</sv:value>
       </sv:property>
       <sv:property sv:name="myassignment:title" sv:type="String">
-        <sv:value>Planning</sv:value>
+        <sv:value>News</sv:value>
       </sv:property>
       <sv:node sv:name="myassignment:content">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;p&gt;Planning is not easy with stuff you have not done before!&lt;/p&gt;</sv:value>
+          <sv:value/>
         </sv:property>
       </sv:node>
       <sv:node sv:name="myassignment:image">
@@ -414,7 +414,7 @@
           <sv:value>hippo:mirror</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:docbase" sv:type="String">
-          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          <sv:value>db208597-454f-4716-9389-a599ac97f0a6</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>
@@ -448,7 +448,7 @@
         <sv:value>2014-03-20T17:00:00.000+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-03-21T14:57:07.616+01:00</sv:value>
+        <sv:value>2015-03-25T19:33:46.467+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -460,14 +460,14 @@
         <sv:value>en</sv:value>
       </sv:property>
       <sv:property sv:name="myassignment:title" sv:type="String">
-        <sv:value>Planning</sv:value>
+        <sv:value>News</sv:value>
       </sv:property>
       <sv:node sv:name="myassignment:content">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;p&gt;Planning is not easy with stuff you have not done before!&lt;/p&gt;</sv:value>
+          <sv:value/>
         </sv:property>
       </sv:node>
       <sv:node sv:name="myassignment:image">
@@ -486,7 +486,7 @@
           <sv:value>hippo:mirror</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:docbase" sv:type="String">
-          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          <sv:value>db208597-454f-4716-9389-a599ac97f0a6</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>
@@ -529,7 +529,7 @@
         <sv:value>2015-03-21T14:57:27.796+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-03-21T14:57:27.850+01:00</sv:value>
+        <sv:value>2015-03-25T20:24:30.951+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -541,7 +541,7 @@
         <sv:value>en</sv:value>
       </sv:property>
       <sv:property sv:name="myassignment:title" sv:type="String">
-        <sv:value>The roles in CMS world.</sv:value>
+        <sv:value>Java Classes</sv:value>
       </sv:property>
       <sv:node sv:name="myassignment:content">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -567,7 +567,7 @@
           <sv:value>hippo:mirror</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:docbase" sv:type="String">
-          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          <sv:value>74b0726e-65b1-4162-a07e-daa501e3de1e</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>
@@ -601,7 +601,7 @@
         <sv:value>2015-03-21T14:57:27.796+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-03-21T15:00:09.345+01:00</sv:value>
+        <sv:value>2015-03-25T20:24:38.554+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -613,7 +613,7 @@
         <sv:value>en</sv:value>
       </sv:property>
       <sv:property sv:name="myassignment:title" sv:type="String">
-        <sv:value>The roles in CMS world.</sv:value>
+        <sv:value>Java Classes</sv:value>
       </sv:property>
       <sv:node sv:name="myassignment:content">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -639,7 +639,7 @@
           <sv:value>hippo:mirror</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:docbase" sv:type="String">
-          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          <sv:value>74b0726e-65b1-4162-a07e-daa501e3de1e</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>
@@ -672,13 +672,13 @@
         <sv:value>2015-03-21T14:57:27.796+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-03-21T15:00:09.345+01:00</sv:value>
+        <sv:value>2015-03-25T20:24:38.554+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2015-03-21T15:00:13.241+01:00</sv:value>
+        <sv:value>2015-03-25T20:24:40.936+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>688fc329-ea07-4b3e-89f8-fca43437614a</sv:value>
@@ -687,7 +687,7 @@
         <sv:value>en</sv:value>
       </sv:property>
       <sv:property sv:name="myassignment:title" sv:type="String">
-        <sv:value>The roles in CMS world.</sv:value>
+        <sv:value>Java Classes</sv:value>
       </sv:property>
       <sv:node sv:name="myassignment:content">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -713,7 +713,234 @@
           <sv:value>hippo:mirror</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:docbase" sv:type="String">
-          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          <sv:value>74b0726e-65b1-4162-a07e-daa501e3de1e</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="banner4">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>e8528e96-2317-4e36-8a98-5406b465da9c</sv:value>
+    </sv:property>
+    <sv:node sv:name="banner4">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myassignment:bannerdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>f9613957-bd9c-4106-807b-11c3b1c1948e</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>banners/banner4/banner4[2]</sv:value>
+        <sv:value>banners/banner4/banner4[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-03-25T20:25:02.152+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-03-25T20:26:51.481+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>d6634e5e-ff6f-4189-a37e-aef4dfe10640</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:title" sv:type="String">
+        <sv:value>Retrospective, en nog....(uitwerken)</sv:value>
+      </sv:property>
+      <sv:node sv:name="myassignment:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value/>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="myassignment:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>bb664faf-c597-4883-8935-01341bac1e3a</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="myassignment:link">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>c3961ce5-27ef-4ee8-8d84-e6fe1578b458</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="banner4">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myassignment:bannerdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>03de8659-26c3-4815-840d-c87dfcbbbfa5</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>banners/banner4/banner4[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-03-25T20:25:02.152+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-03-25T20:28:38.304+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>d6634e5e-ff6f-4189-a37e-aef4dfe10640</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:title" sv:type="String">
+        <sv:value>Retrospective, en nog....(uitwerken)</sv:value>
+      </sv:property>
+      <sv:node sv:name="myassignment:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value/>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="myassignment:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>bb664faf-c597-4883-8935-01341bac1e3a</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="myassignment:link">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>c3961ce5-27ef-4ee8-8d84-e6fe1578b458</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="banner4">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myassignment:bannerdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d7c53d83-424e-4dd7-a942-4e7e263f80a2</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>banners/banner4/banner4[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-03-25T20:25:02.152+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-03-25T20:28:38.304+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2015-03-25T20:28:41.436+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>d6634e5e-ff6f-4189-a37e-aef4dfe10640</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myassignment:title" sv:type="String">
+        <sv:value>Retrospective, en nog....(uitwerken)</sv:value>
+      </sv:property>
+      <sv:node sv:name="myassignment:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value/>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="myassignment:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>bb664faf-c597-4883-8935-01341bac1e3a</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="myassignment:link">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>c3961ce5-27ef-4ee8-8d84-e6fe1578b458</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>
