@@ -115,13 +115,13 @@
             <sv:value>2013-11-12T13:03:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-03-22T09:35:23.414+01:00</sv:value>
+            <sv:value>2015-03-25T07:43:26.776+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2015-03-22T09:35:28.697+01:00</sv:value>
+            <sv:value>2015-03-25T07:43:29.747+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>a1d996f5-7152-47e1-a617-f85293b19579</sv:value>
@@ -166,7 +166,7 @@
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Kort besproken met Rob, vraag waarom JSON naar hippo document vertalen, mijn idee is dat je informatie direct kan tonen, misschien handig bij presentatie. Het kan ook naar jcr nodes, voordeel hiervan is dat de informatie niet aangepast kan worden via cms, als hippo document is dat natuurlijk wel mogelijk.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;Qua planning vind ik het best wel lastig. Natte vingerwerk: voor punt 1 een week (40 uur, dus iets meer dan week voor mij!) en voor punt 2 ook, samen ruim 2 en halve week? Punt 3 weet ik niet.&lt;/p&gt; 
+&lt;p&gt;Qua planning vind ik het best wel lastig. Natte vingerwerk: Als eerste gevoel 2 weken voor punt 1 en 2 weken voor punt 2. na wat verder nadenken:&amp;nbsp;voor punt 1 een week (40 uur, dus iets meer dan week voor mij!) en voor punt 2 ook, samen ruim 2 en halve week? Punt 3 weet ik niet.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Archetype Hippo binnen gehaald (inclusief essentials)&lt;/p&gt;</sv:value>
             </sv:property>
@@ -187,7 +187,7 @@
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>30092f4e-2ef7-4c72-86a5-8ce895908937</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -219,7 +219,7 @@
             <sv:value>2013-11-12T13:03:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-03-22T09:35:19.355+01:00</sv:value>
+            <sv:value>2015-03-25T07:43:07.267+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -267,7 +267,7 @@
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Kort besproken met Rob, vraag waarom JSON naar hippo document vertalen, mijn idee is dat je informatie direct kan tonen, misschien handig bij presentatie. Het kan ook naar jcr nodes, voordeel hiervan is dat de informatie niet aangepast kan worden via cms, als hippo document is dat natuurlijk wel mogelijk.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;Qua planning vind ik het best wel lastig. Natte vingerwerk: voor punt 1 een week (40 uur, dus iets meer dan week voor mij!) en voor punt 2 ook, samen ruim 2 en halve week? Punt 3 weet ik niet.&lt;/p&gt; 
+&lt;p&gt;Qua planning vind ik het best wel lastig. Natte vingerwerk: Als eerste gevoel 2 weken voor punt 1 en 2 weken voor punt 2. na wat verder nadenken:&amp;nbsp;voor punt 1 een week (40 uur, dus iets meer dan week voor mij!) en voor punt 2 ook, samen ruim 2 en halve week? Punt 3 weet ik niet.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Archetype Hippo binnen gehaald (inclusief essentials)&lt;/p&gt;</sv:value>
             </sv:property>
@@ -288,7 +288,7 @@
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>30092f4e-2ef7-4c72-86a5-8ce895908937</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -322,7 +322,7 @@
             <sv:value>2013-11-12T13:03:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-03-22T09:35:23.414+01:00</sv:value>
+            <sv:value>2015-03-25T07:43:26.776+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -370,7 +370,7 @@
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Kort besproken met Rob, vraag waarom JSON naar hippo document vertalen, mijn idee is dat je informatie direct kan tonen, misschien handig bij presentatie. Het kan ook naar jcr nodes, voordeel hiervan is dat de informatie niet aangepast kan worden via cms, als hippo document is dat natuurlijk wel mogelijk.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;Qua planning vind ik het best wel lastig. Natte vingerwerk: voor punt 1 een week (40 uur, dus iets meer dan week voor mij!) en voor punt 2 ook, samen ruim 2 en halve week? Punt 3 weet ik niet.&lt;/p&gt; 
+&lt;p&gt;Qua planning vind ik het best wel lastig. Natte vingerwerk: Als eerste gevoel 2 weken voor punt 1 en 2 weken voor punt 2. na wat verder nadenken:&amp;nbsp;voor punt 1 een week (40 uur, dus iets meer dan week voor mij!) en voor punt 2 ook, samen ruim 2 en halve week? Punt 3 weet ik niet.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Archetype Hippo binnen gehaald (inclusief essentials)&lt;/p&gt;</sv:value>
             </sv:property>
@@ -391,7 +391,7 @@
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>30092f4e-2ef7-4c72-86a5-8ce895908937</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -439,13 +439,13 @@
             <sv:value>2013-11-12T14:31:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-03-21T16:15:20.549+01:00</sv:value>
+            <sv:value>2015-03-25T07:28:14.175+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2015-03-21T16:16:27.099+01:00</sv:value>
+            <sv:value>2015-03-25T07:28:18.416+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>0bc0e6b8-bbf0-4d79-86e2-e1ca379a6637</sv:value>
@@ -463,7 +463,7 @@
             <sv:value>news</sv:value>
           </sv:property>
           <sv:property sv:name="myassignment:introduction" sv:type="String">
-            <sv:value>Eerste opzet</sv:value>
+            <sv:value>Eerste opzet voor de Rest service</sv:value>
           </sv:property>
           <sv:property sv:name="myassignment:location" sv:type="String">
             <sv:value/>
@@ -483,18 +483,19 @@
 &lt;ol&gt; 
 &lt;li&gt; 
 &lt;p&gt;Ontwikkel een applicatie gebaseerd op HippoCMS, die de actuele reistijden ophaalt en opslaat als document in de repository. Zorg, op de manier die voor jou het handigst is, dat de gegevens om de 5 minuten worden bijgewerkt.&lt;/p&gt; &lt;/li&gt; &lt;/ol&gt; 
-&lt;p&gt;&lt;br /&gt; &amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;eerste opzet REST service via essentials gedaan, plain REST is enige mogelijkeheid, 
-&lt;em&gt;vraag is of dat samen gaat met context aware versie.&lt;/em&gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Eerste opzet REST service via essentials gedaan, plain REST is enige mogelijkheid, 
+&lt;em&gt;vraag is of dat samen gaat met context aware versie.&amp;nbsp;&lt;/em&gt;&lt;br /&gt; Context aware lijkt mij beter om dat je dan de traject naam kan gebruiken om de informatie makkelijk te vinden .&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;&lt;u&gt;POJO’s uit JSON&lt;/u&gt;&lt;/p&gt; 
-&lt;p&gt;URL 
-&lt;a href="http://www.trafficlink-online.nl/trafficlinkdata/wegdata/TrajectSensorsNH.GeoJSON" style="text-decoration:none;"&gt;&lt;u&gt;http://www.trafficlink-online.nl/trafficlinkdata/wegdata/TrajectSensorsNH.GeoJSON&lt;/u&gt;&lt;/a&gt; POJO’s gegenereerd via 
+&lt;p&gt;&lt;u style="text-decoration:none"&gt;De 
+&lt;a href="http://www.trafficlink-online.nl/trafficlinkdata/wegdata/TrajectSensorsNH.GeoJSON"&gt;opdracht informatie&lt;/a&gt;&lt;/u&gt;&amp;nbsp;POJO’s gegenereerd via deze link:&amp;nbsp;
 &lt;a href="http://jsongen.byingtondesign.com/" style="text-decoration:none;"&gt;&lt;u&gt;http://jsongen.byingtondesign.com/&lt;/u&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;br /&gt; &amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;&lt;u&gt;opzetten REST service &lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Opzetten REST service &lt;/u&gt;&lt;/p&gt; 
 &lt;p&gt;Binnenhalen JSON info, hiervoor Hippo beschrijving gebruikt:&lt;/p&gt; 
-&lt;p&gt;&lt;u&gt;&lt;a href="http://www.onehippo.org/library/concepts/rest/restful-api-support---content-context-aware-jax-rs-services.html" style="text-decoration:none;"&gt;http://www.onehippo.org/library/concepts/rest/restful-api-support---content-context-aware-jax-rs-services.html&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;</sv:value>
+&lt;p&gt;&lt;u&gt;&lt;a href="http://www.onehippo.org/library/concepts/rest/restful-api-support---content-context-aware-jax-rs-services.html" style="text-decoration:none;"&gt;http://www.onehippo.org/library/concepts/rest/restful-api-support---content-context-aware-jax-rs-services.html&lt;/a&gt;.&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;Gekozen om dit eerst te doen in site omdat het mij dan makkelijker leek om meteen naar het document te kunnen.&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="myassignment:image">
@@ -545,7 +546,7 @@
             <sv:value>2013-11-12T14:31:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-03-21T16:13:33.050+01:00</sv:value>
+            <sv:value>2015-03-25T07:21:39.196+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -566,7 +567,7 @@
             <sv:value>news</sv:value>
           </sv:property>
           <sv:property sv:name="myassignment:introduction" sv:type="String">
-            <sv:value>Eerste opzet</sv:value>
+            <sv:value>Eerste opzet voor de Rest service</sv:value>
           </sv:property>
           <sv:property sv:name="myassignment:location" sv:type="String">
             <sv:value/>
@@ -586,18 +587,19 @@
 &lt;ol&gt; 
 &lt;li&gt; 
 &lt;p&gt;Ontwikkel een applicatie gebaseerd op HippoCMS, die de actuele reistijden ophaalt en opslaat als document in de repository. Zorg, op de manier die voor jou het handigst is, dat de gegevens om de 5 minuten worden bijgewerkt.&lt;/p&gt; &lt;/li&gt; &lt;/ol&gt; 
-&lt;p&gt;&lt;br /&gt; &amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;eerste opzet REST service via essentials gedaan, plain REST is enige mogelijkeheid, 
-&lt;em&gt;vraag is of dat samen gaat met context aware versie.&lt;/em&gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Eerste opzet REST service via essentials gedaan, plain REST is enige mogelijkheid, 
+&lt;em&gt;vraag is of dat samen gaat met context aware versie.&amp;nbsp;&lt;/em&gt;&lt;br /&gt; Context aware lijkt mij beter om dat je dan de traject naam kan gebruiken om de informatie makkelijk te vinden .&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;&lt;u&gt;POJO’s uit JSON&lt;/u&gt;&lt;/p&gt; 
-&lt;p&gt;URL 
-&lt;a href="http://www.trafficlink-online.nl/trafficlinkdata/wegdata/TrajectSensorsNH.GeoJSON" style="text-decoration:none;"&gt;&lt;u&gt;http://www.trafficlink-online.nl/trafficlinkdata/wegdata/TrajectSensorsNH.GeoJSON&lt;/u&gt;&lt;/a&gt; POJO’s gegenereerd via 
+&lt;p&gt;&lt;u style="text-decoration:none"&gt;De 
+&lt;a href="http://www.trafficlink-online.nl/trafficlinkdata/wegdata/TrajectSensorsNH.GeoJSON"&gt;opdracht informatie&lt;/a&gt;&lt;/u&gt;&amp;nbsp;POJO’s gegenereerd via deze link:&amp;nbsp;
 &lt;a href="http://jsongen.byingtondesign.com/" style="text-decoration:none;"&gt;&lt;u&gt;http://jsongen.byingtondesign.com/&lt;/u&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;br /&gt; &amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;&lt;u&gt;opzetten REST service &lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Opzetten REST service &lt;/u&gt;&lt;/p&gt; 
 &lt;p&gt;Binnenhalen JSON info, hiervoor Hippo beschrijving gebruikt:&lt;/p&gt; 
-&lt;p&gt;&lt;u&gt;&lt;a href="http://www.onehippo.org/library/concepts/rest/restful-api-support---content-context-aware-jax-rs-services.html" style="text-decoration:none;"&gt;http://www.onehippo.org/library/concepts/rest/restful-api-support---content-context-aware-jax-rs-services.html&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;</sv:value>
+&lt;p&gt;&lt;u&gt;&lt;a href="http://www.onehippo.org/library/concepts/rest/restful-api-support---content-context-aware-jax-rs-services.html" style="text-decoration:none;"&gt;http://www.onehippo.org/library/concepts/rest/restful-api-support---content-context-aware-jax-rs-services.html&lt;/a&gt;.&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;Gekozen om dit eerst te doen in site omdat het mij dan makkelijker leek om meteen naar het document te kunnen.&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="myassignment:image">
@@ -650,7 +652,7 @@
             <sv:value>2013-11-12T14:31:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-03-21T16:15:20.549+01:00</sv:value>
+            <sv:value>2015-03-25T07:28:14.175+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -671,7 +673,7 @@
             <sv:value>news</sv:value>
           </sv:property>
           <sv:property sv:name="myassignment:introduction" sv:type="String">
-            <sv:value>Eerste opzet</sv:value>
+            <sv:value>Eerste opzet voor de Rest service</sv:value>
           </sv:property>
           <sv:property sv:name="myassignment:location" sv:type="String">
             <sv:value/>
@@ -691,18 +693,19 @@
 &lt;ol&gt; 
 &lt;li&gt; 
 &lt;p&gt;Ontwikkel een applicatie gebaseerd op HippoCMS, die de actuele reistijden ophaalt en opslaat als document in de repository. Zorg, op de manier die voor jou het handigst is, dat de gegevens om de 5 minuten worden bijgewerkt.&lt;/p&gt; &lt;/li&gt; &lt;/ol&gt; 
-&lt;p&gt;&lt;br /&gt; &amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;eerste opzet REST service via essentials gedaan, plain REST is enige mogelijkeheid, 
-&lt;em&gt;vraag is of dat samen gaat met context aware versie.&lt;/em&gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Eerste opzet REST service via essentials gedaan, plain REST is enige mogelijkheid, 
+&lt;em&gt;vraag is of dat samen gaat met context aware versie.&amp;nbsp;&lt;/em&gt;&lt;br /&gt; Context aware lijkt mij beter om dat je dan de traject naam kan gebruiken om de informatie makkelijk te vinden .&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;&lt;u&gt;POJO’s uit JSON&lt;/u&gt;&lt;/p&gt; 
-&lt;p&gt;URL 
-&lt;a href="http://www.trafficlink-online.nl/trafficlinkdata/wegdata/TrajectSensorsNH.GeoJSON" style="text-decoration:none;"&gt;&lt;u&gt;http://www.trafficlink-online.nl/trafficlinkdata/wegdata/TrajectSensorsNH.GeoJSON&lt;/u&gt;&lt;/a&gt; POJO’s gegenereerd via 
+&lt;p&gt;&lt;u style="text-decoration:none"&gt;De 
+&lt;a href="http://www.trafficlink-online.nl/trafficlinkdata/wegdata/TrajectSensorsNH.GeoJSON"&gt;opdracht informatie&lt;/a&gt;&lt;/u&gt;&amp;nbsp;POJO’s gegenereerd via deze link:&amp;nbsp;
 &lt;a href="http://jsongen.byingtondesign.com/" style="text-decoration:none;"&gt;&lt;u&gt;http://jsongen.byingtondesign.com/&lt;/u&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;br /&gt; &amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;&lt;u&gt;opzetten REST service &lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;u&gt;Opzetten REST service &lt;/u&gt;&lt;/p&gt; 
 &lt;p&gt;Binnenhalen JSON info, hiervoor Hippo beschrijving gebruikt:&lt;/p&gt; 
-&lt;p&gt;&lt;u&gt;&lt;a href="http://www.onehippo.org/library/concepts/rest/restful-api-support---content-context-aware-jax-rs-services.html" style="text-decoration:none;"&gt;http://www.onehippo.org/library/concepts/rest/restful-api-support---content-context-aware-jax-rs-services.html&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;</sv:value>
+&lt;p&gt;&lt;u&gt;&lt;a href="http://www.onehippo.org/library/concepts/rest/restful-api-support---content-context-aware-jax-rs-services.html" style="text-decoration:none;"&gt;http://www.onehippo.org/library/concepts/rest/restful-api-support---content-context-aware-jax-rs-services.html&lt;/a&gt;.&lt;/u&gt;&lt;/p&gt; 
+&lt;p&gt;Gekozen om dit eerst te doen in site omdat het mij dan makkelijker leek om meteen naar het document te kunnen.&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="myassignment:image">
@@ -780,13 +783,13 @@
             <sv:value>2013-11-12T12:50:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-03-21T16:17:52.271+01:00</sv:value>
+            <sv:value>2015-03-25T07:35:45.917+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2015-03-21T16:18:24.166+01:00</sv:value>
+            <sv:value>2015-03-25T07:35:50.435+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>89a0fa11-ad9e-4954-8dd9-da055e25cad0</sv:value>
@@ -820,7 +823,8 @@
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;Gister ben ik verdwaald in de JSON binnen halen en REST Service. Dat ligt, denk ik, &amp;nbsp;aan dat je punt 1 ook met REST zou kunnen oplossen.&lt;/p&gt; 
+              <sv:value>&lt;p&gt;Vandaag verder met de REST&amp;nbsp;service.&lt;/p&gt; 
+&lt;p&gt;Gister ben ik verdwaald in de JSON binnen halen en REST Service. Dat ligt, denk ik, &amp;nbsp;aan dat je punt 1 ook met REST zou kunnen oplossen.&lt;/p&gt; 
 &lt;p&gt;Ik heb moeite om de informatie van 
 &lt;a href="http://blog.jeroenreijn.com/2015/02/a_rest_api_for_the_hippocms_content_repository.html" style="text-decoration:none;"&gt;&lt;u&gt;http://blog.jeroenreijn.com/2015/02/a_rest_api_for_the_hippocms_content_repository.html&lt;/u&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;en 
@@ -828,22 +832,23 @@
 &lt;p&gt;en hoe JSON binnen te halen en te vertalen naar POJO’s.&lt;/p&gt; 
 &lt;p&gt;Acties beter definiëren en onderbouwde keuze maken!&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;Via Essentials, Rest Services setup service “ routeinformatie” toegevoegd. in console zie je dan &amp;nbsp;dat onder hst:root een mount is toegevoegd, kon alleen plain REST kiezen, kan gebruik maken van JaxrsRestPlainPipeline.&lt;/p&gt; 
+&lt;p&gt;Via Essentials, REST&amp;nbsp;Services setup service “ routeinformatie” toegevoegd. in console zie je dan &amp;nbsp;dat onder hst:root een mount is toegevoegd, kon alleen plain REST kiezen, kan gebruik maken van JaxrsRestPlainPipeline.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Niet vergeten dat ik de Traject Meetpunten nog niet heb opgenomen!&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;Een van mijn uitgangspunten is dat ik zoveel mogelijk wil gebruiken wat Hippo zelf al te bieden heeft.&lt;/p&gt; 
+&lt;p&gt;Een van mijn uitgangspunten is dat ik zoveel mogelijk wil gebruiken wat Hippo zelf al te bieden heeft, zoeken naar wat ik kan gebruiken.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;Tom gevraagd om hulp. De Beanmapper uit Forge is wel oud t.o.v. Hippo versie die ik gebruik en het lijkt niet verstandig die te gebruiken. Aangezien ik Jackson eerder heb gebruikt (annotatie) lijkt het toch verstandig om dat te gebruiken voor de vertaling van JSON naar POJO’s.&lt;/p&gt; 
+&lt;p&gt;Voor de mapping gezocht en de&amp;nbsp;Beanmapper gevonden in de Hippo Forge (plugin). Tom gevraagd om hulp bij het binnen halen van een plugin, wat is beste manier?&amp;nbsp;De Beanmapper uit Forge is wel oud t.o.v. Hippo versie die ik gebruik en het lijkt niet verstandig die te gebruiken. Aangezien ik Jackson eerder heb gebruikt (annotatie) lijkt het toch verstandig om dat te gebruiken voor de vertaling van JSON naar POJO’s.&lt;/p&gt; 
 &lt;p&gt;Ook korte introductie van Git en mijn project in Stash opgeslagen (Git via Eclipse).&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Spring scheduler bekijken, is handiger als ik dat meteen inbouw. http://spring.io/guides/gs/scheduling-tasks/#initial&lt;/p&gt; 
 &lt;p&gt;en ook 
 &lt;a href="http://www.onehippo.org/library/concepts/hippo-services/repository-managed-components.html" style="text-decoration:none;"&gt;&lt;u&gt;http://www.onehippo.org/library/concepts/hippo-services/repository-managed-components.html&lt;/u&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;Okee, lijkt duidelijk… maar gaat het hier om een reository based component? wat houdt het eigenlijk precies in? Waar moet je die dan laten?&lt;/p&gt; 
-&lt;p&gt;&lt;br /&gt; &amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;Dat REST blijft me wel afleiden…. en het lukt me niet om goed te bepalen waar json naar pojo’s gezet kan worden. In essentials zijn er nu geen componenten waar je in doBeforerender even kan testen.&lt;/p&gt; 
-&lt;p&gt;Ideetje: waarom doe ik dit niet in nieuwsdocumenten? Elke werkdag 1?&lt;/p&gt; 
+&lt;p&gt;Okee, lijkt duidelijk… maar gaat het hier om een repository based component? wat houdt het eigenlijk precies in? Waar moet je die dan laten?&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Dat REST blijft me wel afleiden…. en het lukt me niet om goed te bepalen waar JSON&amp;nbsp;naar POJO’s gezet kan worden. In essentials zijn er nu geen componenten waar je in doBeforerender even kan testen.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Ideetje: waarom doe ik het bijhoudenn van logboek&amp;nbsp;niet in nieuwsdocumenten? Elke werkdag 1?&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Voor laatste 2 uur maar layout gaan toevoegen aan site.&lt;/p&gt;</sv:value>
             </sv:property>
@@ -896,7 +901,7 @@
             <sv:value>2013-11-12T12:50:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-03-21T16:16:30.272+01:00</sv:value>
+            <sv:value>2015-03-25T07:29:26.136+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -933,7 +938,8 @@
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;Gister ben ik verdwaald in de JSON binnen halen en REST Service. Dat ligt, denk ik, &amp;nbsp;aan dat je punt 1 ook met REST zou kunnen oplossen.&lt;/p&gt; 
+              <sv:value>&lt;p&gt;Vandaag verder met de REST&amp;nbsp;service.&lt;/p&gt; 
+&lt;p&gt;Gister ben ik verdwaald in de JSON binnen halen en REST Service. Dat ligt, denk ik, &amp;nbsp;aan dat je punt 1 ook met REST zou kunnen oplossen.&lt;/p&gt; 
 &lt;p&gt;Ik heb moeite om de informatie van 
 &lt;a href="http://blog.jeroenreijn.com/2015/02/a_rest_api_for_the_hippocms_content_repository.html" style="text-decoration:none;"&gt;&lt;u&gt;http://blog.jeroenreijn.com/2015/02/a_rest_api_for_the_hippocms_content_repository.html&lt;/u&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;en 
@@ -941,22 +947,23 @@
 &lt;p&gt;en hoe JSON binnen te halen en te vertalen naar POJO’s.&lt;/p&gt; 
 &lt;p&gt;Acties beter definiëren en onderbouwde keuze maken!&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;Via Essentials, Rest Services setup service “ routeinformatie” toegevoegd. in console zie je dan &amp;nbsp;dat onder hst:root een mount is toegevoegd, kon alleen plain REST kiezen, kan gebruik maken van JaxrsRestPlainPipeline.&lt;/p&gt; 
+&lt;p&gt;Via Essentials, REST&amp;nbsp;Services setup service “ routeinformatie” toegevoegd. in console zie je dan &amp;nbsp;dat onder hst:root een mount is toegevoegd, kon alleen plain REST kiezen, kan gebruik maken van JaxrsRestPlainPipeline.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Niet vergeten dat ik de Traject Meetpunten nog niet heb opgenomen!&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;Een van mijn uitgangspunten is dat ik zoveel mogelijk wil gebruiken wat Hippo zelf al te bieden heeft.&lt;/p&gt; 
+&lt;p&gt;Een van mijn uitgangspunten is dat ik zoveel mogelijk wil gebruiken wat Hippo zelf al te bieden heeft, zoeken naar wat ik kan gebruiken.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;Tom gevraagd om hulp. De Beanmapper uit Forge is wel oud t.o.v. Hippo versie die ik gebruik en het lijkt niet verstandig die te gebruiken. Aangezien ik Jackson eerder heb gebruikt (annotatie) lijkt het toch verstandig om dat te gebruiken voor de vertaling van JSON naar POJO’s.&lt;/p&gt; 
+&lt;p&gt;Voor de mapping gezocht en de&amp;nbsp;Beanmapper gevonden in de Hippo Forge (plugin). Tom gevraagd om hulp bij het binnen halen van een plugin, wat is beste manier?&amp;nbsp;De Beanmapper uit Forge is wel oud t.o.v. Hippo versie die ik gebruik en het lijkt niet verstandig die te gebruiken. Aangezien ik Jackson eerder heb gebruikt (annotatie) lijkt het toch verstandig om dat te gebruiken voor de vertaling van JSON naar POJO’s.&lt;/p&gt; 
 &lt;p&gt;Ook korte introductie van Git en mijn project in Stash opgeslagen (Git via Eclipse).&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Spring scheduler bekijken, is handiger als ik dat meteen inbouw. http://spring.io/guides/gs/scheduling-tasks/#initial&lt;/p&gt; 
 &lt;p&gt;en ook 
 &lt;a href="http://www.onehippo.org/library/concepts/hippo-services/repository-managed-components.html" style="text-decoration:none;"&gt;&lt;u&gt;http://www.onehippo.org/library/concepts/hippo-services/repository-managed-components.html&lt;/u&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;Okee, lijkt duidelijk… maar gaat het hier om een reository based component? wat houdt het eigenlijk precies in? Waar moet je die dan laten?&lt;/p&gt; 
-&lt;p&gt;&lt;br /&gt; &amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;Dat REST blijft me wel afleiden…. en het lukt me niet om goed te bepalen waar json naar pojo’s gezet kan worden. In essentials zijn er nu geen componenten waar je in doBeforerender even kan testen.&lt;/p&gt; 
-&lt;p&gt;Ideetje: waarom doe ik dit niet in nieuwsdocumenten? Elke werkdag 1?&lt;/p&gt; 
+&lt;p&gt;Okee, lijkt duidelijk… maar gaat het hier om een repository based component? wat houdt het eigenlijk precies in? Waar moet je die dan laten?&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Dat REST blijft me wel afleiden…. en het lukt me niet om goed te bepalen waar JSON&amp;nbsp;naar POJO’s gezet kan worden. In essentials zijn er nu geen componenten waar je in doBeforerender even kan testen.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Ideetje: waarom doe ik het bijhoudenn van logboek&amp;nbsp;niet in nieuwsdocumenten? Elke werkdag 1?&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Voor laatste 2 uur maar layout gaan toevoegen aan site.&lt;/p&gt;</sv:value>
             </sv:property>
@@ -1011,7 +1018,7 @@
             <sv:value>2013-11-12T12:50:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-03-21T16:17:52.271+01:00</sv:value>
+            <sv:value>2015-03-25T07:35:45.917+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -1048,7 +1055,8 @@
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;Gister ben ik verdwaald in de JSON binnen halen en REST Service. Dat ligt, denk ik, &amp;nbsp;aan dat je punt 1 ook met REST zou kunnen oplossen.&lt;/p&gt; 
+              <sv:value>&lt;p&gt;Vandaag verder met de REST&amp;nbsp;service.&lt;/p&gt; 
+&lt;p&gt;Gister ben ik verdwaald in de JSON binnen halen en REST Service. Dat ligt, denk ik, &amp;nbsp;aan dat je punt 1 ook met REST zou kunnen oplossen.&lt;/p&gt; 
 &lt;p&gt;Ik heb moeite om de informatie van 
 &lt;a href="http://blog.jeroenreijn.com/2015/02/a_rest_api_for_the_hippocms_content_repository.html" style="text-decoration:none;"&gt;&lt;u&gt;http://blog.jeroenreijn.com/2015/02/a_rest_api_for_the_hippocms_content_repository.html&lt;/u&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;en 
@@ -1056,22 +1064,23 @@
 &lt;p&gt;en hoe JSON binnen te halen en te vertalen naar POJO’s.&lt;/p&gt; 
 &lt;p&gt;Acties beter definiëren en onderbouwde keuze maken!&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;Via Essentials, Rest Services setup service “ routeinformatie” toegevoegd. in console zie je dan &amp;nbsp;dat onder hst:root een mount is toegevoegd, kon alleen plain REST kiezen, kan gebruik maken van JaxrsRestPlainPipeline.&lt;/p&gt; 
+&lt;p&gt;Via Essentials, REST&amp;nbsp;Services setup service “ routeinformatie” toegevoegd. in console zie je dan &amp;nbsp;dat onder hst:root een mount is toegevoegd, kon alleen plain REST kiezen, kan gebruik maken van JaxrsRestPlainPipeline.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Niet vergeten dat ik de Traject Meetpunten nog niet heb opgenomen!&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;Een van mijn uitgangspunten is dat ik zoveel mogelijk wil gebruiken wat Hippo zelf al te bieden heeft.&lt;/p&gt; 
+&lt;p&gt;Een van mijn uitgangspunten is dat ik zoveel mogelijk wil gebruiken wat Hippo zelf al te bieden heeft, zoeken naar wat ik kan gebruiken.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;Tom gevraagd om hulp. De Beanmapper uit Forge is wel oud t.o.v. Hippo versie die ik gebruik en het lijkt niet verstandig die te gebruiken. Aangezien ik Jackson eerder heb gebruikt (annotatie) lijkt het toch verstandig om dat te gebruiken voor de vertaling van JSON naar POJO’s.&lt;/p&gt; 
+&lt;p&gt;Voor de mapping gezocht en de&amp;nbsp;Beanmapper gevonden in de Hippo Forge (plugin). Tom gevraagd om hulp bij het binnen halen van een plugin, wat is beste manier?&amp;nbsp;De Beanmapper uit Forge is wel oud t.o.v. Hippo versie die ik gebruik en het lijkt niet verstandig die te gebruiken. Aangezien ik Jackson eerder heb gebruikt (annotatie) lijkt het toch verstandig om dat te gebruiken voor de vertaling van JSON naar POJO’s.&lt;/p&gt; 
 &lt;p&gt;Ook korte introductie van Git en mijn project in Stash opgeslagen (Git via Eclipse).&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Spring scheduler bekijken, is handiger als ik dat meteen inbouw. http://spring.io/guides/gs/scheduling-tasks/#initial&lt;/p&gt; 
 &lt;p&gt;en ook 
 &lt;a href="http://www.onehippo.org/library/concepts/hippo-services/repository-managed-components.html" style="text-decoration:none;"&gt;&lt;u&gt;http://www.onehippo.org/library/concepts/hippo-services/repository-managed-components.html&lt;/u&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;Okee, lijkt duidelijk… maar gaat het hier om een reository based component? wat houdt het eigenlijk precies in? Waar moet je die dan laten?&lt;/p&gt; 
-&lt;p&gt;&lt;br /&gt; &amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;Dat REST blijft me wel afleiden…. en het lukt me niet om goed te bepalen waar json naar pojo’s gezet kan worden. In essentials zijn er nu geen componenten waar je in doBeforerender even kan testen.&lt;/p&gt; 
-&lt;p&gt;Ideetje: waarom doe ik dit niet in nieuwsdocumenten? Elke werkdag 1?&lt;/p&gt; 
+&lt;p&gt;Okee, lijkt duidelijk… maar gaat het hier om een repository based component? wat houdt het eigenlijk precies in? Waar moet je die dan laten?&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Dat REST blijft me wel afleiden…. en het lukt me niet om goed te bepalen waar JSON&amp;nbsp;naar POJO’s gezet kan worden. In essentials zijn er nu geen componenten waar je in doBeforerender even kan testen.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Ideetje: waarom doe ik het bijhoudenn van logboek&amp;nbsp;niet in nieuwsdocumenten? Elke werkdag 1?&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Voor laatste 2 uur maar layout gaan toevoegen aan site.&lt;/p&gt;</sv:value>
             </sv:property>
@@ -1440,7 +1449,7 @@
             <sv:value>2015-03-22T09:52:42.580+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-03-22T09:52:42.653+01:00</sv:value>
+            <sv:value>2015-03-25T07:37:06.169+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -1486,7 +1495,8 @@
 &lt;p&gt;Zie 
 &lt;a href="http://www.onehippo.org/library/concepts/component-development/hstcomponent-persistable-annotation-and-workflow.html" style="text-decoration:none;"&gt;&lt;u&gt;http://www.onehippo.org/library/concepts/component-development/hstcomponent-persistable-annotation-and-workflow.html&lt;/u&gt;&lt;/a&gt;, gekozen om tweede manier te volgen, gebruiken van @Persistable annotatie.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;Donderdag eerst maar eens GIT commondo’s leren! https://confluence.atlassian.com/display/STASH036/Basic+Git+commands&lt;/p&gt;</sv:value>
+&lt;p&gt;Donderdag eerst maar eens GIT commando’s leren! Kijk 
+&lt;a href="https://confluence.atlassian.com/display/STASH036/Basic+Git+commands"&gt;hier &lt;/a&gt;eens.&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="myassignment:image">
@@ -1550,7 +1560,7 @@
             <sv:value>2015-03-22T09:52:42.580+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-03-22T09:54:05.721+01:00</sv:value>
+            <sv:value>2015-03-25T07:42:27.811+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -1596,7 +1606,8 @@
 &lt;p&gt;Zie 
 &lt;a href="http://www.onehippo.org/library/concepts/component-development/hstcomponent-persistable-annotation-and-workflow.html" style="text-decoration:none;"&gt;&lt;u&gt;http://www.onehippo.org/library/concepts/component-development/hstcomponent-persistable-annotation-and-workflow.html&lt;/u&gt;&lt;/a&gt;, gekozen om tweede manier te volgen, gebruiken van @Persistable annotatie.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;Donderdag eerst maar eens GIT commondo’s leren! https://confluence.atlassian.com/display/STASH036/Basic+Git+commands&lt;/p&gt;</sv:value>
+&lt;p&gt;Donderdag eerst maar eens GIT commando’s leren! Kijk 
+&lt;a href="https://confluence.atlassian.com/display/STASH036/Basic+Git+commands"&gt;hier &lt;/a&gt;eens.&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="myassignment:image">
@@ -1648,13 +1659,13 @@
             <sv:value>2015-03-22T09:52:42.580+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-03-22T09:54:05.721+01:00</sv:value>
+            <sv:value>2015-03-25T07:42:27.811+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2015-03-22T09:54:09.065+01:00</sv:value>
+            <sv:value>2015-03-25T07:42:39.148+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>a6c662b3-6ea1-423c-837a-6a73a76cf7c2</sv:value>
@@ -1697,7 +1708,8 @@
 &lt;p&gt;Zie 
 &lt;a href="http://www.onehippo.org/library/concepts/component-development/hstcomponent-persistable-annotation-and-workflow.html" style="text-decoration:none;"&gt;&lt;u&gt;http://www.onehippo.org/library/concepts/component-development/hstcomponent-persistable-annotation-and-workflow.html&lt;/u&gt;&lt;/a&gt;, gekozen om tweede manier te volgen, gebruiken van @Persistable annotatie.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;Donderdag eerst maar eens GIT commondo’s leren! https://confluence.atlassian.com/display/STASH036/Basic+Git+commands&lt;/p&gt;</sv:value>
+&lt;p&gt;Donderdag eerst maar eens GIT commando’s leren! Kijk 
+&lt;a href="https://confluence.atlassian.com/display/STASH036/Basic+Git+commands"&gt;hier &lt;/a&gt;eens.&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="myassignment:image">
@@ -1760,7 +1772,7 @@
             <sv:value>2015-03-22T09:54:21.878+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-03-22T09:54:21.940+01:00</sv:value>
+            <sv:value>2015-03-25T07:53:07.681+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -1804,13 +1816,12 @@
 &lt;li&gt; 
 &lt;p&gt;keuze maken op welke wijze de POJO’s in repository te zetten.&lt;/p&gt; &lt;/li&gt; 
 &lt;li&gt; 
-&lt;p&gt;start bouw POJO’s naar repository.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;start bouw POJO’s naar repository.
+&lt;br /&gt; &amp;nbsp;&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; 
 &lt;p&gt;GIT is dus DCVS, dat is anders dan SVN.&lt;/p&gt; 
 &lt;p&gt;Ik heb ervoor gekozen om met Eclipse te werken met plugin EGit.&lt;/p&gt; 
 &lt;p&gt;Ik heb een lokale repository voor mijn project en op Stash heb ik, onder project “Kitty Liem” een repository “myhippoassignment”.&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;euhm, ik lijk van alles kwijt te zijjn nadat ik dinsdag naar Stash heb gezet…&lt;/p&gt; 
+&lt;p&gt;euhm, ik lijk van alles kwijt te zijn nadat ik dinsdag naar Stash heb gezet…&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Op aanraden van Rob, met als uitgangspunt 
 &lt;a href="https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/" style="text-decoration:none;"&gt;&lt;u&gt;https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/&lt;/u&gt;&lt;/a&gt;, eerst maar eens gekeken wat je nu allemaal in command line kan doen voor in git zetten.&lt;/p&gt; 
@@ -1879,7 +1890,7 @@
             <sv:value>2015-03-22T09:54:21.878+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-03-22T09:55:28.292+01:00</sv:value>
+            <sv:value>2015-03-25T07:53:57.146+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -1923,13 +1934,12 @@
 &lt;li&gt; 
 &lt;p&gt;keuze maken op welke wijze de POJO’s in repository te zetten.&lt;/p&gt; &lt;/li&gt; 
 &lt;li&gt; 
-&lt;p&gt;start bouw POJO’s naar repository.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;start bouw POJO’s naar repository.
+&lt;br /&gt; &amp;nbsp;&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; 
 &lt;p&gt;GIT is dus DCVS, dat is anders dan SVN.&lt;/p&gt; 
 &lt;p&gt;Ik heb ervoor gekozen om met Eclipse te werken met plugin EGit.&lt;/p&gt; 
 &lt;p&gt;Ik heb een lokale repository voor mijn project en op Stash heb ik, onder project “Kitty Liem” een repository “myhippoassignment”.&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;euhm, ik lijk van alles kwijt te zijjn nadat ik dinsdag naar Stash heb gezet…&lt;/p&gt; 
+&lt;p&gt;euhm, ik lijk van alles kwijt te zijn nadat ik dinsdag naar Stash heb gezet…&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Op aanraden van Rob, met als uitgangspunt 
 &lt;a href="https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/" style="text-decoration:none;"&gt;&lt;u&gt;https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/&lt;/u&gt;&lt;/a&gt;, eerst maar eens gekeken wat je nu allemaal in command line kan doen voor in git zetten.&lt;/p&gt; 
@@ -1986,13 +1996,13 @@
             <sv:value>2015-03-22T09:54:21.878+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-03-22T09:55:28.292+01:00</sv:value>
+            <sv:value>2015-03-25T07:53:57.146+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2015-03-22T09:55:31.420+01:00</sv:value>
+            <sv:value>2015-03-25T07:55:02.535+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>0dbb7e95-b2ec-4e51-a43e-9a9133913707</sv:value>
@@ -2033,13 +2043,12 @@
 &lt;li&gt; 
 &lt;p&gt;keuze maken op welke wijze de POJO’s in repository te zetten.&lt;/p&gt; &lt;/li&gt; 
 &lt;li&gt; 
-&lt;p&gt;start bouw POJO’s naar repository.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;start bouw POJO’s naar repository.
+&lt;br /&gt; &amp;nbsp;&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; 
 &lt;p&gt;GIT is dus DCVS, dat is anders dan SVN.&lt;/p&gt; 
 &lt;p&gt;Ik heb ervoor gekozen om met Eclipse te werken met plugin EGit.&lt;/p&gt; 
 &lt;p&gt;Ik heb een lokale repository voor mijn project en op Stash heb ik, onder project “Kitty Liem” een repository “myhippoassignment”.&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;euhm, ik lijk van alles kwijt te zijjn nadat ik dinsdag naar Stash heb gezet…&lt;/p&gt; 
+&lt;p&gt;euhm, ik lijk van alles kwijt te zijn nadat ik dinsdag naar Stash heb gezet…&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Op aanraden van Rob, met als uitgangspunt 
 &lt;a href="https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/" style="text-decoration:none;"&gt;&lt;u&gt;https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/&lt;/u&gt;&lt;/a&gt;, eerst maar eens gekeken wat je nu allemaal in command line kan doen voor in git zetten.&lt;/p&gt; 
@@ -2107,7 +2116,7 @@
             <sv:value>2015-03-22T09:55:42.658+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-03-22T09:55:42.724+01:00</sv:value>
+            <sv:value>2015-03-25T07:54:02.616+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -2128,7 +2137,7 @@
             <sv:value>news</sv:value>
           </sv:property>
           <sv:property sv:name="myassignment:introduction" sv:type="String">
-            <sv:value>Lokcatie: Maarssen</sv:value>
+            <sv:value>Locatie: Maarssen</sv:value>
           </sv:property>
           <sv:property sv:name="myassignment:location" sv:type="String">
             <sv:value/>
@@ -2220,7 +2229,7 @@
             <sv:value>2015-03-22T09:55:42.658+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-03-22T09:56:40.086+01:00</sv:value>
+            <sv:value>2015-03-25T07:45:19.018+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -2241,7 +2250,7 @@
             <sv:value>news</sv:value>
           </sv:property>
           <sv:property sv:name="myassignment:introduction" sv:type="String">
-            <sv:value>Lokcatie: Maarssen</sv:value>
+            <sv:value>Locatie: Maarssen</sv:value>
           </sv:property>
           <sv:property sv:name="myassignment:location" sv:type="String">
             <sv:value/>
@@ -2321,13 +2330,13 @@
             <sv:value>2015-03-22T09:55:42.658+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-03-22T09:56:40.086+01:00</sv:value>
+            <sv:value>2015-03-25T07:45:19.018+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2015-03-22T09:56:42.630+01:00</sv:value>
+            <sv:value>2015-03-25T07:45:21.920+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>03e283e0-cb29-4b76-a5e5-86e414f36f70</sv:value>
@@ -2345,7 +2354,7 @@
             <sv:value>news</sv:value>
           </sv:property>
           <sv:property sv:name="myassignment:introduction" sv:type="String">
-            <sv:value>Lokcatie: Maarssen</sv:value>
+            <sv:value>Locatie: Maarssen</sv:value>
           </sv:property>
           <sv:property sv:name="myassignment:location" sv:type="String">
             <sv:value/>
@@ -2436,7 +2445,7 @@
             <sv:value>2015-03-22T09:57:06.713+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-03-22T09:57:06.769+01:00</sv:value>
+            <sv:value>2015-03-25T07:57:02.001+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -2479,10 +2488,13 @@
 &lt;p&gt;Na overleg met Rob, eerst maar eens weer naar 
 &lt;a href="http://www.onehippo.org/library/concepts/rest/restful-jax-rs-component-support-in-hst-2.html" style="text-decoration:none;"&gt;&lt;u&gt;http://www.onehippo.org/library/concepts/rest/restful-jax-rs-component-support-in-hst-2.html&lt;/u&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;gekeken.&lt;/p&gt; 
+&lt;p&gt;Het doAction en @Persistable pad krijg ik niet werkend. 
+&lt;em&gt;Noot: het is mij dan niet duidelijk hoe je de doAction nu aanschopt, later reaiseer ik mij dat dit een klik is op iets en dat is er in dit geval niet. In Hippo voorbeeld gaat het om toevoegen van comments en dan heb je een duidelijke doAction, een button om te klikken! Dat heb ik nu niet dus zal ik zelf moeten aanschoppen en dat werkt het beste met een POST, terug naar REST dus.&lt;/em&gt;&lt;br /&gt; &amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Uitgangspunt is wel dat ik de workflow persistence manager van hippo wil blijven gebruiken.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Aan site kant JAX-RS zaken gebouwd (morgen even opsommen).&lt;/p&gt; 
-&lt;p&gt;Ik blijf de link tussen site en cms lastig vinden&lt;/p&gt;</sv:value>
+&lt;p&gt;Ik blijf de link tussen site en cms lastig vinden.
+&lt;em&gt;&amp;nbsp;(zie Noot boven, het gaat al beter met begrijpen!)&lt;/em&gt;&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="myassignment:image">
@@ -2546,7 +2558,7 @@
             <sv:value>2015-03-22T09:57:06.713+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-03-22T09:58:38.635+01:00</sv:value>
+            <sv:value>2015-03-25T08:01:13.120+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -2589,10 +2601,13 @@
 &lt;p&gt;Na overleg met Rob, eerst maar eens weer naar 
 &lt;a href="http://www.onehippo.org/library/concepts/rest/restful-jax-rs-component-support-in-hst-2.html" style="text-decoration:none;"&gt;&lt;u&gt;http://www.onehippo.org/library/concepts/rest/restful-jax-rs-component-support-in-hst-2.html&lt;/u&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;gekeken.&lt;/p&gt; 
+&lt;p&gt;Het doAction en @Persistable pad krijg ik niet werkend. 
+&lt;em&gt;Noot: het is mij dan niet duidelijk hoe je de doAction nu aanschopt, later reaiseer ik mij dat dit een klik is op iets en dat is er in dit geval niet. In Hippo voorbeeld gaat het om toevoegen van comments en dan heb je een duidelijke doAction, een button om te klikken! Dat heb ik nu niet dus zal ik zelf moeten aanschoppen en dat werkt het beste met een POST, terug naar REST dus.&lt;/em&gt;&lt;br /&gt; &amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Uitgangspunt is wel dat ik de workflow persistence manager van hippo wil blijven gebruiken.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Aan site kant JAX-RS zaken gebouwd (morgen even opsommen).&lt;/p&gt; 
-&lt;p&gt;Ik blijf de link tussen site en cms lastig vinden&lt;/p&gt;</sv:value>
+&lt;p&gt;Ik blijf de link tussen site en cms lastig vinden.
+&lt;em&gt;&amp;nbsp;(zie Noot boven, het gaat al beter met begrijpen!)&lt;/em&gt;&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="myassignment:image">
@@ -2644,13 +2659,13 @@
             <sv:value>2015-03-22T09:57:06.713+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-03-22T09:58:38.635+01:00</sv:value>
+            <sv:value>2015-03-25T08:01:13.120+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2015-03-22T09:58:41.109+01:00</sv:value>
+            <sv:value>2015-03-25T08:01:16.600+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>002092ee-67ff-4827-afc0-5302e229cd78</sv:value>
@@ -2690,10 +2705,13 @@
 &lt;p&gt;Na overleg met Rob, eerst maar eens weer naar 
 &lt;a href="http://www.onehippo.org/library/concepts/rest/restful-jax-rs-component-support-in-hst-2.html" style="text-decoration:none;"&gt;&lt;u&gt;http://www.onehippo.org/library/concepts/rest/restful-jax-rs-component-support-in-hst-2.html&lt;/u&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;gekeken.&lt;/p&gt; 
+&lt;p&gt;Het doAction en @Persistable pad krijg ik niet werkend. 
+&lt;em&gt;Noot: het is mij dan niet duidelijk hoe je de doAction nu aanschopt, later reaiseer ik mij dat dit een klik is op iets en dat is er in dit geval niet. In Hippo voorbeeld gaat het om toevoegen van comments en dan heb je een duidelijke doAction, een button om te klikken! Dat heb ik nu niet dus zal ik zelf moeten aanschoppen en dat werkt het beste met een POST, terug naar REST dus.&lt;/em&gt;&lt;br /&gt; &amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Uitgangspunt is wel dat ik de workflow persistence manager van hippo wil blijven gebruiken.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Aan site kant JAX-RS zaken gebouwd (morgen even opsommen).&lt;/p&gt; 
-&lt;p&gt;Ik blijf de link tussen site en cms lastig vinden&lt;/p&gt;</sv:value>
+&lt;p&gt;Ik blijf de link tussen site en cms lastig vinden.
+&lt;em&gt;&amp;nbsp;(zie Noot boven, het gaat al beter met begrijpen!)&lt;/em&gt;&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="myassignment:image">
@@ -2743,6 +2761,9 @@
             <sv:value>news/2015/03/17-maart/17-maart[3]</sv:value>
             <sv:value>news/2015/03/17-maart/17-maart[2]</sv:value>
           </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
           <sv:property sv:name="hippostd:state" sv:type="String">
             <sv:value>draft</sv:value>
           </sv:property>
@@ -2756,7 +2777,7 @@
             <sv:value>2015-03-22T09:58:51.843+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-03-22T09:58:51.911+01:00</sv:value>
+            <sv:value>2015-03-25T07:55:45.673+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>

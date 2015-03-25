@@ -29,11 +29,11 @@
 	        <c:choose>
 	          <c:when test="${index.first}">
 	            <li data-target="#slider" data-slide-to="${index.index}" class="active">
-	            	<hst:html hippohtml="${item.content}"/></li>
+	            	<a href="#banner-${index.index}">${item.title}</a></li>
 	          </c:when>
 	          <c:otherwise>
 	            <li data-target="#slider" data-slide-to="${index.index}">
-	            	<hst:html hippohtml="${item.content}"/></li>
+	            	<a href="#banner-${index.index}">${item.title}</a></li>
 	          </c:otherwise>
 	        </c:choose>
 	      </c:forEach>

@@ -65,7 +65,8 @@
 	            <ul class="box-general bullet-points">
 	              <li class="title">Related News</li>
 	              <c:forEach var="item" items="${document.relatednews}">
-	              	<li class="link"><a href="${item}">${item.title}</a></li>
+	              	<hst:link var="link" hippobean=${item}"/>
+	              	<li class="link"><a href="${link}">${item.title}</a></li>
 	              </c:forEach>
 	            </ul>
           	</c:if>
