@@ -50,6 +50,9 @@
     <sv:property sv:name="hippo:nodetypesresource" sv:type="String">
       <sv:value>namespaces/myassignment.cnd</sv:value>
     </sv:property>
+    <sv:property sv:name="hippo:reloadonstartup" sv:type="Boolean">
+      <sv:value>true</sv:value>
+  	</sv:property>
   </sv:node>
   <sv:node sv:name="myassignment-namespace">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -1055,7 +1058,7 @@
       <sv:value>/hippo:namespaces/myassignment</sv:value>
     </sv:property>
   </sv:node>
-<sv:node sv:name="myassignment-hippo-configuration-hippo-modules-averages">
+  <sv:node sv:name="myassignment-hippo-configuration-hippo-modules-averages">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>

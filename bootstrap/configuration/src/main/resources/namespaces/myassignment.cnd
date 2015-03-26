@@ -4,6 +4,7 @@
 <'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
 <'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
 <'myassignment'='http://www.onehippo.org/myassignment/nt/1.0'>
+<'nt'='http://www.jcp.org/jcr/nt/1.0'>
 
 [myassignment:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
   orderable
@@ -13,6 +14,11 @@
 
 [myassignment:TrajectMeasurement] > hippo:compound, hippostd:relaxed
   orderable
+
+[myassignment:averagetraject] > nt:base
+  - myassignment:trajectname (string)
+  - myassignment:averagevelocity (double)
+  - myassignment:averagetraveltime (double)
 
 [myassignment:bannerdocument] > hippostd:relaxed, hippotranslation:translated, myassignment:basedocument
   orderable

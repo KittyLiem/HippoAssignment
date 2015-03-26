@@ -164,6 +164,8 @@
     </sv:property>
   </sv:node>
   
+
+
 <sv:node sv:name="myassignment-content-documents-myassignment-trajectinformation">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>

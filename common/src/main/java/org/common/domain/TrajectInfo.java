@@ -57,7 +57,7 @@ public class TrajectInfo {
  	public int getSnelheid(){
 		return this.snelheid;
 	}
-	public void setVelocity(int snelheid){
+	public void setSnelheid(int snelheid){
 		this.snelheid = snelheid;
 	}
 	

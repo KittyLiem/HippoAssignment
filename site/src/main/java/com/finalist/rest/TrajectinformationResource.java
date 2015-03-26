@@ -73,139 +73,132 @@ import com.finalist.services.ResponseUtils;
  * @version "$Id$"
  */
 
-@Produces({MediaType.APPLICATION_JSON})
-@Consumes({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_FORM_URLENCODED})
+@Produces({ MediaType.APPLICATION_JSON })
+@Consumes({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_FORM_URLENCODED })
 @Path("/Trajectinformation/")
 public class TrajectinformationResource extends BaseRestResource {
 
-	public static final Logger log = LoggerFactory.getLogger(TrajectinformationResource.class);
-	
-    private static final String DEFAULT_WORKFLOW_CATEGORY = "default";
-    private static final String FOLDER_NODE_WORKFLOW_CATEGORY = "threepane";
+   public static final Logger log = LoggerFactory.getLogger(TrajectinformationResource.class);
 
-    @GET
-    @Path("/")
-    public Pageable<Trajectinformation> index(@Context HttpServletRequest request) {
-        return findBeans(new DefaultRestContext(this, request), Trajectinformation.class);
-    }
+   private static final String DEFAULT_WORKFLOW_CATEGORY = "default";
+   private static final String FOLDER_NODE_WORKFLOW_CATEGORY = "threepane";
 
+   @GET
+   @Path("/")
+   public Pageable<Trajectinformation> index(@Context HttpServletRequest request) {
+      return findBeans(new DefaultRestContext(this, request), Trajectinformation.class);
+   }
 
-    @GET
-    @Path("/page/{page}")
-    public Pageable<Trajectinformation> page(@Context HttpServletRequest request, @PathParam("page") int page) {
-        return findBeans(new DefaultRestContext(this, request, page, DefaultRestContext.PAGE_SIZE), Trajectinformation.class);
-    }
+   @GET
+   @Path("/page/{page}")
+   public Pageable<Trajectinformation> page(@Context HttpServletRequest request, @PathParam("page") int page) {
+      return findBeans(new DefaultRestContext(this, request, page, DefaultRestContext.PAGE_SIZE),
+               Trajectinformation.class);
+   }
 
+   @GET
+   @Path("/page/{page}/{pageSize}")
+   public Pageable<Trajectinformation> pageForSize(@Context HttpServletRequest request, @PathParam("page") int page,
+            @PathParam("pageSize") int pageSize) {
+      return findBeans(new DefaultRestContext(this, request, page, pageSize), Trajectinformation.class);
+   }
 
-    @GET
-    @Path("/page/{page}/{pageSize}")
-    public Pageable<Trajectinformation> pageForSize(@Context HttpServletRequest request, @PathParam("page") int page, @PathParam("pageSize") int pageSize) {
-        return findBeans(new DefaultRestContext(this, request, page, pageSize), Trajectinformation.class);
-    }
+   @SuppressWarnings("unchecked")
+   @GET
+   @Path("/{name}")
+   public Pageable<Trajectinformation> getTraject(@Context HttpServletRequest request, @PathParam("name") String name) {
+      // TODO dispaly the average node made when getting the traject info in cms
+      /*
+       * 
+       * String queryString = "SELECT * FROM myassignment:averagetraject " +
+       * "WHERE myassignment:trajectName=" + name ; HstRequestContext
+       * restContext = RequestContextProvider.get(); try { HTTPSession session =
+       * (HTTPSession) restContext.getSession();
+       * 
+       * QueryManager queryManager;
+       * 
+       * queryManager = ((javax.jcr.Session)
+       * session).getWorkspace().getQueryManager();
+       * 
+       * Query query = queryManager.createQuery( queryString, Query.SQL);
+       * QueryResult result = query.execute(); for (NodeIterator
+       * i=result.getNodes(); i.hasNext(); ) { log.info("document " +
+       * i.nextNode().getPath() + " matches"); return
+       * (Pageable<Trajectinformation>) i.nextNode(); } } catch
+       * (RepositoryException e) { // TODO Auto-generated catch block
+       * e.printStackTrace(); }
+       */
+      return DefaultPagination.emptyCollection();
+   }
 
-    
-    @SuppressWarnings("unchecked")
-	@GET
-    @Path("/{name}")
-    public Pageable<Trajectinformation> getTraject(@Context HttpServletRequest request, @PathParam("name") String name) {
-     //TODO dispaly the average node made when getting the traject info in cms
-    	/*	
-    	
-		String queryString = 
-				"SELECT * FROM myassignment:averagetraject " +
-				"WHERE myassignment:trajectName=" + name ;
-		HstRequestContext restContext = RequestContextProvider.get();
-		try {
-			HTTPSession session = (HTTPSession) restContext.getSession();
-		
-			QueryManager queryManager;
+   @Persistable
+   @POST
+   @Path("/")
+   public TrajectInfo createTrajectinformationResource(@Context HttpServletRequest servletRequest,
+            @Context HttpServletResponse servletResponse, @Context UriInfo uriInfo, TrajectInfo trajectInfo)
+            throws RemoteException, WorkflowException, ParseException {
 
-			queryManager = ((javax.jcr.Session) session).getWorkspace().getQueryManager();
+      HstRequestContext requestContext = getRequestContext(servletRequest);
 
-			Query query = queryManager.createQuery(
-	                queryString, Query.SQL);
-			QueryResult result = query.execute();
-			for (NodeIterator i=result.getNodes(); i.hasNext(); ) {
-				log.info("document " + i.nextNode().getPath() + " matches");
-			       return (Pageable<Trajectinformation>) i.nextNode();
-			}
-		} catch (RepositoryException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} */
-		return DefaultPagination.emptyCollection();
-    }
+      try {
+         WorkflowPersistenceManager wpm = (WorkflowPersistenceManager) getPersistenceManager(requestContext);
 
-    
-    @Persistable
-    @POST
-    @Path("/")
-    public TrajectInfo createTrajectinformationResource(
-    				@Context HttpServletRequest servletRequest, 
-    				@Context HttpServletResponse servletResponse, 
-    				@Context UriInfo uriInfo,
-    				TrajectInfo trajectInfo) throws RemoteException, WorkflowException, ParseException {
-        
-        HstRequestContext requestContext = getRequestContext(servletRequest);
-        
-        try {
-            WorkflowPersistenceManager wpm = (WorkflowPersistenceManager) getPersistenceManager(requestContext);
-            
-            // go to trajectinformatio folder
-            HippoFolderBean contentBaseFolder = getMountContentBaseBean(requestContext);
-            String trajectInformationPath = contentBaseFolder.getPath() + "/trajectinformation";
-            
-            // get the folder bean
-            HippoFolderBean trajectFolder = (HippoFolderBean) wpm.getObject(trajectInformationPath);
-            
-            wpm.setWorkflowCallbackHandler(new BaseWorkflowCallbackHandler<DocumentWorkflow>() {
-                public void processWorkflow(DocumentWorkflow wf) throws Exception {
-                    wf.publish();
-                }
-            });
-	        	
-	            String trajectPath = wpm.createAndReturn(trajectFolder.getPath(), "myassignment:trajectinformation", trajectInfo.getId(), true);
-            
-	            Trajectinformation trajectinformation = (Trajectinformation) wpm.getObject(trajectPath);
-	             
-	            if (trajectinformation == null) {
-	                throw new HstComponentException("Failed to add Trajectinformation");
-	            }
-	            trajectinformation.setTrajectId(trajectInfo.getId());
-	            trajectinformation.setTrajectLength((long) trajectInfo.getLength());
-	            trajectinformation.setTrajectName(trajectInfo.getName());
+         // go to trajectinformatio folder
+         HippoFolderBean contentBaseFolder = getMountContentBaseBean(requestContext);
+         String trajectInformationPath = contentBaseFolder.getPath() + "/trajectinformation";
 
-	            Calendar cal = Calendar.getInstance();
-	        	SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
-	        	cal.setTime(sdf.parse(trajectInfo.getMetingDatum()));
+         // get the folder bean
+         HippoFolderBean trajectFolder = (HippoFolderBean) wpm.getObject(trajectInformationPath);
 
-	        	trajectinformation.setTrajectMeasurementDate(cal); 
-	            trajectinformation.setTrajectMeasurementTraveltime((long) trajectInfo.getReistijd());
-	            trajectinformation.setTrajectMeasurementVelocity((long) trajectInfo.getSnelheid());
-
-	            wpm.update(trajectinformation);
-	            log.info("trajectinformation: " + trajectinformation.getTrajectId());
-            
-            return trajectInfo;      
-	            
-        } catch (ObjectBeanManagerException e) {
-            if (log.isDebugEnabled()) {
-                log.warn("beanmanager Failed to create trajectInformation.", e);
-            } else {
-                log.warn("beanmanager Failed to create trajectInformation. {}", e.toString());
+         wpm.setWorkflowCallbackHandler(new BaseWorkflowCallbackHandler<DocumentWorkflow>() {
+            public void processWorkflow(DocumentWorkflow wf) throws Exception {
+               wf.publish();
             }
-            
-            throw new WebApplicationException(e, ResponseUtils.buildServerErrorResponse(e));
-        } catch (RepositoryException e) {
-            if (log.isDebugEnabled()) {
-                log.warn("Repository Failed to create trajectinformation.", e);
-            } else {
-                log.warn("|Repository Failed to create trajectinformation. {}", e.toString());
-            }
-            
-            throw new WebApplicationException(e, ResponseUtils.buildServerErrorResponse(e));
-        } 
+         });
 
-    }
+         String trajectPath = wpm.createAndReturn(trajectFolder.getPath(), "myassignment:trajectinformation",
+                  trajectInfo.getId(), true);
+
+         Trajectinformation trajectinformation = (Trajectinformation) wpm.getObject(trajectPath);
+
+         if (trajectinformation == null) {
+            throw new HstComponentException("Failed to add Trajectinformation");
+         }
+         trajectinformation.setTrajectId(trajectInfo.getId());
+         trajectinformation.setTrajectLength((long) trajectInfo.getLength());
+         trajectinformation.setTrajectName(trajectInfo.getName());
+
+         Calendar cal = Calendar.getInstance();
+         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+         cal.setTime(sdf.parse(trajectInfo.getMetingDatum()));
+
+         trajectinformation.setTrajectMeasurementDate(cal);
+         trajectinformation.setTrajectMeasurementTraveltime((long) trajectInfo.getReistijd());
+         trajectinformation.setTrajectMeasurementVelocity((long) trajectInfo.getSnelheid());
+
+         wpm.update(trajectinformation);
+         log.info("trajectinformation: " + trajectinformation.getTrajectId());
+
+         return trajectInfo;
+
+      } catch (ObjectBeanManagerException e) {
+         if (log.isDebugEnabled()) {
+            log.warn("beanmanager Failed to create trajectInformation.", e);
+         } else {
+            log.warn("beanmanager Failed to create trajectInformation. {}", e.toString());
+         }
+
+         throw new WebApplicationException(e, ResponseUtils.buildServerErrorResponse(e));
+      } catch (RepositoryException e) {
+         if (log.isDebugEnabled()) {
+            log.warn("Repository Failed to create trajectinformation.", e);
+         } else {
+            log.warn("|Repository Failed to create trajectinformation. {}", e.toString());
+         }
+
+         throw new WebApplicationException(e, ResponseUtils.buildServerErrorResponse(e));
+      }
+
+   }
 
 }
